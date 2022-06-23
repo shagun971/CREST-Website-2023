@@ -1,4 +1,4 @@
-import { keyframes } from 'styled-components';
+import { keyframes } from "styled-components";
 
 export const fadeInDown = keyframes`
     0% {
@@ -104,4 +104,22 @@ export const jump = keyframes`
     100% {
         transform: translateY(10px) scale(1, 1);
     }
-`
+`;
+
+export const modalVideo = keyframes`
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+`;
+
+export const modalVideoInner = keyframes`
+	from {
+		transform: translate(0, 100px)
+	}
+	to {
+		transform: translate(0, 0)
+	}
+`;

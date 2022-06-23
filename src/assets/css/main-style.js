@@ -1,40 +1,46 @@
-import { createGlobalStyle } from 'styled-components'
-import SelectorIcon from "../images/icons/selector-icon.png"
-import {worldRotate} from './animations'
+import { createGlobalStyle } from "styled-components";
+import { themeGet } from "@styled-system/theme-get";
+import SelectorIcon from "../images/icons/selector-icon.png";
+import { worldRotate } from "./animations";
 
-export const GlobalStyle = createGlobalStyle `
+export const GlobalStyle = createGlobalStyle`
 
+html {
+  scroll-behavior: smooth;
+}
 *, *::after, *::before {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
+
 html, body {
     height: 100%;
 }
 body{
-  line-height: ${props => props.theme.lineHieghts.text};
-  font-size: ${props => props.theme.fontSizes.text};
+  line-height: ${themeGet("lineHieghts.body")};
+  font-size: ${themeGet("fontSizes.body")};
   font-style: normal;
-  font-weight: ${props => props.theme.fontWeight.text};
+  font-weight: ${themeGet("fontWeights.body")};
   visibility: visible;
-  font-family: ${props => props.theme.fontFamily.text};
-  color: ${props => props.theme.colors.textColor};
+  font-family: ${themeGet("fonts.body")};
+  color: ${themeGet("colors.text")};
   position: relative;
-  background-color: ${props => props.theme.colors.bodyBgColor};
+  background-color: ${themeGet("colors.background")};
+  counter-reset: inc-number;
   &.no-overflow{
     overflow: hidden;
   }
-}
+} 
 
 h1, h2, h3, h4, h5, h6 {
-    color: ${props => props.theme.colors.headingColor};
-    font-family: ${props => props.theme.fontFamily.heading};
-    font-weight: ${props => props.theme.fontWeight.heading};
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: ${props => props.theme.lineHieghts.heading};
+    color: ${themeGet("colors.heading")};
+    font-family: ${themeGet("fonts.heading")};
+    font-weight: ${themeGet("fontWeights.heading")};
+    margin-block-start: 0;
+    margin-block-end: 0;
+    line-height: ${themeGet("lineHieghts.heading")};
 }
 h1 {
-    font-size: ${props => props.theme.fontSizes.h1};
+    font-size: ${themeGet("fontSizes.h1")};
     @media only screen and (max-width: 1199px){
       font-size: 46px;
     }
@@ -46,7 +52,7 @@ h1 {
     }
   }
 h2 {
-    font-size: ${props => props.theme.fontSizes.h2};
+    font-size: ${themeGet("fontSizes.h2")};
     @media only screen and (max-width: 1199px){
       font-size: 36px;
     }
@@ -58,7 +64,7 @@ h2 {
     }
   }
 h3 {
-    font-size: ${props => props.theme.fontSizes.h3};
+    font-size: ${themeGet("fontSizes.h3")};
     @media only screen and (max-width: 1199px){
       font-size: 32px;
     }
@@ -70,7 +76,7 @@ h3 {
     }
 }
 h4 {
-    font-size: ${props => props.theme.fontSizes.h4};
+    font-size: ${themeGet("fontSizes.h4")};
     @media only screen and (max-width: 1199px){
       font-size: 30px;
     }
@@ -82,19 +88,24 @@ h4 {
     }
 }
 h5 {
-    font-size: ${props => props.theme.fontSizes.h5};
     @media only screen and (max-width: 767px){
       font-size: 20px;
     }
+    @media only screen and (max-width: 575px){
+      font-size: 18px;
+    }
 }
 h6 {
-    font-size: 18px;
+    font-size: 16px;
+    @media only screen and (max-width: 767px){
+      font-size: 18px;
+    }
 }
 
 
 
 p:last-child {
-    margin-bottom: 0;
+    margin-block-end: 0;
 }
 a, button {
   color: inherit;
@@ -104,7 +115,7 @@ a, button {
   cursor: pointer;
 }
 a, button, img, input, span {
-  transition: ${props => props.theme.transition};
+  transition: ${themeGet("transition")};
 }
 *:focus {
   outline: none !important;
@@ -120,7 +131,7 @@ a:focus {
 }
 a:hover, button:hover {
   text-decoration: none;
-  color: ${props => props.theme.colors.themeColor};
+  color: ${themeGet("colors.primary")};
 }
 button, input[type="submit"] {
   cursor: pointer;
@@ -141,14 +152,18 @@ select {
     max-width: 100%;
     width: 100%;
     outline: none;
-    border: 1px solid ${props => props.theme.colors.borderColorTwo};
-    border-radius: 5px;
-    background: ${props => props.theme.colors.borderColorTwo} url(${SelectorIcon}) no-repeat center right 20px;
+    border: 1px solid ${themeGet("colors.borderTwo")};
+    border-radius: ${themeGet("radii.md")};
+    background: ${themeGet(
+        "colors.borderTwo"
+    )} url(${SelectorIcon}) no-repeat center right 20px;
     background-color: rgb(248, 248, 248);
     -moz-appearance: none;
     -webkit-appearance: none;
     &:focus {
-        background: ${props => props.theme.colors.borderColorTwo} url(${SelectorIcon}) no-repeat center right 20px !important;
+        background: ${themeGet(
+            "colors.borderTwo"
+        )} url(${SelectorIcon}) no-repeat center right 20px !important;
     }
 }
 
@@ -157,8 +172,11 @@ img{
 }
 
 ::selection {
-    color: ${props => props.theme.colors.white};
-    background-color: ${props => props.theme.colors.themeColor};
+    color: ${themeGet("colors.white")};
+    background-color: ${themeGet("colors.primary")};
+}
+input, select, textarea{
+  transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 form {
     input:focus::-webkit-input-placeholder { color:transparent; }
@@ -167,13 +185,9 @@ form {
     input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
     input, textarea{
         &::placeholder{
-            transition: ${props => props.theme.transition};
+            transition: ${themeGet("transition")};
         }
     }
-}
-input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="number"]:focus, input[type="tel"]:focus, input[type="range"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="time"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="color"]:focus, textarea:focus, select:focus, select:focus, textarea:focus {
-    color: ${props => props.theme.colors.themeColor};
-    border-color: ${props => props.theme.colors.themeColor};
 }
 input[type="checkbox"] {
     position: relative;
@@ -184,9 +198,6 @@ input[type="checkbox"] {
     cursor: pointer;
 }
 
-.site-wrapper-reveal{
-  background-color: ${props => props.theme.colors.white};
-}
 
 
 @keyframes separator-bounce {
@@ -214,11 +225,11 @@ input[type="checkbox"] {
 }
 @media (min-width: 1600px){
     .gutter-xl-70{
-        margin-right: -35px;
-        margin-left: -35px;
+        margin-inline-end: -35px;
+        margin-inline-start: -35px;
         [class*="col"]{
-            padding-left: 35px;
-            padding-right: 35px;
+            padding-inline-start: 35px;
+            padding-inline-end: 35px;
         }
     }
 }
@@ -235,6 +246,15 @@ figure{
 }
 .worldRotate {
   animation: ${worldRotate} 20s linear infinite;
+}
+.link-overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  text-indent: -999999px;
 }
 
 `;

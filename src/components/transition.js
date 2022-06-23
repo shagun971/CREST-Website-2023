@@ -1,13 +1,14 @@
-import React from "react"
+import React from "react";
+import PropTypes from "prop-types";
 import {
     TransitionGroup,
     Transition as ReactTransition,
-} from "react-transition-group"
+} from "react-transition-group";
 
-const timeout = 500
+const timeout = 500;
 const getTransitionStyles = {
     entering: {
-        position: 'absolute',
+        position: "absolute",
         opacity: 0,
     },
     entered: {
@@ -16,14 +17,14 @@ const getTransitionStyles = {
     },
     exiting: {
         transition: `all ${timeout}ms ease-in-out`,
-        opacity: 0
+        opacity: 0,
     },
-}
+};
 
 class Transition extends React.PureComponent {
     render() {
-        const { children, location } = this.props
-        if(location){
+        const { children, location } = this.props;
+        if (location) {
             return (
                 <TransitionGroup>
                     <ReactTransition
@@ -33,7 +34,7 @@ class Transition extends React.PureComponent {
                             exit: timeout,
                         }}
                     >
-                        {status => (
+                        {(status) => (
                             <div
                                 style={{
                                     ...getTransitionStyles[status],
@@ -44,11 +45,18 @@ class Transition extends React.PureComponent {
                         )}
                     </ReactTransition>
                 </TransitionGroup>
-            )
-        }else {
+            );
+        } else {
             return "Loading...";
         }
     }
 }
 
-export default Transition
+Transition.propTypes = {
+    children: PropTypes.node.isRequired,
+    location: PropTypes.shape({
+        pathname: PropTypes.string,
+    }),
+};
+
+export default Transition;

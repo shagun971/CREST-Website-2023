@@ -1,13 +1,18 @@
-import React from "react"
-import Layout from '../containers/layout/layout'
-import SEO from "../components/seo"
-import ErrorArea from '../containers/error-area'
+import * as React from "react";
+import PropTypes from "prop-types";
+import Layout from "@layout";
+import Seo from "@components/seo";
+import ErrorArea from "@containers/error";
 
-const NotFoundPage = ({location}) => (
-  <Layout location={location}>
-    <SEO title="404: Not found" />
-    <ErrorArea/>
-  </Layout>
-)
+const NotFoundPage = ({ location }) => (
+    <Layout location={location}>
+        <Seo title="404: Not found" />
+        <ErrorArea />
+    </Layout>
+);
 
-export default NotFoundPage
+NotFoundPage.propTypes = {
+    location: PropTypes.string,
+};
+
+export default NotFoundPage;

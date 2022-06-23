@@ -20,8 +20,8 @@
   --swiper-theme-color: #007aff;
 }
 .swiper-container {
-  margin-left: auto;
-  margin-right: auto;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
   position: relative;
   overflow: hidden;
   list-style: none;
@@ -144,7 +144,7 @@
   top: 50%;
   width: calc(var(--swiper-navigation-size) / 44 * 27);
   height: var(--swiper-navigation-size);
-  margin-top: calc(-1 * var(--swiper-navigation-size) / 2);
+  margin-block-start: calc(-1 * var(--swiper-navigation-size) / 2);
   z-index: 10;
   cursor: pointer;
   display: flex;
@@ -411,8 +411,8 @@ button.swiper-pagination-bullet {
   position: absolute;
   left: 50%;
   top: 50%;
-  margin-left: -21px;
-  margin-top: -21px;
+  margin-inline-start: -21px;
+  margin-block-start: -21px;
   z-index: 10;
   transform-origin: 50%;
   animation: swiper-preloader-spin 1s infinite linear;
