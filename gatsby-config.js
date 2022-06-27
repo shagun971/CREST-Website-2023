@@ -12,54 +12,40 @@ module.exports = {
     },
     pathPrefix: `/`,
     siteMetadata: {
-        title: "React Gatsby Technology & Blog Template",
-        titleTemplate: `Mitech`,
-        description: `Mitech is a Powerful & flexible Technology And Digital Software Gatsby Template. 06 Stunning Homepages are included in this template. You can use any template or mix content from different home pages for your website.`,
-        author: `@HasThemes`,
-        twitterUsername: `@HasThemes`,
-        image: "landing.png",
-        siteUrl: "https://mitech.gatsbydemo.hasthemes.com/",
-        canonical: "https://mitech.gatsbydemo.hasthemes.com/",
-        getform: "https://getform.io/f/22b43bd4-29a7-4795-ba95-6abfe8bf1f39",
-        copyright:
-            "Mitech. <a href='https://example.com/' target='_blank' rel='noopener noreferrer'>All Rights Reserved.</a>",
-        siteLanguage: "en",
-        socials: [
-            {
-                id: 1,
-                icon: "fab fa-facebook-f",
-                link: "https://www.facebook.com",
-                title: "Facebook",
-            },
-            {
-                id: 2,
-                icon: "fab fa-twitter",
-                link: "https://www.twitter.com",
-                title: "Twitter",
-            },
-            {
-                id: 3,
-                icon: "fab fa-instagram",
-                link: "https://www.instagram.com",
-                title: "Instagram",
-            },
-            {
-                id: 4,
-                icon: "fab fa-linkedin",
-                link: "https://www.linkedin.com",
-                title: "Linkedin",
-            },
-        ],
-        contact: {
-            phone: "190068668",
-            address: "58 Howard Street #2 San Francisco, CA 941",
-            email: "hello@mitech.com",
-            website: "https://example.com/",
-            rating: "4.9",
-            customers: "700",
-            clients: "3200",
+        title: "CREST - Centre for Research on Engineering Software Technologies",
+        titleTemplate: `CREST`,
+        description: `CREST is a center for Research on Engineering Software Technologies located at the University of Adelaide. `,
+        author: `@crest_uofa`,
+        twitterUsername: `@crest_uofa`,
+        image: 'landing.png',
+        siteUrl: 'https://crest-centre.net/',
+        getform: "https://getform.io/f/58c49e90-e767-4e18-959e-4fcd84bf8659",
+        copyright: "CREST. <a href='https://crest-centre.net/' target='_blank' rel='noopener noreferrer'>All Rights Reserved.</a>",
+        social: {
+          facebook: "https://www.facebook.com",
+          twitter: "https://twitter.com/crest_uofa",
+          instagram: "https://www.instagram.com",
+          linkedin: "https://www.linkedin.com/company/crest-centre/"
         },
-    },
+        contact: {
+          phone: '+61 8 8313 4478',
+          address: "Room 4.54, Ingkarni Wardli, North Terrace, The University of Adelaide, SA, Australia",
+          email: 'ali.babar@adelaide.edu.au',
+          website: "https://www.adelaide.edu.au/directory/ali.babar",
+          rating: "4.9",
+          customers: "700",
+          clients: "3200",
+          addressInfos: [
+            {
+              "id": "adelaide",
+              "state": "South Australia",
+              "address": "Room 4.54, Ingkarni Wardli, North Terrace",
+              "email": "ali.babar@adelaide.edu.au",
+              "phone": "+61 8 8313 4478"
+            }
+          ]
+        }
+      },
     // mapping: {
     // 	"MarkdownRemark.frontmatter.author": `AuthorsJson.name`,
     // },

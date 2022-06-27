@@ -57,7 +57,7 @@ const Header = ({ data }) => {
                         </HeaderMiddle>
                         <HeaderRight>
                             <HeaderRightInner isOpen={headerInnerOpen}>
-                                <HeaderElement
+                                {/* <HeaderElement
                                     pr={[
                                         "25px",
                                         "10px",
@@ -69,7 +69,7 @@ const Header = ({ data }) => {
                                     ]}
                                 >
                                     <Language />
-                                </HeaderElement>
+                                </HeaderElement> */}
                                 <HeaderElement
                                     borderLeft={[null, null, "1px solid #eee"]}
                                     mt={["15px", 0]}

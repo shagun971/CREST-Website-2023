@@ -29,7 +29,7 @@ const Footer = ({ data }) => {
                             <FooterWidget mb={["31px", null, null, 0]}>
                                 <LogoWidget>
                                     <StaticImage
-                                        src="../../../assets/images/logo/dark-logo-160x48.png"
+                                        src="../../../assets/images/logo/dark-logo.png"
                                         alt="logo"
                                         width={160}
                                         height={48}
@@ -65,7 +65,7 @@ const Footer = ({ data }) => {
                                                 </Anchor>
                                             </Text>
                                         )}
-                                        {data.contact?.website && (
+                                        {/* {data.contact?.website && (
                                             <Text mb="10px">
                                                 <Anchor
                                                     path={data.contact.website}
@@ -74,15 +74,15 @@ const Footer = ({ data }) => {
                                                     {data.contact.website}
                                                 </Anchor>
                                             </Text>
-                                        )}
+                                        )} */}
                                     </TextWidget>
                                 )}
                             </FooterWidget>
                         </Col>
-                        <Col lg={2} md={4} sm={6}>
+                        <Col lg={3} md={6} sm={6}>
                             <FooterWidget mb={["31px", null, null, 0]}>
                                 <Heading as="h6" mt="-3px" mb="20px">
-                                    IT Services
+                                    Clusters
                                 </Heading>
                                 <FooterWidgetList>
                                     <li>
@@ -91,37 +91,37 @@ const Footer = ({ data }) => {
                                             color="text"
                                             $hover={{ layout: 2 }}
                                         >
-                                            Managed IT
+                                            Big Data
                                         </Anchor>
                                     </li>
                                     <li>
                                         <Anchor
-                                            path="/"
+                                            path="https://ssi.crest-centre.net/"
                                             color="text"
                                             $hover={{ layout: 2 }}
                                         >
-                                            IT Support
+                                            Software Security Intelligence
                                         </Anchor>
                                     </li>
                                     <li>
                                         <Anchor
-                                            path="/"
+                                            path="http://socio-technical.crest-centre.net/"
                                             color="text"
                                             $hover={{ layout: 2 }}
                                         >
-                                            IT Consultancy
+                                            Socio Technical
                                         </Anchor>
                                     </li>
                                     <li>
                                         <Anchor
-                                            path="/"
+                                            path="https://dlt.crest-centre.net/"
                                             color="text"
                                             $hover={{ layout: 2 }}
                                         >
-                                            Cloud Computing
+                                            Distributed Ledger Technology
                                         </Anchor>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <Anchor
                                             path="/"
                                             color="text"
@@ -129,11 +129,11 @@ const Footer = ({ data }) => {
                                         >
                                             Cyber Security
                                         </Anchor>
-                                    </li>
+                                    </li> */}
                                 </FooterWidgetList>
                             </FooterWidget>
                         </Col>
-                        <Col lg={2} md={4} sm={6}>
+                        {/* <Col lg={2} md={4} sm={6}>
                             <FooterWidget mb={["27px", null, 0]}>
                                 <Heading as="h6" mt="-3px" mb="20px">
                                     Quick links
@@ -177,8 +177,8 @@ const Footer = ({ data }) => {
                                     </li>
                                 </FooterWidgetList>
                             </FooterWidget>
-                        </Col>
-                        <Col lg={2} md={4} sm={6}>
+                        </Col> */}
+                        <Col lg={3} md={6} sm={6}>
                             <FooterWidget>
                                 <Heading as="h6" mt="-3px" mb="20px">
                                     Support
@@ -232,7 +232,7 @@ const Footer = ({ data }) => {
                                 </FooterWidgetList>
                             </FooterWidget>
                         </Col>
-                        <Col lg={2} md={4} sm={6}>
+                        {/* <Col lg={2} md={4} sm={6}>
                             <FooterWidget mt={["34px", null, "50px"]}>
                                 <FooterWidgetList>
                                     <li>
@@ -257,7 +257,7 @@ const Footer = ({ data }) => {
                                     </li>
                                 </FooterWidgetList>
                             </FooterWidget>
-                        </Col>
+                        </Col> */}
                     </Row>
                 </Container>
             </FooterTop>
