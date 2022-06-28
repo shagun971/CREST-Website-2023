@@ -28,7 +28,7 @@ const HeroArea = ({ data }) => {
         <HeroWrapper>
             <StyledBG>
                 <StaticImage
-                    src="../../../assets/images/bg/slider-processing-slide-01-bg.jpg"
+                    src="../../../assets/images/bg/slider-processing-slide-01-bg.webp"
                     alt="CTA BG"
                 />
             </StyledBG>
@@ -37,8 +37,12 @@ const HeroArea = ({ data }) => {
                     <Col lg={8} md={7}>
                         <HeroTextBox>
                             {data?.headings?.[0] && (
-                                <StyledSubtitle as={data.headings[0]?.level}>
-                                    {data.headings[0].content}
+                                <StyledSubtitle as={data.headings[0]?.level}
+                                    dangerouslySetInnerHTML={{
+                                        __html: data.headings[0].content,
+                                    }}
+                                >
+
                                 </StyledSubtitle>
                             )}
                             {data?.headings?.[1] && (
@@ -66,7 +70,7 @@ const HeroArea = ({ data }) => {
                                         </Button>
                                     )
                                 )}
-                                {data?.video_button && (
+                                {/* {data?.video_button && (
                                     <VideoButton
                                         wave="false"
                                         size="small"
@@ -76,7 +80,7 @@ const HeroArea = ({ data }) => {
                                         link={data.video_button?.link}
                                         content={data.video_button?.content}
                                     />
-                                )}
+                                )} */}
                             </HeroBtnGroup>
                         </HeroTextBox>
                     </Col>

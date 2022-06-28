@@ -4,9 +4,9 @@ import { graphql } from "gatsby";
 import { normalizedData } from "@utils";
 import Seo from "@components/seo";
 import Layout from "@layout";
-import Header from "@layout/header/layout-01";
+import Header from "@layout/header/layout-03";
 import Footer from "@layout/footer/layout-01";
-import HeroArea from "@containers/hero/layout-01";
+import HeroArea from "@containers/hero/layout-03";
 import PartnerArea from "@containers/partner/layout-01";
 import ITSolutionArea from "@containers/it-solution/layout-01";
 import AboutServiceWrap from "@containers/about-service-wrap";
@@ -25,7 +25,7 @@ const InfotechnoPage = ({ location, data }) => {
 
     return (
         <Layout location={location}>
-            <Seo title="Infotechno" />
+            <Seo title="Centre for Research on Engineering Software Technologies" />
             <Header
                 data={{
                     ...globalContent["header"],
@@ -84,7 +84,7 @@ export const query = graphql`
         site {
             ...Site
         }
-        page(title: { eq: "infotechno" }, pageType: { eq: "frontpage" }) {
+        page(title: { eq: "processing" }, pageType: { eq: "frontpage" }) {
             content {
                 ...PageContent
             }
