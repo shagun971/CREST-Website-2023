@@ -34,7 +34,7 @@ const InfotechnoPage = ({ location, data }) => {
             />
             <main className="site-wrapper-reveal">
                 <HeroArea data={content["hero-section"]} />
-                <PartnerArea data={content["partner-section"]} />
+
                 <ITSolutionArea
                     data={{
                         ...content["feature-section"],
@@ -66,6 +66,7 @@ const InfotechnoPage = ({ location, data }) => {
                         recentBlogs: data.recentBlogs.nodes,
                     }}
                 />
+                <PartnerArea data={content["partner-section"]} />
                 <ContactArea data={content["contact-section"]} />
             </main>
             <Footer data={{ ...data.site.siteMetadata }} />
