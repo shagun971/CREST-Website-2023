@@ -193,7 +193,7 @@ module.exports = async ({ graphql, actions }) => {
         const currentPage = index + 1;
         // if (isFirstPage) return;
         createPage({
-            path: isFirstPage ? "blog" : `blog/page/${currentPage}`,
+            path: isFirstPage ? "blogs" : `blogs/page/${currentPage}`,
             component: blogList,
             context: {
                 limit: postsPerPage,

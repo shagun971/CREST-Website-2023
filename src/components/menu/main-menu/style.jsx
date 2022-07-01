@@ -194,7 +194,7 @@ export const StyledSubmenu = styled.ul`
     transition-duration: 0.4s;
     visibility: hidden;
     opacity: 0;
-    min-width: 240px;
+    min-width: 300px;
     padding: 20px 0;
     z-index: 9;
 `;

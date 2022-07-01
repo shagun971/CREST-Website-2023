@@ -173,8 +173,13 @@
         },
         {
             "id": "menu-6",
+            "text": "Blogs",
+            "link": "/blogs"
+        },
+        {
+            "id": "menu-7",
             "text": "Join us",
-            "link": "/blog"
+            "link": "/join-us"
         }
     ]
 }
