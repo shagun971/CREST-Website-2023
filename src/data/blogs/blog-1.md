@@ -12,6 +12,7 @@ tags:
 format: "quote"
 quote_text: "The use of apps in investment ideas is a great way to enjoy the convenience."
 quote_author: "Beeige Lunmis"
+description: "adsfasdf"
 is_featured: false
 ---
 

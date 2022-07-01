@@ -1,0 +1,39 @@
+---
+title: "Guest Talk - Analytics over Encrypted Traffic and Defences"
+date: "2022-06-20 13:30:00"
+author: "CREST"
+image: { src: "../images/blog/blog-encrypted-traffic-fly.jpg", alt: "encrypted-traffic" }
+categories:
+    - guest talks
+    - big data
+tags:
+    - lecture
+    - security
+    - data analytics
+format: "image"
+description: "We are increasingly relying on 'online services' for many aspects of our day-to-day lives such as banking, shopping, health, social networking, and entertainment."
+is_featured: false
+---
+
+### Brief Description
+We are increasingly relying on "online services" for many aspects of our day-to-day lives such as banking, shopping, health, social networking, and entertainment...and...more
+
+### About the speaker
+
+#### Dr. Suranga Seneviratne
+[Google Scholar](https://scholar.google.com.au/citations?user=Kk6F5cYAAAAJ&hl=en) ![Linkedin](https://i.stack.imgur.com/gVE0j.png)[Linkedin](https://au.linkedin.com/in/surangas)
+
+
+
+* Dr Suranga Seneviratne is a Lecturer in Security at the School of Computer Science, The University of Sydney. He received his PhD from the University of New South Wales, Australia in 2015 and received his bachelor's degree from the University of Moratuwa, Sri Lanka in 2005.
+
+His current research interests include privacy and security in mobile systems, AI applications in security, security of machine learning, and behavioural biometrics. He has published over 40 peer-reviewed research papers in top tier venues such as CVPR, WWW, MobiSys, SIGCOMM IMC, and IMWUT (Ubicomp).
+
+His research has been often translated into solutions beneficial to the industry and the general public and covered by top international and local media outlets such as Forbes, ZDNet, SMH, and The Sun. He received Dean’s Award for Industrial Collaborations in 2019 in recognition of his work with the industry/defence.
+
+* Gatsby
+  * docs
+- Gatsby
+  - docs
++ Gatsby
+  + docs

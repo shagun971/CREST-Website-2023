@@ -14,6 +14,7 @@ type Article implements Node @childof(type: "MarkdownRemark"){
     excerpt: String!
     is_featured: Boolean
     author: Author @link(from: "author", by: "name")
+    description: String!
     content: String
 }
 type BlogDate {

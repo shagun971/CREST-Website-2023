@@ -113,6 +113,7 @@ module.exports = ({ node, actions, createNodeId }) => {
             is_featured: node.frontmatter.is_featured,
             author: node.frontmatter.author,
             excerpt: node.excerpt,
+            description: node.frontmatter.description,
             internal: {
                 type: "Article",
                 contentDigest: node.internal.contentDigest,

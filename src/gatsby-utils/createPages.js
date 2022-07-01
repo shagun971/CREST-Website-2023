@@ -172,7 +172,7 @@ module.exports = async ({ graphql, actions }) => {
     const posts = result.data.allArticle.edges;
     posts.forEach(({ node, next, previous }) => {
         createPage({
-            path: node.slug,
+            path: `blog/${node.slug}`,
             component: singleBlogPage,
             context: {
                 slug: node.slug,

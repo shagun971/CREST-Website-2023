@@ -11,6 +11,7 @@ tags:
     - IT Security
     - gatsby
 format: "image"
+description: "Have you ever thought about a guarantee in which you invest your money and get returns?"
 is_featured: false
 ---
 

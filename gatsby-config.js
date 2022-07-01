@@ -60,8 +60,13 @@ module.exports = {
         {
             resolve: `gatsby-transformer-remark`,
             options: {
-                excerpt_separator: `<!-- endexcerpt -->`,
+                // excerpt_separator: `<!-- endexcerpt -->`,
+                // Footnotes mode (default: true)
+                footnotes: true,
+                // GitHub Flavored Markdown mode (default: true)
+                gfm: true,
                 plugins: [
+                    `gatsby-remark-prismjs`,
                     {
                         resolve: `gatsby-remark-images`,
                         options: {
