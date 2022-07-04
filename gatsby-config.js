@@ -58,14 +58,10 @@ module.exports = {
         "gatsby-transformer-json",
         // "gatsby-plugin-preload-fonts",
         {
-            resolve: `gatsby-transformer-remark`,
+            resolve: `gatsby-plugin-mdx`,
             options: {
-                // excerpt_separator: `<!-- endexcerpt -->`,
-                // Footnotes mode (default: true)
-                footnotes: true,
-                // GitHub Flavored Markdown mode (default: true)
-                gfm: true,
-                plugins: [
+                extensions: [`.md`, `.mdx`],
+                gatsbyRemarkPlugins: [
                     `gatsby-remark-prismjs`,
                     {
                         resolve: `gatsby-remark-images`,
@@ -74,6 +70,7 @@ module.exports = {
                         },
                     },
                 ],
+                plugins: [`gatsby-remark-images`]
             },
         },
         {

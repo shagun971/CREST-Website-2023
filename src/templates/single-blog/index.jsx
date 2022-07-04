@@ -17,156 +17,160 @@ import BlogMedia from "@components/blog/blog-media";
 import SocialShare from "@components/blog/social-share";
 import { Container } from "@ui/wrapper";
 import { BlogType } from "@utils/types";
+import { MDXRenderer } from "gatsby-plugin-mdx";
+import { MDXProvider } from "@mdx-js/react";
+// Markdown Components
+import List from "@ui/list";
+import { MarkdownComponents } from "@ui/markdown";
 
 import {
-    StyledSection,
-    StyledBlogWrap,
-    StyledTitle,
-    StyledHeaderMeta,
-    StyledContent,
-    StyledFooter,
+  StyledSection,
+  StyledBlogWrap,
+  StyledTitle,
+  StyledHeaderMeta,
+  StyledContent,
+  StyledFooter,
 } from "./style";
 
 const SingleBlogTemplate = ({ pageContext, location, data }) => {
-    const globalContent = normalizedData(data?.allGeneral?.nodes || []);
-    const articleData = data.article;
-    return (
-        <Layout location={location}>
-            <Seo title={articleData.title} />
-            <Header
-                data={{
-                    ...globalContent["header"],
-                    ...globalContent["menu"],
-                    socials: data.site.siteMetadata.socials,
-                }}
+  const globalContent = normalizedData(data?.allGeneral?.nodes || []);
+  const articleData = data.article;
+  return (
+    <Layout location={location}>
+      <Seo title={articleData.title} />
+      <Header
+        data={{
+          ...globalContent["header"],
+          ...globalContent["menu"],
+          socials: data.site.siteMetadata.socials,
+        }}
+      />
+      <main className='site-wrapper-reveal'>
+        <PageHeader
+          pageContext={pageContext}
+          location={location}
+          title='Blog'
+        />
+        <StyledSection>
+          <Container>
+            <BlogMedia
+              format={articleData?.format}
+              image={articleData?.image}
+              video_link={articleData?.video_link}
+              title={articleData?.title}
+              quote_text={articleData?.quote_text}
+              quote_author={articleData?.quote_author}
+              mb='46px'
             />
-            <main className="site-wrapper-reveal">
-                <PageHeader
-                    pageContext={pageContext}
-                    location={location}
-                    title="Blog"
+            <StyledBlogWrap>
+              <header className='blog-header'>
+                <Categories
+                  textAlign='center'
+                  mb='10px'
+                  categories={articleData?.categories}
                 />
-                <StyledSection>
-                    <Container>
-                        <BlogMedia
-                            format={articleData?.format}
-                            image={articleData?.image}
-                            video_link={articleData?.video_link}
-                            title={articleData?.title}
-                            quote_text={articleData?.quote_text}
-                            quote_author={articleData?.quote_author}
-                            mb="46px"
-                        />
-                        <StyledBlogWrap>
-                            <header className="blog-header">
-                                <Categories
-                                    textAlign="center"
-                                    mb="10px"
-                                    categories={articleData?.categories}
-                                />
-                                {articleData?.title && (
-                                    <StyledTitle>
-                                        {articleData.title}
-                                    </StyledTitle>
-                                )}
-                                <StyledHeaderMeta>
-                                    {articleData?.author && (
-                                        <AuthorMeta
-                                            mt="10px"
-                                            mr="20px"
-                                            slug={articleData.author?.slug}
-                                            name={articleData.author?.name}
-                                            image={articleData.author?.image}
-                                        />
-                                    )}
-                                    {articleData?.postedAt && (
-                                        <BlogMeta
-                                            mt="10px"
-                                            mr="20px"
-                                            path={`/date/${articleData.postedAt.slug}`}
-                                            text={articleData.postedAt.date}
-                                            icon="fa fa-calendar-alt"
-                                        />
-                                    )}
-                                    {/* <BlogMeta
+                {articleData?.title && (
+                  <StyledTitle>{articleData.title}</StyledTitle>
+                )}
+                <StyledHeaderMeta>
+                  {articleData?.author && (
+                    <AuthorMeta
+                      mt='10px'
+                      mr='20px'
+                      slug={articleData.author?.slug}
+                      name={articleData.author?.name}
+                      image={articleData.author?.image}
+                    />
+                  )}
+                  {articleData?.postedAt && (
+                    <BlogMeta
+                      mt='10px'
+                      mr='20px'
+                      path={`/date/${articleData.postedAt.slug}`}
+                      text={articleData.postedAt.date}
+                      icon='fa fa-calendar-alt'
+                    />
+                  )}
+                  {/* <BlogMeta
                                         mt="10px"
                                         mr="20px"
                                         path={`/`}
                                         text={`4 Comments`}
                                         icon="fa fa-comment-dots"
                                     /> */}
-                                </StyledHeaderMeta>
-                            </header>
-                            <StyledContent
-                                dangerouslySetInnerHTML={{
-                                    __html:
-                                        articleData?.content || "Blog Content",
-                                }}
-                            />
-                            <StyledFooter>
-                                <Tags tags={articleData?.tags} mb={["10px"]} />
-                                <SocialShare
-                                    siteUrl={data.site.siteMetadata.siteUrl}
-                                    slug={`/${articleData?.slug}`}
-                                    title={articleData?.title}
-                                />
-                            </StyledFooter>
-                            <AuthorDetails
-                                avatar={articleData?.author?.image}
-                                name={articleData?.author?.name}
-                                bio={articleData?.author?.bio}
-                                socials={articleData?.author?.socials}
-                            />
-                            <NavigationArea
-                                data={{
-                                    previous: pageContext.previous,
-                                    next: pageContext.next,
-                                }}
-                            />
-                        </StyledBlogWrap>
-                    </Container>
-                </StyledSection>
-            </main>
-            <Footer data={{ ...data.site.siteMetadata }} />
-        </Layout>
-    );
+                </StyledHeaderMeta>
+              </header>
+              <StyledContent className="markdown">
+                <MDXProvider components={MarkdownComponents}>
+                  <MDXRenderer>
+                    {articleData?.content || "Blog Content"}
+                  </MDXRenderer>
+                </MDXProvider>
+              </StyledContent>
+              <StyledFooter>
+                <Tags tags={articleData?.tags} mb={["10px"]} />
+                <SocialShare
+                  siteUrl={data.site.siteMetadata.siteUrl}
+                  slug={`/${articleData?.slug}`}
+                  title={articleData?.title}
+                />
+              </StyledFooter>
+              <AuthorDetails
+                avatar={articleData?.author?.image}
+                name={articleData?.author?.name}
+                bio={articleData?.author?.bio}
+                socials={articleData?.author?.socials}
+              />
+              <NavigationArea
+                data={{
+                  previous: pageContext.previous,
+                  next: pageContext.next,
+                }}
+              />
+            </StyledBlogWrap>
+          </Container>
+        </StyledSection>
+      </main>
+      <Footer data={{ ...data.site.siteMetadata }} />
+    </Layout>
+  );
 };
 
 export const postQuery = graphql`
-    query ($slug: String!) {
-        allGeneral {
-            nodes {
-                section
-                ...HeaderOne
-            }
-        }
-        site {
-            ...Site
-        }
-        article(slug: { eq: $slug }) {
-            ...BlogSix
-        }
+  query ($slug: String!) {
+    allGeneral {
+      nodes {
+        section
+        ...HeaderOne
+      }
     }
+    site {
+      ...Site
+    }
+    article(slug: { eq: $slug }) {
+      ...BlogSix
+    }
+  }
 `;
 
 SingleBlogTemplate.propTypes = {
-    location: PropTypes.shape({}),
-    data: PropTypes.shape({
-        allGeneral: PropTypes.shape({
-            nodes: PropTypes.arrayOf(PropTypes.shape({})),
-        }),
-        site: PropTypes.shape({
-            siteMetadata: PropTypes.shape({
-                socials: PropTypes.arrayOf(PropTypes.shape({})),
-                siteUrl: PropTypes.string,
-            }),
-        }),
-        article: PropTypes.shape(BlogType),
+  location: PropTypes.shape({}),
+  data: PropTypes.shape({
+    allGeneral: PropTypes.shape({
+      nodes: PropTypes.arrayOf(PropTypes.shape({})),
     }),
-    pageContext: PropTypes.shape({
-        next: PropTypes.shape({}),
-        previous: PropTypes.shape({}),
+    site: PropTypes.shape({
+      siteMetadata: PropTypes.shape({
+        socials: PropTypes.arrayOf(PropTypes.shape({})),
+        siteUrl: PropTypes.string,
+      }),
     }),
+    article: PropTypes.shape(BlogType),
+  }),
+  pageContext: PropTypes.shape({
+    next: PropTypes.shape({}),
+    previous: PropTypes.shape({}),
+  }),
 };
 
 export default SingleBlogTemplate;

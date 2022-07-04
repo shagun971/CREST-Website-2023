@@ -53,8 +53,8 @@ module.exports = ({ createResolvers }) => {
                 resolve: async (source, _args, context, info) => {
                     await context.nodeModel.prepareNodes(
                         info.parentType,
-                        { parent: { html: true } },
-                        { parent: { html: true } },
+                        { parent: { body: true } },
+                        { parent: { body: true } },
                         [info.parentType.name]
                     );
 
@@ -66,7 +66,7 @@ module.exports = ({ createResolvers }) => {
                         newSource &&
                         newSource.__gatsby_resolved &&
                         newSource.__gatsby_resolved.parent &&
-                        newSource.__gatsby_resolved.parent.html
+                        newSource.__gatsby_resolved.parent.body
                     );
                 },
             },

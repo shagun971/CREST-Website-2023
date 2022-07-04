@@ -1,5 +1,5 @@
 module.exports = `
-type Article implements Node @childof(type: "MarkdownRemark"){
+type Article implements Node @childof(type: "Mdx"){
     id: ID!
     title: String!
     slug: String!

@@ -96,7 +96,7 @@ module.exports = ({ node, actions, createNodeId }) => {
         });
     }
 
-    if (node.internal.type === "MarkdownRemark") {
+    if (node.internal.type === "Mdx") {
         createNode({
             id: createNodeId(`Article-${node.id}`),
             parent: node.id,
@@ -112,7 +112,8 @@ module.exports = ({ node, actions, createNodeId }) => {
             format: node.frontmatter.format,
             is_featured: node.frontmatter.is_featured,
             author: node.frontmatter.author,
-            excerpt: node.excerpt,
+            // define a description entity in frontmatter metadata to replace excerpt
+            excerpt: node.frontmatter.description,
             description: node.frontmatter.description,
             internal: {
                 type: "Article",
