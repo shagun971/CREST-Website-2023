@@ -15,6 +15,8 @@ description: "We are increasingly relying on 'online services' for many aspects 
 is_featured: false
 ---
 
+import ExampleChart from "../../components/charts/ExampleChart";
+
 ### Brief Description
 We are increasingly relying on "online services" for many aspects of our day-to-day lives such as banking, shopping, health, social networking, and entertainment...and...more
 
@@ -47,3 +49,44 @@ His research has been often translated into solutions beneficial to the industry
 1. asdfasfd
   1. asdfasfd
 3. asdfasdf
+
+> This is a quotes
+
+> [!Note]
+> This is admotion
+
+```js
+const hello = "hello world";
+console.log(hello);
+```
+
+export const myReviews = [
+  {
+    name: "Tim's Tacos",
+    overall: 9,
+    variety: 7,
+    price: 8,
+    taste: 9
+  },
+  {
+    name: "Noodleville",
+    overall: 7,
+    variety: 5,
+    price: 6,
+    taste: 8
+  },
+  {
+    name: "Waffle Shack",
+    overall: 6,
+    variety: 5,
+    price: 4,
+    taste: 6
+  },
+];
+
+<ExampleChart
+  data={myReviews}
+  bars={["overall", "variety", "price", "taste"]}
+/>
+
+![Image](../images/banner/contact-image.png "Title Here")
