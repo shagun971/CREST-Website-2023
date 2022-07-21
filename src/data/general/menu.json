@@ -17,38 +17,28 @@
                     "submenu": [
                         {
                             "id": "menu-411",
-                            "text": "Accordion",
-                            "link": "/elements/accordion"
+                            "text": "Big Data",
+                            "link": "https://crest-bigdata.github.io/"
                         },
                         {
                             "id": "menu-412",
-                            "text": "Box Icon",
-                            "link": "/elements/box-icon"
+                            "text": "Socio-technical",
+                            "link": "http://socio-technical.crest-centre.net/"
                         },
                         {
                             "id": "menu-413",
-                            "text": "Box Image",
-                            "link": "/elements/box-image"
+                            "text": "Software Security Intelligence",
+                            "link": "https://ssi.crest-centre.net/"
                         },
                         {
                             "id": "menu-414",
-                            "text": "Box Large Image",
-                            "link": "/elements/box-large-image"
+                            "text": "Software System and Security Integration",
+                            "link": "#"
                         },
                         {
                             "id": "menu-415",
-                            "text": "Buttons",
-                            "link": "/elements/button"
-                        },
-                        {
-                            "id": "menu-416",
-                            "text": "Call to action",
-                            "link": "/elements/call-to-action"
-                        },
-                        {
-                            "id": "menu-417",
-                            "text": "Client Logo",
-                            "link": "/elements/client-logo"
+                            "text": "Trusted Information Processing System",
+                            "link": "https://dlt.crest-centre.net/"
                         }
                     ]
                 },
@@ -57,38 +47,18 @@
                     "submenu": [
                         {
                             "id": "menu-421",
-                            "text": "Counters",
+                            "text": "C3i",
                             "link": "/elements/counters"
                         },
                         {
                             "id": "menu-422",
-                            "text": "Dividers",
+                            "text": "POKAPS",
                             "link": "/elements/dividers"
                         },
                         {
                             "id": "menu-423",
-                            "text": "Flexible image slider",
+                            "text": "CCOP",
                             "link": "/elements/flexible-image-slider"
-                        },
-                        {
-                            "id": "menu-424",
-                            "text": "Google Map",
-                            "link": "/elements/google-map"
-                        },
-                        {
-                            "id": "menu-425",
-                            "text": "Gradation",
-                            "link": "/elements/gradation"
-                        },
-                        {
-                            "id": "menu-426",
-                            "text": "Lists",
-                            "link": "/elements/lists"
-                        },
-                        {
-                            "id": "menu-427",
-                            "text": "Message box",
-                            "link": "/elements/message-box"
                         }
                     ]
                 }
@@ -182,11 +152,6 @@
                     "link": "/team#assistants"
                 },
                 {
-                    "id": "menu-65",
-                    "text": "Project Students",
-                    "link": "/team#projectstudents"
-                },
-                {
                     "id": "menu-66",
                     "text": "Collaborators and Associates",
                     "link": "/team#collaborators"
@@ -201,12 +166,12 @@
         {
             "id": "menu-7",
             "text": "Join us",
-            "link": "/join-us",
+            "link": "/positions",
             "submenu": [
                 {
                     "id": "menu-71",
                     "text": "Career",
-                    "link": "/elements/counters"
+                    "link": "/positions"
                 },
                 {
                     "id": "menu-72",

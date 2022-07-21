@@ -56,6 +56,7 @@ module.exports = {
         `gatsby-plugin-sharp`,
         `gatsby-plugin-styled-components`,
         "gatsby-transformer-json",
+        `gatsby-plugin-anchor-links`,
         // "gatsby-plugin-preload-fonts",
         {
             resolve: `gatsby-plugin-mdx`,
