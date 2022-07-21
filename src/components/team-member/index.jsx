@@ -42,6 +42,7 @@ const TeamMember = ({ image, name, designation, socials, layout }) => {
                                     {title == "Linkedin" && <i className={icon}></i>}
                                     {title == "Google Scholar" && <SiGooglescholar />}
                                     {title == "Personal Website" && <i className={icon}></i>}
+                                    {title == "GitHub" && <i className={icon}></i>}
                                 </SocialLink>
                             ))}
                         </Social>

@@ -25,6 +25,7 @@ const TeamArea = ({ data }) => {
                                 name={member.name}
                                 designation={member.designation}
                                 socials={member.socials}
+                                
                             />
                         </Col>
                     ))}

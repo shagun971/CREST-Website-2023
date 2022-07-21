@@ -108,129 +108,282 @@
             ]
         },
         {
-            "id": "leadership-executive",
-            "section": "executive-section",
+            "id": "posdocs",
+            "section": "posdocs-section",
             "section_title": {
-                "title": "<span>Faculty Members</span>"
+                "title": "<span>Research Fellows</span>"
             },
             "items": [
                 {
                     "id": 4,
-                    "name": "Daisy Hortron",
-                    "designation": "Financial Services",
+                    "name": "Aufeef Chauhan",
+                    "designation": "Post Doc",
                     "images": [
                         {
-                            "src": "../images/team/team-member-04-370x452.jpg"
+                            "src": "../images/team/Aufeef.jpg"
                         }
                     ],
                     "socials": [
                         {
-                            "id": 1,
-                            "icon": "fab fa-facebook",
-                            "link": "https://www.twitter.com",
-                            "title": "Facebook"
+                            "id": 4,
+                            "icon": "fab si-googlescholar",
+                            "link": "https://scholar.google.dk/citations?user=7fy5Oa0AAAAJ&hl=en",
+                            "title": "Google Scholar"
                         },
                         {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://www.twitter.com",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-instagram",
-                            "link": "https://www.instagram.com",
-                            "title": "Instagram"
+                            "id": 4,
+                            "icon": "fab fa-linkedin",
+                            "link": "https://au.linkedin.com/in/aufeefchauhan",
+                            "title": "Linkedin"
                         }
                     ]
                 },
                 {
                     "id": 5,
-                    "name": "Maggie Strickland",
-                    "designation": "HR executive",
+                    "name": "Nguyen Khoi Tran",
+                    "designation": "Post Doc",
                     "images": [
                         {
-                            "src": "../images/team/team-member-02-370x452.jpg"
+                            "src": "../images/team/nguyen.png"
                         }
                     ],
                     "socials": [
                         {
-                            "id": 1,
-                            "icon": "fab fa-facebook",
-                            "link": "https://www.twitter.com",
-                            "title": "Facebook"
+                            "id": 4,
+                            "icon": "fab si-googlescholar",
+                            "link": "https://scholar.google.com/citations?user=aX4UR10AAAAJ&hl=en",
+                            "title": "Google Scholar"
                         },
                         {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://www.twitter.com",
-                            "title": "Twitter"
+                            "id": 4,
+                            "icon": "fab fa-linkedin",
+                            "link": "https://www.linkedin.com/in/nktrandlt/",
+                            "title": "Linkedin"
                         },
                         {
                             "id": 3,
-                            "icon": "fab fa-instagram",
-                            "link": "https://www.instagram.com",
-                            "title": "Instagram"
+                            "icon": "fab fa-dribbble",
+                            "link": "https://nk-tran.com/",
+                            "title": "Personal Website"
+                        },
+                        {
+                            "id": 3,
+                            "icon": "fab fa-github",
+                            "link": "https://github.com/nguyentran0212",
+                            "title": "GitHub"
                         }
                     ]
                 },
                 {
                     "id": 6,
-                    "name": "Monica Blews",
-                    "designation": "Project manager",
+                    "name": "Victor Prokhorenko",
+                    "designation": "Post Doc",
                     "images": [
                         {
-                            "src": "../images/team/team-member-05-370x452.jpg"
+                            "src": "../images/team/victor.jpg"
                         }
                     ],
                     "socials": [
                         {
-                            "id": 1,
-                            "icon": "fab fa-facebook",
-                            "link": "https://www.twitter.com",
-                            "title": "Facebook"
-                        },
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://www.twitter.com",
-                            "title": "Twitter"
-                        },
-                        {
                             "id": 3,
-                            "icon": "fab fa-instagram",
-                            "link": "https://www.instagram.com",
-                            "title": "Instagram"
+                            "icon": "fab fa-dribbble",
+                            "link": "https://ieeexplore.ieee.org/author/37085816139",
+                            "title": "Personal Website"
                         }
                     ]
                 },
                 {
                     "id": 7,
-                    "name": "Issac Blews",
-                    "designation": "Marketing Executive",
+                    "name": "Yaser Mansouri",
+                    "designation": "Post Doc",
                     "images": [
                         {
-                            "src": "../images/team/team-member-03-370x452.jpg"
+                            "src": "../images/team/yaser.jpg"
                         }
                     ],
                     "socials": [
                         {
-                            "id": 1,
-                            "icon": "fab fa-facebook",
-                            "link": "https://www.twitter.com",
-                            "title": "Facebook"
+                            "id": 4,
+                            "icon": "fab si-googlescholar",
+                            "link": "https://scholar.google.com/citations?user=VPjDr3AAAAAJ&hl=en",
+                            "title": "Google Scholar"
+                        },
+                        {
+                            "id": 3,
+                            "icon": "fab fa-dribbble",
+                            "link": "https://ieeexplore.ieee.org/author/37086475255",
+                            "title": "Personal Website"
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "name": "Asangi Jayatilaka",
+                    "designation": "Post Doc",
+                    "images": [
+                        {
+                            "src": "../images/team/asangi.jpg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 4,
+                            "icon": "fab si-googlescholar",
+                            "link": "https://scholar.google.com.au/citations?user=shvEPagAAAAJ&hl=en",
+                            "title": "Google Scholar"
+                        },
+                        {
+                            "id": 4,
+                            "icon": "fab fa-linkedin",
+                            "link": "https://au.linkedin.com/in/asangi-jayatilaka",
+                            "title": "Linkedin"
+                        },
+                        {
+                            "id": 3,
+                            "icon": "fab fa-dribbble",
+                            "link": "https://researchers.adelaide.edu.au/profile/asangi.jayatilaka",
+                            "title": "Personal Website"
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "name": "Chadni Islam",
+                    "designation": "Post Doc",
+                    "images": [
+                        {
+                            "src": "../images/team/chadni.png"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 4,
+                            "icon": "fab si-googlescholar",
+                            "link": "https://scholar.google.com.au/citations?user=JYcmT_IAAAAJ&hl=en",
+                            "title": "Google Scholar"
+                        },
+                        {
+                            "id": 4,
+                            "icon": "fab fa-linkedin",
+                            "link": "https://www.linkedin.com/in/chadni-islam-7193b5174/",
+                            "title": "Linkedin"
+                        },
+                        {
+                            "id": 3,
+                            "icon": "fab fa-dribbble",
+                            "link": "https://chadniislam.com/",
+                            "title": "Personal Website"
                         },
                         {
                             "id": 2,
                             "icon": "fab fa-twitter",
-                            "link": "https://www.twitter.com",
+                            "link": "https://mobile.twitter.com/_chadni_",
                             "title": "Twitter"
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "name": "Sheik Mohammad Mostakim Fattah",
+                    "designation": "Post Doc",
+                    "images": [
+                        {
+                            "src": "../images/team/fattah.png"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 4,
+                            "icon": "fab si-googlescholar",
+                            "link": "https://scholar.google.com/citations?user=IOe5upYAAAAJ&hl=en",
+                            "title": "Google Scholar"
+                        },
+                        {
+                            "id": 4,
+                            "icon": "fab fa-linkedin",
+                            "link": "https://linkedin.com/in/sheik-mohammad-mostakim-fattah-30814a7b",
+                            "title": "Linkedin"
                         },
                         {
                             "id": 3,
-                            "icon": "fab fa-instagram",
-                            "link": "https://www.instagram.com",
-                            "title": "Instagram"
+                            "icon": "fab fa-dribbble",
+                            "link": "https://www.researchgate.net/profile/Sheik-Fattah",
+                            "title": "Personal Website"
+                        },
+                        {
+                            "id": 2,
+                            "icon": "fab fa-twitter",
+                            "link": "https://twitter.com/smfattah",
+                            "title": "Twitter"
+                        }
+                    ]
+                },
+                {
+                    "id": 11,
+                    "name": "Xiaoyu Xia",
+                    "designation": "Post Doc",
+                    "images": [
+                        {
+                            "src": "../images/team/xiaoyu.jpg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 4,
+                            "icon": "fab si-googlescholar",
+                            "link": "https://scholar.google.com/citations?user=v-6hODoAAAAJ&hl=en",
+                            "title": "Google Scholar"
+                        },
+                        {
+                            "id": 4,
+                            "icon": "fab fa-linkedin",
+                            "link": "https://www.linkedin.com/in/xiaoyuxia/",
+                            "title": "Linkedin"
+                        },
+                        {
+                            "id": 3,
+                            "icon": "fab fa-dribbble",
+                            "link": "https://sites.google.com/view/xiaoyuxia",
+                            "title": "Personal Website"
+                        },
+                        {
+                            "id": 2,
+                            "icon": "fab fa-twitter",
+                            "link": "https://twitter.com/xiaoyu_shaw_xia",
+                            "title": "Twitter"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "phdstudent",
+            "section": "phdstudent",
+            "section_title": {
+                "title": "<span>PhD Student</span>"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Triet Huynh Minh Le",
+                    "designation": "PhD",
+                    "images": [
+                        {
+                            "src": "../images/team/triet.jpg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 3,
+                            "icon": "fab fa-dribbble",
+                            "link": "https://www.trietle.net/",
+                            "title": "Personal Website"
+                        },
+                        {
+                            "id": 4,
+                            "icon": "fab si-googlescholar",
+                            "link": "https://scholar.google.com/citations?user=6nlR-XIAAAAJ",
+                            "title": "Google Scholar"
                         }
                     ]
                 }

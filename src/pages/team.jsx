@@ -32,8 +32,10 @@ const LeadershipPage = ({ pageContext, location, data }) => {
                     title="Team"
                 />
                 <HeadTeamArea data={content["head-section"]} />
-                <ExecutiveTeamArea data={content["executive-section"]} />
-                <EmployeTeamArea data={content["employee-section"]} />
+                <HeadTeamArea data={content["posdocs-section"]} />
+                {/* <ExecutiveTeamArea data={content["posdocs-section"]} /> */}
+                <ExecutiveTeamArea data={content["phdstudent"]} />
+                {/* <EmployeTeamArea data={content["employee-section"]} /> */}
                 {/* <ContactArea data={content["contact-section"]} /> */}
             </main>
             <Footer data={{ ...data.site.siteMetadata }} />
