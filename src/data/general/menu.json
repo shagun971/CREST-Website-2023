@@ -164,37 +164,37 @@
                 {
                     "id": "menu-61",
                     "text": "Faculty Members",
-                    "link": "/elements/counters"
+                    "link": "/team#faculty-members"
                 },
                 {
                     "id": "menu-62",
                     "text": "Research Fellows",
-                    "link": "/elements/dividers"
+                    "link": "/team#research-fellows"
                 },
                 {
                     "id": "menu-63",
                     "text": "PhD Students",
-                    "link": "/elements/dividers"
+                    "link": "/team#phd"
                 },
                 {
                     "id": "menu-64",
                     "text": "Research Engineers",
-                    "link": "/elements/dividers"
+                    "link": "/team#assistants"
                 },
                 {
                     "id": "menu-65",
                     "text": "Project Students",
-                    "link": "/elements/dividers"
+                    "link": "/team#projectstudents"
                 },
                 {
                     "id": "menu-66",
                     "text": "Collaborators and Associates",
-                    "link": "/elements/dividers"
+                    "link": "/team#collaborators"
                 },
                 {
                     "id": "menu-67",
                     "text": "Alumni",
-                    "link": "/elements/dividers"
+                    "link": "/team#alumni"
                 }
             ]
         },

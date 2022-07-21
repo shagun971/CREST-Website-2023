@@ -386,6 +386,395 @@
                             "title": "Google Scholar"
                         }
                     ]
+                },
+                {
+                    "id": 2,
+                    "name": "Bushra Sabir",
+                    "designation": "PhD",
+                    "images": [
+                        {
+                            "src": "../images/team/busra.jpg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 2,
+                            "icon": "fab fa-twitter",
+                            "link": "https://twitter.com/bushra_sabir",
+                            "title": "Twitter"
+                        },
+                        {
+                            "id": 4,
+                            "icon": "fab si-googlescholar",
+                            "link": "https://scholar.google.com/citations?user=FeX-_H8AAAAJ&hl=en",
+                            "title": "Google Scholar"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "Fangchao Tian",
+                    "designation": "PhD",
+                    "images": [
+                        {
+                            "src": "../images/team/fangchao.jpg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 4,
+                            "icon": "fab si-googlescholar",
+                            "link": "https://scholar.google.com/citations?user=10EKKn0AAAAJ&hl=en",
+                            "title": "Google Scholar"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "Yasir Abdullah J Althobaiti",
+                    "designation": "PhD",
+                    "images": [
+                        {
+                            "src": "../images/team/yasir.jpg"
+                        }
+                    ],
+                    "socials": []
+                },
+                {
+                    "id": 5,
+                    "name": "Nesara Dissanayake",
+                    "designation": "PhD",
+                    "images": [
+                        {
+                            "src": "../images/team/nesara.png"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 2,
+                            "icon": "fab fa-twitter",
+                            "link": "https://twitter.com/nesara_d?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+                            "title": "Twitter"
+                        },
+                        {
+                            "id": 4,
+                            "icon": "fab si-googlescholar",
+                            "link": "https://scholar.google.com.au/citations?user=Vb1zvAQAAAAJ&hl=en",
+                            "title": "Google Scholar"
+                        },
+                        {
+                            "id": 4,
+                            "icon": "fab fa-linkedin",
+                            "link": "https://www.linkedin.com/in/nesaradissanayake",
+                            "title": "Linkedin"
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "name": "Roshan Rajapakse",
+                    "designation": "PhD",
+                    "images": [
+                        {
+                            "src": "../images/team/roshan.jpg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 2,
+                            "icon": "fab fa-twitter",
+                            "link": "https://twitter.com/rosh_nr",
+                            "title": "Twitter"
+                        },
+                        {
+                            "id": 4,
+                            "icon": "fab si-googlescholar",
+                            "link": "https://scholar.google.com/citations?user=GVmzDu4AAAAJ&hl=en",
+                            "title": "Google Scholar"
+                        },
+                        {
+                            "id": 4,
+                            "icon": "fab fa-linkedin",
+                            "link": "https://www.linkedin.com/in/roshanrajapakse/",
+                            "title": "Linkedin"
+                        },
+                        {
+                            "id": 3,
+                            "icon": "fab fa-github",
+                            "link": "https://github.com/RoshanRajapakse",
+                            "title": "GitHub"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "assistants",
+            "section": "assistants",
+            "section_title": {
+                "title": "<span>Research Assistants and Engineers</span>"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Shagun Dhingra",
+                    "designation": "Research Engineer",
+                    "images": [
+                        {
+                            "src": "../images/team/shagun.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Trung Ky (Keith) Moc",
+                    "designation": "Research Engineer",
+                    "images": [
+                        {
+                            "src": "../images/team/Keith.jpeg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 4,
+                            "icon": "fab fa-linkedin",
+                            "link": "https://www.linkedin.com/in/trung-ky-keith-moc-48981164/?originalSubdomain=au",
+                            "title": "Linkedin"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "Anjitha Sreekumar",
+                    "designation": "Research Engineer",
+                    "images": [
+                        {
+                            "src": "../images/team/Anjitha.png"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 2,
+                            "icon": "fab fa-twitter",
+                            "link": "https://twitter.com/skanjitha",
+                            "title": "Twitter"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "Amrit Swaroop Sinha",
+                    "designation": "Research Engineer",
+                    "images": [
+                        {
+                            "src": "../images/team/Amrit.jpeg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 4,
+                            "icon": "fab fa-linkedin",
+                            "link": "https://au.linkedin.com/in/amrit-swaroop-sinha",
+                            "title": "Linkedin"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "projectstudents",
+            "section": "projectstudents",
+            "section_title": {
+                "title": "<span>Project Students</span>"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Shagun Dhingra",
+                    "designation": "Research Engineer",
+                    "images": [
+                        {
+                            "src": "../images/team/shagun.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Trung Ky (Keith) Moc",
+                    "designation": "Research Engineer",
+                    "images": [
+                        {
+                            "src": "../images/team/Keith.jpeg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 4,
+                            "icon": "fab fa-linkedin",
+                            "link": "https://www.linkedin.com/in/trung-ky-keith-moc-48981164/?originalSubdomain=au",
+                            "title": "Linkedin"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "Anjitha Sreekumar",
+                    "designation": "Research Engineer",
+                    "images": [
+                        {
+                            "src": "../images/team/Anjitha.png"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 2,
+                            "icon": "fab fa-twitter",
+                            "link": "https://twitter.com/skanjitha",
+                            "title": "Twitter"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "collaborators",
+            "section": "collaborators",
+            "section_title": {
+                "title": "<span>Collaborators and Associates</span>"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Jamal EL HACHEM",
+                    "designation": "Assistant Professor",
+                    "images": [
+                        {
+                            "src": "../images/team/Jamal.jpg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 2,
+                            "icon": "fab fa-twitter",
+                            "link": "https://twitter.com/jamalelhachem",
+                            "title": "Twitter"
+                        },
+                        {
+                            "id": 4,
+                            "icon": "fab fa-linkedin",
+                            "link": "https://fr.linkedin.com/in/jamal-el-hachem-a5a5386b",
+                            "title": "Linkedin"
+                        },
+                        {
+                            "id": 4,
+                            "icon": "fab si-googlescholar",
+                            "link": "https://scholar.google.fr/citations?user=LscNzQwAAAAJ&hl=en",
+                            "title": "Google Scholar"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Chamila Wijayarathna",
+                    "designation": "Software Engineer",
+                    "images": [
+                        {
+                            "src": "../images/team/Chamila.jpg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 4,
+                            "icon": "fab fa-linkedin",
+                            "link": "https://www.linkedin.com/in/cdwijayarathna/?originalSubdomain=au",
+                            "title": "Linkedin"
+                        },
+                        {
+                            "id": 4,
+                            "icon": "fab si-googlescholar",
+                            "link": "https://scholar.google.com.au/citations?user=OI5GYRIAAAAJ&hl=en",
+                            "title": "Google Scholar"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "Shanshan Li",
+                    "designation": "Lecture",
+                    "images": [
+                        {
+                            "src": "../images/team/shanshan.jpeg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 4,
+                            "icon": "fab fa-linkedin",
+                            "link": "https://cn.linkedin.com/in/shanshan-li-586441143",
+                            "title": "Linkedin"
+                        },
+                        {
+                            "id": 4,
+                            "icon": "fab si-googlescholar",
+                            "link": "https://scholar.google.com/citations?user=E86VWYEAAAAJ&hl=en",
+                            "title": "Google Scholar"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "alumni",
+            "section": "alumni",
+            "section_title": {
+                "title": "<span>Alumni</span>"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Shagun Dhingra",
+                    "designation": "Research Engineer",
+                    "images": [
+                        {
+                            "src": "../images/team/shagun.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Trung Ky (Keith) Moc",
+                    "designation": "Research Engineer",
+                    "images": [
+                        {
+                            "src": "../images/team/Keith.jpeg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 4,
+                            "icon": "fab fa-linkedin",
+                            "link": "https://www.linkedin.com/in/trung-ky-keith-moc-48981164/?originalSubdomain=au",
+                            "title": "Linkedin"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "Anjitha Sreekumar",
+                    "designation": "Research Engineer",
+                    "images": [
+                        {
+                            "src": "../images/team/Anjitha.png"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 2,
+                            "icon": "fab fa-twitter",
+                            "link": "https://twitter.com/skanjitha",
+                            "title": "Twitter"
+                        }
+                    ]
                 }
             ]
         },

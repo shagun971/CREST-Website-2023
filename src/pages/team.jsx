@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import { normalizedData } from "@utils";
@@ -16,6 +16,14 @@ const LeadershipPage = ({ pageContext, location, data }) => {
     const content = normalizedData(data?.page?.content || []);
     const globalContent = normalizedData(data?.allGeneral.nodes || []);
 
+    useEffect(() => { //Jump into the section
+        window.addEventListener('locationchange', function () {
+            if (window.location.hash) {
+                window.scrollTo(0, document.getElementById(window.location.hash).offsetTop)
+            }
+        })
+    }, []);
+
     return (
         <Layout location={location}>
             <Seo title="Team" />
@@ -31,10 +39,30 @@ const LeadershipPage = ({ pageContext, location, data }) => {
                     location={location}
                     title="Team"
                 />
-                <HeadTeamArea data={content["head-section"]} />
-                <HeadTeamArea data={content["posdocs-section"]} />
+                <div id="faculty-members">
+                    <HeadTeamArea data={content["head-section"]} />
+                </div>
+                <div id="research-fellows">
+                    <HeadTeamArea data={content["posdocs-section"]} />
+                </div>
+
                 {/* <ExecutiveTeamArea data={content["posdocs-section"]} /> */}
-                <ExecutiveTeamArea data={content["phdstudent"]} />
+                <div id="phd">
+                    <ExecutiveTeamArea data={content["phdstudent"]} />
+                </div>
+                <div id="assistants">
+                    <ExecutiveTeamArea data={content["assistants"]} />
+                </div>
+                <div id="projectstudents">
+                    <ExecutiveTeamArea data={content["projectstudents"]} />
+                </div>
+                <div id="collaborators">
+                    <HeadTeamArea data={content["collaborators"]} />
+                </div>
+                <div id="alumni">
+                    <ExecutiveTeamArea data={content["alumni"]} />
+                </div>
+
                 {/* <EmployeTeamArea data={content["employee-section"]} /> */}
                 {/* <ContactArea data={content["contact-section"]} /> */}
             </main>

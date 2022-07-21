@@ -15,6 +15,7 @@ import { FaFacebookSquare, FaTwitter, FaInstagram, FaDribbble, FaGithub, FaLinke
 import { SiGooglescholar } from "react-icons/si";
 
 const TeamMember = ({ image, name, designation, socials, layout }) => {
+    // console.log(socials)
     return (
         <TeamMemberWrap $layout={layout}>
             <TeamMemberInner>
@@ -22,31 +23,33 @@ const TeamMember = ({ image, name, designation, socials, layout }) => {
                     {image?.src && (
                         <Image src={image.src} alt={image?.alt || name} />
                     )}
+                    {(socials && socials.length > 0) &&
+                        <TeamMemberSocialWrap>
+                            <Social
+                                color="light"
+                                variant="texted"
+                                tooltip={true}
+                                tooltip_bg="secondary"
+                                hover={{ color: "#fff" }}
+                                space="20px"
+                                size="small"
+                            >
+                                {socials?.map(({ id, icon, link, title }) => (
 
-                    <TeamMemberSocialWrap>
-                        <Social
-                            color="light"
-                            variant="texted"
-                            tooltip={true}
-                            tooltip_bg="secondary"
-                            hover={{ color: "#fff" }}
-                            space="20px"
-                            size="small"
-                        >
-                            {socials?.map(({ id, icon, link, title }) => (
+
+                                    <SocialLink key={id} title={title} path={link}>
+                                        {title == "Twitter" && <i className={icon}></i>}
+                                        {title == "Instagram" && <i className={icon}></i>}
+                                        {title == "Linkedin" && <i className={icon}></i>}
+                                        {title == "Google Scholar" && <SiGooglescholar />}
+                                        {title == "Personal Website" && <i className={icon}></i>}
+                                        {title == "GitHub" && <i className={icon}></i>}
+                                    </SocialLink>
+                                ))}
+                            </Social>
 
 
-                                <SocialLink key={id} title={title} path={link}>
-                                    {title == "Twitter" && <i className={icon}></i>}
-                                    {title == "Instagram" && <i className={icon}></i>}
-                                    {title == "Linkedin" && <i className={icon}></i>}
-                                    {title == "Google Scholar" && <SiGooglescholar />}
-                                    {title == "Personal Website" && <i className={icon}></i>}
-                                    {title == "GitHub" && <i className={icon}></i>}
-                                </SocialLink>
-                            ))}
-                        </Social>
-                    </TeamMemberSocialWrap>
+                        </TeamMemberSocialWrap>}
                 </TeamMemberImage>
                 <TeamMemberInfo $layout={layout}>
                     {name && (
