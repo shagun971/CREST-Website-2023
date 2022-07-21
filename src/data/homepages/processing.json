@@ -282,18 +282,6 @@
                         }
                     ],
                     "path": "https://southaustralia.com/"
-                },
-                {
-                    "id": 6,
-                    "images": [
-                        {
-                            "src": "../images/partners/logo-defence.png"
-                        },
-                        {
-                            "src": "../images/partners/logo-defence.png"
-                        }
-                    ],
-                    "path": "https://www.defence.gov.au/"
                 }
             ]
         },

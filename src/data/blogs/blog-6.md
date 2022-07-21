@@ -1,6 +1,6 @@
 ---
 title: "5 Ways Technology Has Improved Business Today"
-date: "2020-01-25 05:01:00"
+date: "2022-06-25 05:01:00"
 author: "Owen Christ"
 image: { src: "../images/blog/blog-03-1170x600.jpg", alt: "techy blog" }
 categories:

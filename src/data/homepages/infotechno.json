@@ -89,7 +89,7 @@
                     "path": "https://southaustralia.com/"
                 },
                 {
-                    "id": 6,
+                    "id": 5,
                     "images": [
                         {
                             "src": "../images/partners/logo-defence.png"
@@ -283,8 +283,8 @@
             "id": "infotechno-blog",
             "section": "blog-section",
             "section_title": {
-                "title": "Interesting articles <span>updated daily</span>",
-                "subtitle": "BLOGS & NEWS"
+                "title": "From Our Experts",
+                "subtitle": "BLOGS"
             }
         },
         {

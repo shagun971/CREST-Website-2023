@@ -38,7 +38,7 @@ const BoxLargeImage = ({
                                     px="30px"
                                     path={path}
                                 >
-                                    Learn more
+                                    Discover
                                 </Button>
                             </BoxLargeImgBtnInner>
                         </BoxLargeImgBtnWrap>
@@ -48,11 +48,13 @@ const BoxLargeImage = ({
                         <BoxLargeImgLink path={path}>{title}</BoxLargeImgLink>
                     </BoxLargeImgMedia>
                 )}
-                <BoxLargeImgContent>
-                    {desc && (
-                        <TextWrap dangerouslySetInnerHTML={{ __html: desc }} />
-                    )}
-                </BoxLargeImgContent>
+                {desc &&
+                    <BoxLargeImgContent>
+                        (
+                            <TextWrap dangerouslySetInnerHTML={{ __html: desc }} />
+                        )
+                    </BoxLargeImgContent>
+                }
             </BoxLargeImgInner>
         </BoxLargeImgWrap>
     );

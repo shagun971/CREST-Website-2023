@@ -16,12 +16,10 @@ import FunfactArea from "@containers/funfact/layout-01";
 import CtaArea from "@containers/cta/layout-01";
 import CaseStudyArea from "@containers/case-study/layout-01";
 import TestimonialArea from "@containers/testimonial/layout-01";
-import BlogArea from "@containers/blog/layout-02";
+import BlogArea from "@containers/blog/layout-01";
 import ContactArea from "@containers/contact/layout-01";
-import HomeSlider from "../containers/home-slider/layout-01";
-import OurWorkSection from "../containers/our-works/layout-01";
 
-const InfotechnoPage = ({ location, data }) => {
+const ResearchPage = ({ location, data }) => {
     const content = normalizedData(data?.page.content || []);
     const globalContent = normalizedData(data?.allGeneral.nodes || []);
 
@@ -35,10 +33,15 @@ const InfotechnoPage = ({ location, data }) => {
                 }}
             />
             <main className="site-wrapper-reveal">
-                {/* <HeroArea data={content["hero-section"]} /> */}
-                <HomeSlider />
-                <PartnerArea data={content["partner-section"]} />
-                {/* <AboutServiceWrap>
+                <HeroArea data={content["hero-section"]} />
+
+                <ITSolutionArea
+                    data={{
+                        ...content["feature-section"],
+                        items: data.allItSolution.nodes,
+                    }}
+                />
+                <AboutServiceWrap>
                     <AboutArea data={content["about-section"]} />
                     <ITServiceArea
                         data={{
@@ -46,30 +49,24 @@ const InfotechnoPage = ({ location, data }) => {
                             items: data.allItService.nodes,
                         }}
                     />
-                </AboutServiceWrap> */}
-                {/* <FunfactArea data={content["funfact-section"]} /> */}
-                {/* <CtaArea data={content["cta-section"]} /> */}
-                {/* <CaseStudyArea
+                </AboutServiceWrap>
+                <FunfactArea data={content["funfact-section"]} />
+                <CtaArea data={content["cta-section"]} />
+                <CaseStudyArea
                     data={{
                         ...content["case-study-section"],
                         items: data.allCaseStudy.nodes,
                     }}
-                /> */}
-                {/* <TestimonialArea data={content["testimonial-section"]} /> */}
-                <OurWorkSection />
+                />
+                <TestimonialArea data={content["testimonial-section"]} />
                 <BlogArea
                     data={{
                         ...content["blog-section"],
-                        featuredBlog: data.featuredBlogs.nodes[0],
+                        featuredBlogs: data.featuredBlogs.nodes,
                         recentBlogs: data.recentBlogs.nodes,
                     }}
                 />
-                {/* <ITSolutionArea
-                    data={{
-                        ...content["feature-section"],
-                        items: data.allItSolution.nodes,
-                    }}
-                /> */}
+                <PartnerArea data={content["partner-section"]} />
                 <ContactArea data={content["contact-section"]} />
             </main>
             <Footer data={{ ...data.site.siteMetadata }} />
@@ -78,7 +75,7 @@ const InfotechnoPage = ({ location, data }) => {
 };
 
 export const query = graphql`
-    query infotechnoPageQuery {
+    query researchPageQuery {
         allGeneral {
             nodes {
                 section
@@ -88,7 +85,7 @@ export const query = graphql`
         site {
             ...Site
         }
-        page(title: { eq: "infotechno" }, pageType: { eq: "frontpage" }) {
+        page(title: { eq: "processing" }, pageType: { eq: "frontpage" }) {
             content {
                 ...PageContent
             }
@@ -116,26 +113,25 @@ export const query = graphql`
             }
         }
         featuredBlogs: allArticle(
-            filter: { is_featured: {eq :true} }
-            sort: { fields: postedAt___date, order: DESC }
-            limit: 1
+            filter: { is_featured: { eq: true } }
+            limit: 2
         ) {
             nodes {
-                ...BlogThree
+                ...BlogOne
             }
         }
         recentBlogs: allArticle(
-            sort: { fields: postedAt___date, order: DESC }
-            limit: 3
+            filter: { is_featured: { eq: false } }
+            limit: 5
         ) {
             nodes {
-                ...BlogFour
+                ...BlogTwo
             }
         }
     }
 `;
 
-InfotechnoPage.propTypes = {
+ResearchPage.propTypes = {
     location: PropTypes.shape({}),
     data: PropTypes.shape({
         page: PropTypes.shape({
@@ -167,4 +163,4 @@ InfotechnoPage.propTypes = {
     }),
 };
 
-export default InfotechnoPage;
+export default ResearchPage;

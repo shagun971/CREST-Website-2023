@@ -9,7 +9,7 @@ import SectionTitle from '@components/ui/section-title'
 
 const slider = {
     slidesPerView: 6,
-    loop: true,
+    loop: false,
     speed: 1000,
     breakpoints: {
         320: {

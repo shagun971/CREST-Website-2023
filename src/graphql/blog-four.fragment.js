@@ -27,6 +27,7 @@ export const query = graphql`
             }
             alt
         }
+        excerpt,
         quote_text
         quote_author
         video_link

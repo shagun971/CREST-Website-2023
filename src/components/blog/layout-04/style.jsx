@@ -55,7 +55,7 @@ export const BlogThumb = styled.figure`
 
 export const BlogThumbMeta = styled.div`
     position: absolute;
-    bottom: 18px;
+    bottom: 4px;
     left: 30px;
     right: 30px;
     color: #fff;
@@ -80,9 +80,9 @@ export const BlogHeaderMeta = styled.div`
 `;
 
 export const BlogTitle = styled.h5`
-    font-size: 18px;
+    font-size: 16px;
     ${device.xlarge} {
-        font-size: 22px;
+        font-size: 20px;
     }
     a {
         color: inherit;
