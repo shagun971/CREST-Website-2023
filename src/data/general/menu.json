@@ -11,41 +11,9 @@
             "id": "menu-2",
             "text": "Research",
             "link": "/research",
-            "submenu": [
-                {
-                    "id": "menu-21",
-                    "text": "Secure System Engineering",
-                    "link": "/area1"
-                },
-                {
-                    "id": "menu-22",
-                    "text": "Cyber Security Analytics",
-                    "link": "/contact-us"
-                },
-                {
-                    "id": "menu-23",
-                    "text": "Infrastructure Security",
-                    "link": "/leadership"
-                },
-                {
-                    "id": "menu-24",
-                    "text": "Distributed Ledger Engineering",
-                    "link": "/why-choose-us"
-                }
-            ]
-        },
-        {
-            "id": "menu-3",
-            "text": "Team",
-            "link": "/it-services"
-        },
-        {
-            "id": "menu-4",
-            "text": "Resources",
-            "link": "/",
             "megamenu": [
                 {
-                    "title": "Supervision",
+                    "title": "Clusters",
                     "submenu": [
                         {
                             "id": "menu-411",
@@ -85,7 +53,7 @@
                     ]
                 },
                 {
-                    "title": "Collaboration",
+                    "title": "Projects",
                     "submenu": [
                         {
                             "id": "menu-421",
@@ -123,44 +91,61 @@
                             "link": "/elements/message-box"
                         }
                     ]
+                }
+            ]
+        },
+        {
+            "id": "menu-3",
+            "text": "News",
+            "link": "/it-services"
+        },
+        {
+            "id": "menu-4",
+            "text": "Resources",
+            "link": "/",
+            "megamenu": [
+                {
+                    "title": "Publications",
+                    "submenu": [
+                        {
+                            "id": "menu-411",
+                            "text": "Conference Paper",
+                            "link": "/elements/accordion"
+                        },
+                        {
+                            "id": "menu-412",
+                            "text": "Journal Paper",
+                            "link": "/elements/box-icon"
+                        }
+                    ]
                 },
                 {
                     "title": "Talks",
                     "submenu": [
                         {
+                            "id": "menu-421",
+                            "text": "Guest Talks",
+                            "link": "/elements/counters"
+                        },
+                        {
+                            "id": "menu-422",
+                            "text": "Our Talks",
+                            "link": "/elements/dividers"
+                        }
+                    ]
+                },
+                {
+                    "title": "Events",
+                    "submenu": [
+                        {
                             "id": "menu-431",
-                            "text": "Popup Video",
+                            "text": "Workshops",
                             "link": "/elements/popup-video"
                         },
                         {
                             "id": "menu-432",
-                            "text": "Pricing Box",
+                            "text": "Conference",
                             "link": "/elements/pricing-box"
-                        },
-                        {
-                            "id": "menu-433",
-                            "text": "Progress Bar",
-                            "link": "/elements/progress-bar"
-                        },
-                        {
-                            "id": "menu-434",
-                            "text": "Progress Circle",
-                            "link": "/elements/progress-circle"
-                        },
-                        {
-                            "id": "menu-435",
-                            "text": "Social Networks",
-                            "link": "/elements/social-networks"
-                        },
-                        {
-                            "id": "menu-436",
-                            "text": "Tabs",
-                            "link": "/elements/tabs"
-                        },
-                        {
-                            "id": "menu-437",
-                            "text": "Team member",
-                            "link": "/elements/team-member"
                         }
                     ]
                 }
@@ -168,18 +153,72 @@
         },
         {
             "id": "menu-5",
-            "text": "News",
-            "link": "/case-studies"
-        },
-        {
-            "id": "menu-6",
             "text": "Blogs",
             "link": "/blogs"
         },
         {
+            "id": "menu-6",
+            "text": "Team",
+            "link": "/team",
+            "submenu": [
+                {
+                    "id": "menu-61",
+                    "text": "Faculty Members",
+                    "link": "/elements/counters"
+                },
+                {
+                    "id": "menu-62",
+                    "text": "Research Fellows",
+                    "link": "/elements/dividers"
+                },
+                {
+                    "id": "menu-63",
+                    "text": "PhD Students",
+                    "link": "/elements/dividers"
+                },
+                {
+                    "id": "menu-64",
+                    "text": "Research Engineers",
+                    "link": "/elements/dividers"
+                },
+                {
+                    "id": "menu-65",
+                    "text": "Project Students",
+                    "link": "/elements/dividers"
+                },
+                {
+                    "id": "menu-66",
+                    "text": "Collaborators and Associates",
+                    "link": "/elements/dividers"
+                },
+                {
+                    "id": "menu-67",
+                    "text": "Alumni",
+                    "link": "/elements/dividers"
+                }
+            ]
+        },
+        {
             "id": "menu-7",
             "text": "Join us",
-            "link": "/join-us"
+            "link": "/join-us",
+            "submenu": [
+                {
+                    "id": "menu-71",
+                    "text": "Career",
+                    "link": "/elements/counters"
+                },
+                {
+                    "id": "menu-72",
+                    "text": "Scholarships",
+                    "link": "/elements/dividers"
+                },
+                {
+                    "id": "menu-73",
+                    "text": "Internships",
+                    "link": "/elements/dividers"
+                }
+            ]
         }
     ]
 }

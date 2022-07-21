@@ -11,6 +11,8 @@ import {
     TeamMemberInfo,
     TeamMemberName,
 } from "./style";
+import { FaFacebookSquare, FaTwitter, FaInstagram, FaDribbble, FaGithub, FaLinkedin } from "react-icons/fa";
+import { SiGooglescholar } from "react-icons/si";
 
 const TeamMember = ({ image, name, designation, socials, layout }) => {
     return (
@@ -32,8 +34,14 @@ const TeamMember = ({ image, name, designation, socials, layout }) => {
                             size="small"
                         >
                             {socials?.map(({ id, icon, link, title }) => (
+
+
                                 <SocialLink key={id} title={title} path={link}>
-                                    <i className={icon}></i>
+                                    {title == "Twitter" && <i className={icon}></i>}
+                                    {title == "Instagram" && <i className={icon}></i>}
+                                    {title == "Linkedin" && <i className={icon}></i>}
+                                    {title == "Google Scholar" && <SiGooglescholar />}
+                                    {title == "Personal Website" && <i className={icon}></i>}
                                 </SocialLink>
                             ))}
                         </Social>

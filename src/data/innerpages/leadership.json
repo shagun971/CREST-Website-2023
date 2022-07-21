@@ -6,96 +6,102 @@
             "id": "leadership-head",
             "section": "head-section",
             "section_title": {
-                "title": "We hire staffs who know more than what they show <br>of <span> IT services</span>"
+                "title": "<span>Faculty Members</span>"
             },
             "items": [
                 {
                     "id": 1,
-                    "name": "Dollie Horton",
-                    "designation": "Chief People Officer",
+                    "name": "M. Ali Babar",
+                    "designation": "Professor & Director CREST",
                     "images": [
                         {
-                            "src": "../images/team/team-member-07-370x455.jpg"
+                            "src": "../images/team/ali.jpeg"
                         }
                     ],
                     "socials": [
                         {
-                            "id": 1,
-                            "icon": "fab fa-facebook",
-                            "link": "https://www.twitter.com",
-                            "title": "Facebook"
-                        },
-                        {
                             "id": 2,
                             "icon": "fab fa-twitter",
-                            "link": "https://www.twitter.com",
+                            "link": "https://twitter.com/alibabar",
                             "title": "Twitter"
                         },
                         {
                             "id": 3,
-                            "icon": "fab fa-instagram",
-                            "link": "https://www.instagram.com",
-                            "title": "Instagram"
+                            "icon": "fab fa-dribbble",
+                            "link": "https://malibabar.wordpress.com/",
+                            "title": "Personal Website"
+                        },
+                        {
+                            "id": 4,
+                            "icon": "fab si-googlescholar",
+                            "link": "https://scholar.google.com.au/citations?user=oagBheUAAAAJ&hl=en",
+                            "title": "Google Scholar"
+                        },
+                        {
+                            "id": 4,
+                            "icon": "fab fa-linkedin",
+                            "link": "https://au.linkedin.com/in/muhammad-ali-babar-5bb4884",
+                            "title": "Linkedin"
                         }
                     ]
                 },
                 {
                     "id": 2,
-                    "name": "Robert Amplilian",
-                    "designation": "Chief People Officer",
+                    "name": "Mingyu Guo",
+                    "designation": "Lecturer",
                     "images": [
                         {
-                            "src": "../images/team/team-member-01-370x455.jpg"
+                            "src": "../images/team/mingyu.jpg"
                         }
                     ],
                     "socials": [
                         {
-                            "id": 1,
-                            "icon": "fab fa-facebook",
-                            "link": "https://www.twitter.com",
-                            "title": "Facebook"
+                            "id": 4,
+                            "icon": "fab si-googlescholar",
+                            "link": "https://scholar.google.com/citations?user=bxEKdzkAAAAJ&hl=en",
+                            "title": "Google Scholar"
                         },
                         {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://www.twitter.com",
-                            "title": "Twitter"
+                            "id": 4,
+                            "icon": "fab fa-linkedin",
+                            "link": "https://uk.linkedin.com/in/mingyu-guo-97236b1b",
+                            "title": "Linkedin"
                         },
                         {
                             "id": 3,
-                            "icon": "fab fa-instagram",
-                            "link": "https://www.instagram.com",
-                            "title": "Instagram"
+                            "icon": "fab fa-dribbble",
+                            "link": "https://cs.adelaide.edu.au/~mingyu/",
+                            "title": "Personal Website"
                         }
                     ]
                 },
                 {
                     "id": 3,
-                    "name": "Stephen Mearsley",
-                    "designation": "President & CEO",
+                    "name": "Faheem Ullah",
+                    "designation": "Lecturer",
                     "images": [
                         {
-                            "src": "../images/team/team-member-06-370x455.jpg"
+                            "src": "../images/team/Faheem.jpg"
                         }
                     ],
                     "socials": [
                         {
-                            "id": 1,
-                            "icon": "fab fa-facebook",
-                            "link": "https://www.twitter.com",
-                            "title": "Facebook"
+                            "id": 4,
+                            "icon": "fab si-googlescholar",
+                            "link": "https://scholar.google.com/citations?user=4dB2Py0AAAAJ&hl=en",
+                            "title": "Google Scholar"
                         },
                         {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://www.twitter.com",
-                            "title": "Twitter"
+                            "id": 4,
+                            "icon": "fab fa-linkedin",
+                            "link": "https://au.linkedin.com/in/faheem-ullah-75b56267",
+                            "title": "Linkedin"
                         },
                         {
                             "id": 3,
-                            "icon": "fab fa-instagram",
-                            "link": "https://www.instagram.com",
-                            "title": "Instagram"
+                            "icon": "fab fa-dribbble",
+                            "link": "https://researchers.adelaide.edu.au/profile/faheem.ullah",
+                            "title": "Personal Website"
                         }
                     ]
                 }
@@ -104,6 +110,9 @@
         {
             "id": "leadership-executive",
             "section": "executive-section",
+            "section_title": {
+                "title": "<span>Faculty Members</span>"
+            },
             "items": [
                 {
                     "id": 4,
