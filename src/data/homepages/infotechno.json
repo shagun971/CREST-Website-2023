@@ -191,95 +191,6 @@
             ]
         },
         {
-            "id": "infotechno-cta",
-            "section": "cta-section",
-            "headings": [
-                {
-                    "level": "h2",
-                    "content": "Share the joy of achieving glorious moments <br/> & climbing up the top."
-                }
-            ],
-            "video_button": {
-                "link": "https://www.youtube.com/watch?v=9No-FiEInLA",
-                "content": "Watch Video <br/> Intro"
-            }
-        },
-        {
-            "id": "infotechno-case-study",
-            "section": "case-study-section",
-            "section_title": {
-                "title": "Proud projects <span>make us excel</span>",
-                "subtitle": "CASE STUDIES"
-            },
-            "motto": {
-                "text": "Challenges are just opportunities in disguise.",
-                "linkText": "Take the challenge!",
-                "link": "/case-studies"
-            }
-        },
-        {
-            "id": "infotechno-testimonial",
-            "section": "testimonial-section",
-            "section_title": {
-                "title": "What do people praise about <span> Mitech?</span>",
-                "subtitle": "Testimonials"
-            },
-            "items": [
-                {
-                    "id": 1,
-                    "name": "Abbie Ferguson",
-                    "designation": "Marketing",
-                    "images": [
-                        {
-                            "src": "../images/avatar/avatar-01-90x90.jpg"
-                        }
-                    ],
-                    "rating": 5,
-                    "subject": "The Mitech team works really hard to ensure high level of quality",
-                    "description": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Mitech is one of the most impressive to me."
-                },
-                {
-                    "id": 2,
-                    "name": "Monica Blews",
-                    "designation": "Web designer",
-                    "images": [
-                        {
-                            "src": "../images/avatar/avatar-02-90x90.jpg"
-                        }
-                    ],
-                    "rating": 4,
-                    "subject": "The Mitech team works really hard to ensure high level of quality",
-                    "description": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Mitech is one of the most impressive to me."
-                },
-                {
-                    "id": 3,
-                    "name": "Sansa Stark",
-                    "designation": "Web designer",
-                    "images": [
-                        {
-                            "src": "../images/avatar/avatar-03-90x90.jpg"
-                        }
-                    ],
-                    "rating": 5,
-                    "subject": "The Mitech team works really hard to ensure high level of quality",
-                    "description": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Mitech is one of the most impressive to me."
-                },
-                {
-                    "id": 4,
-                    "name": "Rickon Stark",
-                    "designation": "Web developer",
-                    "images": [
-                        {
-                            "src": "../images/avatar/avatar-04-90x90.jpg"
-                        }
-                    ],
-                    "rating": 5,
-                    "subject": "The Mitech team works really hard to ensure high level of quality",
-                    "description": "I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Mitech is one of the most impressive to me."
-                }
-            ]
-        },
-        {
             "id": "infotechno-blog",
             "section": "blog-section",
             "section_title": {
@@ -288,34 +199,21 @@
             }
         },
         {
-            "id": "infotechno-contact-content",
-            "section": "contact-section",
+            "id": "infotechno-join-us-content",
+            "section": "join-us-section",
             "headings": [
                 {
-                    "level": "h3",
-                    "content": "Obtaining further information by <span>make a contact</span> with our experienced IT staffs."
-                },
-                {
-                    "level": "h6",
-                    "content": "REACH OUT NOW!"
-                },
-                {
-                    "level": "h2",
-                    "content": "190068668"
-                }
-            ],
-            "texts": [
-                {
-                    "content": "We’re available for 8 hours a day! <br/> Contact to require a detailed analysis and assessment of your plan"
+                    "level": "h4",
+                    "content": "Pursue your passion and work alongside world-recognized leaders in the field of software engineering. We invite you to view current employment opportunities, learn about benefits of working at the <span>CREST</span>, and apply for a position."
                 }
             ],
             "buttons": [
                 {
                     "id": 1,
-                    "color": "secondary",
+                    "color": "primary",
                     "hoverStyle": "three",
-                    "path": "/contact-us",
-                    "content": "Contact Us"
+                    "path": "/positions",
+                    "content": "Join Us"
                 }
             ]
         }

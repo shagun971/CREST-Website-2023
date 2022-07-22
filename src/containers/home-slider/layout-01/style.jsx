@@ -13,7 +13,4 @@ export const SectionWrap = styled.section`
         padding-block-end: 80px;
     }
 
-    .item {
-        max-height: 600px;
-    }
 `;

@@ -20,6 +20,7 @@ import BlogArea from "@containers/blog/layout-02";
 import ContactArea from "@containers/contact/layout-01";
 import HomeSlider from "../containers/home-slider/layout-01";
 import OurWorkSection from "../containers/our-works/layout-01";
+import JoinUsArea from "../containers/join-us/layout-01";
 
 const InfotechnoPage = ({ location, data }) => {
     const content = normalizedData(data?.page.content || []);
@@ -70,7 +71,7 @@ const InfotechnoPage = ({ location, data }) => {
                         items: data.allItSolution.nodes,
                     }}
                 /> */}
-                <ContactArea data={content["contact-section"]} />
+                <JoinUsArea data={content["join-us-section"]} />
             </main>
             <Footer data={{ ...data.site.siteMetadata }} />
         </Layout>

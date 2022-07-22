@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "@ui/wrapper";
-import SectionTitle from "@ui/section-title";
 import BoxLargeImage from "@components/box-large-image/layout-01";
 import MottoText from "@components/motto";
 import { data } from "./../data";
-import { SectionWrap, StyledAnchor } from "./style";
+import { SectionWrap, StyledAnchor, StyledSubtitle } from "./style";
+import CustomSectionTitle from "@ui/custom-section-title";
 
 const OurWorkSection = () => {
     return (
@@ -12,14 +12,16 @@ const OurWorkSection = () => {
             <Container>
                 <Row>
                     <Col xl={12}>
-                        <SectionTitle
-                            subtitle=""
-                            title="Our Work"
+                        <CustomSectionTitle
+                            subtitle={data.subtitle}
+                            title={data.title}
+                            description={data.description}
                         />
+
                     </Col>
                 </Row>
                 <Row className="gutter-xl-70 vAlign">
-                    {data.map((item) => {
+                    {data.clusters.map((item) => {
                         return (
                             <Col
                                 lg={4}

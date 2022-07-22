@@ -78,7 +78,7 @@ const Blog = ({
                 )}
                 {title && (
                     <BlogTitle>
-                        <Anchor path={`/${slug}`}>
+                        <Anchor path={`/blog/${slug}`}>
                             {title}
                         </Anchor>
                     </BlogTitle>
