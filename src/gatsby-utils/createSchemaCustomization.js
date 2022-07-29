@@ -8,6 +8,7 @@ const {
     siteDefs,
     blogDefs,
     authorDefs,
+    newsDefs,
 } = require("./typedefs");
 
 module.exports = async ({ actions }) => {
@@ -23,6 +24,7 @@ module.exports = async ({ actions }) => {
         siteDefs,
         blogDefs,
         authorDefs,
+        newsDefs,
     ];
 
     createTypes(allTypeDefs);

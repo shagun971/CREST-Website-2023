@@ -1,9 +1,9 @@
 module.exports = `
-type Article implements Node @childof(type: "Mdx"){
+type News implements Node @childof(type: "Mdx"){
     id: ID!
     title: String!
     slug: String!
-    postedAt: BlogDate!
+    postedAt: NewsDate!
     image: Image
     quote_text: String
     quote_author: String
@@ -18,7 +18,7 @@ type Article implements Node @childof(type: "Mdx"){
     content: String
     type: String
 }
-type BlogDate {
+type NewsDate {
     date: Date! @dateformat
     slug: String!
 }

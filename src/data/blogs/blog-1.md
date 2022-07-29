@@ -14,6 +14,7 @@ quote_text: "The use of apps in investment ideas is a great way to enjoy the con
 quote_author: "Beeige Lunmis"
 description: "adsfasdf"
 is_featured: false
+type: blog
 ---
 
 Have you ever thought about a guarantee in which you invest your money and get returns? While people tend to have different ideas on the best ways to invest

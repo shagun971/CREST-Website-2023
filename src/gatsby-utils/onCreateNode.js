@@ -97,29 +97,58 @@ module.exports = ({ node, actions, createNodeId }) => {
     }
 
     if (node.internal.type === "Mdx") {
-        createNode({
-            id: createNodeId(`Article-${node.id}`),
-            parent: node.id,
-            title: node.frontmatter.title,
-            slug: slugify(node.frontmatter.title),
-            postedAt: node.frontmatter.date,
-            image: node.frontmatter.image,
-            quote_text: node.frontmatter.quote_text,
-            quote_author: node.frontmatter.quote_author,
-            video_link: node.frontmatter.video_link,
-            categories: node.frontmatter.categories,
-            tags: node.frontmatter.tags,
-            format: node.frontmatter.format,
-            is_featured: node.frontmatter.is_featured,
-            author: node.frontmatter.author,
-            // define a description entity in frontmatter metadata to replace excerpt
-            excerpt: node.frontmatter.description,
-            description: node.frontmatter.description,
-            internal: {
-                type: "Article",
-                contentDigest: node.internal.contentDigest,
-            },
-        });
+        if (node.frontmatter.type === "blog") {
+            createNode({
+                id: createNodeId(`Article-${node.id}`),
+                parent: node.id,
+                title: node.frontmatter.title,
+                slug: slugify(node.frontmatter.title),
+                postedAt: node.frontmatter.date,
+                image: node.frontmatter.image,
+                quote_text: node.frontmatter.quote_text,
+                quote_author: node.frontmatter.quote_author,
+                video_link: node.frontmatter.video_link,
+                categories: node.frontmatter.categories,
+                tags: node.frontmatter.tags,
+                format: node.frontmatter.format,
+                is_featured: node.frontmatter.is_featured,
+                author: node.frontmatter.author,
+                // define a description entity in frontmatter metadata to replace excerpt
+                excerpt: node.frontmatter.description,
+                description: node.frontmatter.description,
+                type: node.frontmatter.type,
+                internal: {
+                    type: "Article",
+                    contentDigest: node.internal.contentDigest,
+                },
+            });
+        } else if (node.frontmatter.type === "news") {
+            createNode({
+                id: createNodeId(`News-${node.id}`),
+                parent: node.id,
+                title: node.frontmatter.title,
+                slug: slugify(node.frontmatter.title),
+                postedAt: node.frontmatter.date,
+                image: node.frontmatter.image,
+                quote_text: node.frontmatter.quote_text,
+                quote_author: node.frontmatter.quote_author,
+                video_link: node.frontmatter.video_link,
+                categories: node.frontmatter.categories,
+                tags: node.frontmatter.tags,
+                format: node.frontmatter.format,
+                is_featured: node.frontmatter.is_featured,
+                author: node.frontmatter.author,
+                // define a description entity in frontmatter metadata to replace excerpt
+                excerpt: node.frontmatter.description,
+                description: node.frontmatter.description,
+                type: node.frontmatter.type,
+                content: node.body,
+                internal: {
+                    type: "News",
+                    contentDigest: node.internal.contentDigest,
+                },
+            });
+        }
     }
 
     if (node.internal.type === "AuthorsJson") {

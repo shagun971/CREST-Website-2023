@@ -14,6 +14,7 @@ tags:
 format: "video"
 description: "Have you ever thought about a guarantee in which you invest your money and get returns? While people tend to have different ideas on the best ways to invest"
 is_featured: false
+type: blog
 ---
 
 Have you ever thought about a guarantee in which you invest your money and get returns? While people tend to have different ideas on the best ways to invest

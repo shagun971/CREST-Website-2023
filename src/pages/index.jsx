@@ -21,6 +21,7 @@ import ContactArea from "@containers/contact/layout-01";
 import HomeSlider from "../containers/home-slider/layout-01";
 import OurWorkSection from "../containers/our-works/layout-01";
 import JoinUsArea from "../containers/join-us/layout-01";
+import NewsArea from "../containers/news-area/layout-01";
 
 const InfotechnoPage = ({ location, data }) => {
     const content = normalizedData(data?.page.content || []);
@@ -58,6 +59,12 @@ const InfotechnoPage = ({ location, data }) => {
                 /> */}
                 {/* <TestimonialArea data={content["testimonial-section"]} /> */}
                 <OurWorkSection />
+                <NewsArea
+                    data={{
+                        ...content["news-section"],
+                        recentNews: data.recentNews.nodes,
+                    }}
+                />
                 <BlogArea
                     data={{
                         ...content["blog-section"],
@@ -133,6 +140,14 @@ export const query = graphql`
                 ...BlogFour
             }
         }
+        recentNews: allNews(
+            sort: {fields: postedAt___date, order: DESC}
+            limit: 4
+        ) {
+            nodes {
+              ...NewsOne
+            }
+        }
     }
 `;
 
@@ -165,6 +180,9 @@ InfotechnoPage.propTypes = {
         recentBlogs: PropTypes.shape({
             nodes: PropTypes.arrayOf(PropTypes.shape({})),
         }),
+        recentNews: PropTypes.shape({
+            nodes: PropTypes.arrayOf(PropTypes.shape({})),
+        })
     }),
 };
 

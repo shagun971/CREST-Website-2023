@@ -87,6 +87,7 @@ module.exports = async ({ graphql, actions }) => {
                             date(formatString: "LL")
                             slug
                         }
+                        type
                     }
                     next {
                         title
@@ -104,6 +105,7 @@ module.exports = async ({ graphql, actions }) => {
                                 }
                             }
                         }
+                        type
                     }
                     previous {
                         title
@@ -121,6 +123,7 @@ module.exports = async ({ graphql, actions }) => {
                                 }
                             }
                         }
+                        type
                     }
                 }
             }
@@ -129,16 +132,16 @@ module.exports = async ({ graphql, actions }) => {
 
     // Create Single IT Service page
 
-    const itservices = result.data.allItService.nodes;
-    itservices.forEach((node) => {
-        createPage({
-            path: `it-service/${node.slug}`,
-            component: servicePage,
-            context: {
-                slug: node.slug,
-            },
-        });
-    });
+    // const itservices = result.data.allItService.nodes;
+    // itservices.forEach((node) => {
+    //     createPage({
+    //         path: `it-service/${node.slug}`,
+    //         component: servicePage,
+    //         context: {
+    //             slug: node.slug,
+    //         },
+    //     });
+    // });
 
     // Create Single IT Solution page
     const itsolutions = result.data.allItSolution.nodes;

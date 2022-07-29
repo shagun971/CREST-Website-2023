@@ -191,6 +191,14 @@
             ]
         },
         {
+            "id": "infotechno-news",
+            "section": "news-section",
+            "section_title": {
+                "title": "Our Are Moving",
+                "subtitle": "NEWS"
+            }
+        },
+        {
             "id": "infotechno-blog",
             "section": "blog-section",
             "section_title": {
