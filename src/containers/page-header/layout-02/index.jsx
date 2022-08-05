@@ -17,7 +17,9 @@ const PageHeader = ({ pageContext, location, title }) => {
         "/page",
         "/blog",
         "/blog/page",
-        "/blogs",
+        "/blogs/page",
+        "/news",
+        "/latest-news/page",
         "/services",
     ];
     const customCrumbLabel = location.pathname.toLowerCase();

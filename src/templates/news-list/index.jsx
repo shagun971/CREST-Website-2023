@@ -4,7 +4,6 @@ import { graphql } from "gatsby";
 import { normalizedData } from "@utils";
 import { Container, Row, Col } from "@ui/wrapper";
 import {
-    RecentPostsWidget,
     PopularTagsWidget,
     AdWidget,
 } from "@components/widgets";
@@ -13,11 +12,11 @@ import Layout from "@layout";
 import Header from "@layout/header/layout-01";
 import Footer from "@layout/footer/layout-01";
 import PageHeader from "@containers/page-header/layout-02";
-import BlogArea from "@containers/blog/layout-03";
-import Pagination from "@components/blog/pagination";
+import NewsArea from "@containers/news-area/news-in-list";
+import Pagination from "@components/news/pagination";
 import { StyledSection, StyledSidebar } from "./style";
 
-const BlogListTemplate = ({ pageContext, location, data }) => {
+const NewsListTemplate = ({ pageContext, location, data }) => {
     const content = normalizedData(data?.page?.content || []);
     const globalContent = normalizedData(data?.allGeneral.nodes || []);
     const { currentPage, numberOfPages } = pageContext;
@@ -25,7 +24,7 @@ const BlogListTemplate = ({ pageContext, location, data }) => {
     return (
         <Layout location={location}>
             <Seo
-                title={`Blog: ${
+                title={`News: ${
                     currentPage !== 0 ? `Page ${currentPage}` : ""
                 }`}
             />
@@ -39,7 +38,7 @@ const BlogListTemplate = ({ pageContext, location, data }) => {
                 <PageHeader
                     pageContext={pageContext}
                     location={location}
-                    title="Blog Update"
+                    title={`Latest News & Events`}
                 />
                 <StyledSection>
                     <Container>
@@ -49,14 +48,6 @@ const BlogListTemplate = ({ pageContext, location, data }) => {
                                 xs={{ span: 12, order: 2 }}
                             >
                                 <StyledSidebar>
-                                    <RecentPostsWidget
-                                        mb="50px"
-                                        blogs={data.recentPosts.nodes}
-                                        data={{
-                                            ...content["recent-widget-section"],
-                                            blogs: data.recentPosts.nodes,
-                                        }}
-                                    />
                                     <AdWidget
                                         data={content["ad-section"]}
                                         mb="47px"
@@ -73,16 +64,16 @@ const BlogListTemplate = ({ pageContext, location, data }) => {
                                 lg={{ span: 8, order: 2 }}
                                 xs={{ span: 12, order: 1 }}
                             >
-                                <BlogArea
+                                <NewsArea
                                     data={{
-                                        ...content["blog-section"],
-                                        blogs: data.blogs.nodes,
+                                        ...content["news-section"],
+                                        news: data.news.nodes,
                                         siteUrl: data.site.siteMetadata.siteUrl,
                                     }}
                                 />
                                 <Pagination
                                     mt="40px"
-                                    rootPage="/blogs"
+                                    rootPage="/latest-news"
                                     currentPage={currentPage}
                                     numberOfPages={numberOfPages}
                                 />
@@ -97,7 +88,7 @@ const BlogListTemplate = ({ pageContext, location, data }) => {
 };
 
 export const query = graphql`
-    query BlogListTemplateQuery($skip: Int!, $limit: Int!) {
+    query NewsListTemplateQuery($skip: Int!, $limit: Int!) {
         allGeneral {
             nodes {
                 section
@@ -107,30 +98,22 @@ export const query = graphql`
         site {
             ...Site
         }
-        page(title: { eq: "blog" }, pageType: { eq: "innerpage" }) {
+        page(title: { eq: "news" }, pageType: { eq: "innerpage" }) {
             content {
                 ...PageContent
             }
         }
-        blogs: allArticle(
+        news: allNews(
             sort: { fields: postedAt___date, order: DESC }
             limit: $limit
             skip: $skip
         ) {
             totalCount
             nodes {
-                ...BlogFive
+                ...NewsListItem
             }
         }
-        recentPosts: allArticle(
-            sort: { fields: postedAt___date, order: ASC }
-            limit: 5
-        ) {
-            nodes {
-                ...BlogTwo
-            }
-        }
-        tags: allArticle {
+        tags: allNews {
             nodes {
                 tags {
                     title
@@ -140,7 +123,7 @@ export const query = graphql`
         }
     }
 `;
-BlogListTemplate.propTypes = {
+NewsListTemplate.propTypes = {
     pageContext: PropTypes.shape({
         currentPage: PropTypes.number,
         numberOfPages: PropTypes.number,
@@ -159,12 +142,9 @@ BlogListTemplate.propTypes = {
         page: PropTypes.shape({
             content: PropTypes.arrayOf(PropTypes.shape({})),
         }),
-        blogs: PropTypes.shape({
+        news: PropTypes.shape({
             nodes: PropTypes.arrayOf(PropTypes.shape({})),
             totalCount: PropTypes.number,
-        }),
-        recentPosts: PropTypes.shape({
-            nodes: PropTypes.arrayOf(PropTypes.shape({})),
         }),
         tags: PropTypes.shape({
             nodes: PropTypes.arrayOf(PropTypes.shape({})),
@@ -172,4 +152,4 @@ BlogListTemplate.propTypes = {
     }),
 };
 
-export default BlogListTemplate;
+export default NewsListTemplate;

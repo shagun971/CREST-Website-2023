@@ -142,7 +142,6 @@ module.exports = ({ node, actions, createNodeId }) => {
                 excerpt: node.frontmatter.description,
                 description: node.frontmatter.description,
                 type: node.frontmatter.type,
-                content: node.body,
                 internal: {
                     type: "News",
                     contentDigest: node.internal.contentDigest,
