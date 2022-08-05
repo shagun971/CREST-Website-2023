@@ -70,9 +70,7 @@ const SingleNewsTemplate = ({ pageContext, location, data }) => {
                   mb='10px'
                   categories={newsData?.categories}
                 />
-                {newsData?.title && (
-                  <StyledTitle>{newsData.title}</StyledTitle>
-                )}
+                {newsData?.title && <StyledTitle>{newsData.title}</StyledTitle>}
                 <StyledHeaderMeta>
                   {newsData?.author && (
                     <AuthorMeta
@@ -94,7 +92,7 @@ const SingleNewsTemplate = ({ pageContext, location, data }) => {
                   )}
                 </StyledHeaderMeta>
               </header>
-              <StyledContent className="markdown">
+              <StyledContent className='markdown'>
                 <MDXProvider components={MarkdownComponents}>
                   <MDXRenderer>
                     {newsData?.content || "News Content"}

@@ -59,20 +59,7 @@ module.exports = {
         `gatsby-plugin-anchor-links`,
         // "gatsby-plugin-preload-fonts",
         {
-            resolve: `gatsby-plugin-mdx`,
-            options: {
-                extensions: [`.md`, `.mdx`],
-                gatsbyRemarkPlugins: [
-                    `gatsby-remark-prismjs`,
-                    {
-                        resolve: `gatsby-remark-images`,
-                        options: {
-                            maxWidth: 1200,
-                        },
-                    },
-                ],
-                plugins: [`gatsby-remark-images`]
-            },
+            resolve: 'gatsby-plugin-mdx-frontmatter'
         },
         {
             resolve: `gatsby-source-filesystem`,
@@ -160,6 +147,28 @@ module.exports = {
                 autoGenHomeLabel: `Home`,
                 exclude: [`/dev-404-page`, `/404`, `/404.html`],
                 useClassNames: true,
+            },
+        },
+        {
+            resolve: `gatsby-plugin-mdx`,
+            options: {
+                extensions: [`.md`, `.mdx`],
+                gatsbyRemarkPlugins: [
+                    `gatsby-remark-prismjs`,
+                    {
+                        resolve: `gatsby-remark-images`,
+                        options: {
+                            maxWidth: 1200,
+                        },
+                    },
+                ],
+                plugins: [`gatsby-remark-images`]
+            },
+        },
+        {
+            resolve: `gatsby-source-google-scholar`,
+            options: {
+              queries: [`Nguyen Khoi Tran Adelaide`],
             },
         },
         "gatsby-plugin-offline",
