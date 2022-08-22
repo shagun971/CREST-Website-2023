@@ -166,24 +166,7 @@
         {
             "id": "menu-7",
             "text": "Join us",
-            "link": "/positions",
-            "submenu": [
-                {
-                    "id": "menu-71",
-                    "text": "Career",
-                    "link": "/positions"
-                },
-                {
-                    "id": "menu-72",
-                    "text": "Scholarships",
-                    "link": "/elements/dividers"
-                },
-                {
-                    "id": "menu-73",
-                    "text": "Internships",
-                    "link": "/elements/dividers"
-                }
-            ]
+            "link": "/positions"
         }
     ]
 }
