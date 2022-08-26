@@ -17,6 +17,7 @@ import CtaArea from "@containers/cta/layout-01";
 import CaseStudyArea from "@containers/case-study/layout-01";
 import TestimonialArea from "@containers/testimonial/layout-01";
 import BlogArea from "@containers/blog/layout-02";
+import TwitterArea from "@containers/blog/twitter";
 import ContactArea from "@containers/contact/layout-01";
 import HomeSlider from "../containers/home-slider/layout-01";
 import OurWorkSection from "../containers/our-works/layout-01";
@@ -72,6 +73,7 @@ const InfotechnoPage = ({ location, data }) => {
                         recentBlogs: data.recentBlogs.nodes,
                     }}
                 />
+                <TwitterArea />
                 {/* <ITSolutionArea
                     data={{
                         ...content["feature-section"],
