@@ -121,14 +121,16 @@ export const TimelineInfoInner = styled.div`
   ${device.xlarge} {
     padding-block-start: 60px;
   }
-`;
-
-export const TimelineContent = styled.div`
-  display: inline-block;
-  max-width: 100%;
   padding-inline-start: 15px;
   padding-inline-end: 15px;
 `;
+
+// export const TimelineContent = styled.div`
+//   display: inline-block;
+//   max-width: 100%;
+//   padding-inline-start: 15px;
+//   padding-inline-end: 15px;
+// `;
 
 export const Title = styled.h6`
   margin-block-end: 15px;
@@ -141,9 +143,11 @@ export const Title = styled.h6`
 export const Description = styled.p`
   font-size: 16px;
   line-height: 1.8;
+  text-align: justify;
   ${device.small} {
     font-size: 18px;
     line-height: 2;
+    text-align: justify;
   }
 `;
 

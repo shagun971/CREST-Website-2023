@@ -18,6 +18,7 @@ import {
   Title,
   Description,
 } from "./style";
+import { Col, Row } from "react-bootstrap";
 
 const Timeline = ({ items }) => {
   let rendered = [];
@@ -39,17 +40,31 @@ const Timeline = ({ items }) => {
               <TimelineRow>
                 <TimelineFeature>
                   <TimelineFeatureInner>
-                    <DateWrap>
-                      {getYear(year)}
-                    </DateWrap>
+                    <DateWrap>{getYear(year)}</DateWrap>
                   </TimelineFeatureInner>
                 </TimelineFeature>
                 <TimelineInfo>
                   <TimelineInfoInner>
-                    <TimelineContent>
-                      {title && <Title>{title}</Title>}
-                      {description && <Description>{description}</Description>}
-                    </TimelineContent>
+                    <Row>
+                      <Col>{title && <Title>{title}</Title>}</Col>
+                    </Row>
+                    <Row>
+                      <Col lg={4}>
+                        {images?.[0]?.src && (
+                          <Photo>
+                            <Image
+                              src={images[0].src}
+                              alt={images[0]?.alt || "timeline"}
+                            />
+                          </Photo>
+                        )}
+                      </Col>
+                      <Col lg={8}>
+                        {description && (
+                          <Description>{description}</Description>
+                        )}
+                      </Col>
+                    </Row>
                   </TimelineInfoInner>
                 </TimelineInfo>
               </TimelineRow>

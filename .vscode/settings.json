@@ -16,7 +16,11 @@
         "titleBar.activeBackground": "#423ece",
         "titleBar.activeForeground": "#e7e7e7",
         "titleBar.inactiveBackground": "#423ece99",
-        "titleBar.inactiveForeground": "#e7e7e799"
+        "titleBar.inactiveForeground": "#e7e7e799",
+        "commandCenter.border": "#e7e7e799"
     },
-    "peacock.remoteColor": "#423ece"
+    "peacock.remoteColor": "#423ece",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
 }
