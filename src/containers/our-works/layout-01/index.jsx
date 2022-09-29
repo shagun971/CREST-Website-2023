@@ -1,10 +1,9 @@
-import React from "react";
-import { Container, Row, Col } from "@ui/wrapper";
 import BoxLargeImage from "@components/box-large-image/layout-01";
-import MottoText from "@components/motto";
-import { data } from "./../data";
-import { SectionWrap, StyledAnchor, StyledSubtitle } from "./style";
 import CustomSectionTitle from "@ui/custom-section-title";
+import { Col, Container, Row } from "@ui/wrapper";
+import React from "react";
+import { data } from "./../data";
+import { SectionWrap } from "./style";
 
 const OurWorkSection = () => {
     return (

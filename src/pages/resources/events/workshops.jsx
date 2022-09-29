@@ -9,6 +9,53 @@ import { graphql } from "gatsby";
 import PropTypes from "prop-types";
 import * as React from "react";
 
+import ImageOne from "@data/images/workshops/workshop-image-01.jpg";
+import ImageTwo from "@data/images/workshops/workshop-image-02.jpg";
+import ImageThree from "@data/images/workshops/workshop-image-03.jpg";
+import ImageFour from "@data/images/workshops/workshop-image-04.jpg";
+const workshopData = [
+  {
+    id: 1,
+    year: "2022",
+    images: [{ src: ImageOne }],
+    title:
+      "May, 10th - CREST and SCS lab (Sydney) Workshop to share ideas and discuss potential collaboration",
+    hosts: {
+      "host 1": "http://host.org",
+      "host 2": "host 3",
+    },
+    description:
+      "Workshop description for the workshop at May, 10th - CREST and SCS lab (Sydney) Workshop to share ideas and discuss potential collaboration, this is a really informative workshop which have atrracted a large amount of participants.",
+    socialNetworks: {
+      twitter: "http://twitter.com",
+      linkedin: "",
+      youtube: "https://www.youtube.com/watch?v=BX4o_G76xEc",
+    },
+  },
+  {
+    id: 2,
+    year: "2022",
+    images: [{ src: ImageFour }],
+    title:
+      "May, 6th - The Art and Practice of Data Science Pipelines: A Comprehensive Study of Data Science Pipelines In Theory, In-The-Small, and In-The-Large.",
+    description: "Workshop description...",
+  },
+  {
+    id: 3,
+    year: "2022",
+    images: [{ src: ImageThree }],
+    title: "Apr, 1st - Edge Intelligence Challenges in Next-Generation Network",
+    description: "Workshop description...",
+  },
+  {
+    id: 4,
+    year: "2022",
+    images: [{ src: ImageOne }],
+    title: "Feb, 9th - Effective time management and combating procastination",
+    description: "Workshop description...",
+  },
+];
+
 const WorkshopPage = ({ pageContext, location, data }) => {
     const content = normalizedData(data?.page?.content || []);
     const globalContent = normalizedData(data?.allGeneral.nodes || []);
@@ -27,7 +74,7 @@ const WorkshopPage = ({ pageContext, location, data }) => {
         title='Workshops'
       />
       <main className='site-wrapper-reveal'>
-        <TimelineArea />
+        <TimelineArea content={workshopData} />
       </main>
       <Footer data={{ ...data.site.siteMetadata }} />
     </Layout>

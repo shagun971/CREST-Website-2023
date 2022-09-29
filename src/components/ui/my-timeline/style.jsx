@@ -141,15 +141,15 @@ export const Title = styled.h6`
 `;
 
 export const Description = styled.p`
+  margin-block-start: 8px;
   font-size: 16px;
   line-height: 1.8;
   text-align: justify;
-  ${device.small} {
-    font-size: 18px;
-    line-height: 2;
-    text-align: justify;
-  }
 `;
+
+export const HostName = styled.span`
+  color: #10101E;
+`
 
 export const Item = styled.div`
   position: relative;
