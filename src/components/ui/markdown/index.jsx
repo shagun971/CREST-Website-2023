@@ -50,7 +50,33 @@ const StyledOrder = styled.ol`
   }
 `;
 
+const StyledH1 = styled.h1`
+  text-align: center;
+
+  text-transform: uppercase;
+  font-size: 26px;
+  letter-spacing: 1px;
+
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: 16px 0;
+  grid-gap: 22px;
+
+  &:after {
+    content: " ";
+    display: block;
+    border-bottom: 2px solid #CFCFCF;
+  }
+  &:before {
+    content: " ";
+    display: block;
+    border-bottom: 2px solid #CFCFCF;
+  }
+`;
+
+
 export const MarkdownComponents = {
   ul: StyledList,
   ol: StyledOrder,
+  h1: StyledH1,
 };

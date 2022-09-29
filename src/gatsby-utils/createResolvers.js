@@ -96,6 +96,29 @@ module.exports = ({ createResolvers }) => {
         },
       },
     },
+    Resources: {
+      content: {
+        resolve: async (source, _args, context, info) => {
+          await context.nodeModel.prepareNodes(
+            info.parentType,
+            { parent: { body: true } },
+            { parent: { body: true } },
+            [info.parentType.name]
+          );
+
+          const newSource = context.nodeModel.getNodeById({
+            id: source.id,
+          });
+
+          return (
+            newSource &&
+            newSource.__gatsby_resolved &&
+            newSource.__gatsby_resolved.parent &&
+            newSource.__gatsby_resolved.parent.body
+          );
+        },
+      },
+    },
   };
   createResolvers(resolvers);
 };

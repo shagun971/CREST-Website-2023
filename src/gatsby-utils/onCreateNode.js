@@ -97,7 +97,19 @@ module.exports = ({ node, actions, createNodeId }) => {
     }
 
     if (node.internal.type === "Mdx") {
-        if (node.frontmatter.type === "blog") {
+        if (node.frontmatter.type === "resources") {
+            createNode({
+              id: node.frontmatter.id,
+              parent: node.id,
+              type: node.frontmatter.type,
+            //   content: node.body,
+              internal: {
+                type: "Resources",
+                contentDigest: node.internal.contentDigest,
+            },
+            });
+        }
+        else if (node.frontmatter.type === "blog") {
             createNode({
                 id: createNodeId(`Article-${node.id}`),
                 parent: node.id,

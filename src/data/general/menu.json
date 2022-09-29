@@ -79,14 +79,15 @@
                     "submenu": [
                         {
                             "id": "menu-411",
-                            "text": "Conference Paper",
-                            "link": "/elements/accordion"
+                            "text": "Journal Papers",
+                            "link": "/resources/publications/papers"
                         },
                         {
                             "id": "menu-412",
-                            "text": "Journal Paper",
-                            "link": "/elements/box-icon"
+                            "text": "Conference Presentations",
+                            "link": "/resources/publications/conference-presentations"
                         }
+
                     ]
                 },
                 {

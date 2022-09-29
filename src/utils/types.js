@@ -155,6 +155,11 @@ export const NewsType = {
     tags: PropTypes.arrayOf(PropTypes.shape(BlogMetaType)),
 };
 
+export const ResourcesType = {
+    id: PropTypes.string,
+    type: PropTypes.string,
+};
+
 
 export const SoicalType = {
     id: IDType,

@@ -57,7 +57,6 @@ const workshopData = [
 ];
 
 const WorkshopPage = ({ pageContext, location, data }) => {
-    const content = normalizedData(data?.page?.content || []);
     const globalContent = normalizedData(data?.allGeneral.nodes || []);
   return (
     <Layout location={location}>
@@ -92,11 +91,6 @@ export const query = graphql`
     site {
       ...Site
     }
-    page(title: { eq: "careers" }, pageType: { eq: "innerpage" }) {
-      content {
-        ...PageContent
-      }
-    }
   }
 `;
 
@@ -111,9 +105,6 @@ WorkshopPage.propTypes = {
       siteMetadata: PropTypes.shape({
         contact: PropTypes.shape({}),
       }),
-    }),
-    page: PropTypes.shape({
-      content: PropTypes.arrayOf(PropTypes.shape({})),
     }),
   }),
 };
