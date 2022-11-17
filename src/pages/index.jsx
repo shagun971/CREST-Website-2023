@@ -39,7 +39,7 @@ const InfotechnoPage = ({ location, data }) => {
             />
             <main className="site-wrapper-reveal">
                 {/* <HeroArea data={content["hero-section"]} /> */}
-                <HomeSlider />
+                <HomeSlider data={content["slider-section"]}/>
                 <PartnerArea data={content["partner-section"]} />
                 {/* <AboutServiceWrap>
                     <AboutArea data={content["about-section"]} />
