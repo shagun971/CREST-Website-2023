@@ -55,12 +55,6 @@ const InfotechnoPage = ({ location, data }) => {
           }}
         />
         <TwitterArea />
-        {/* <ITSolutionArea
-                    data={{
-                        ...content["feature-section"],
-                        items: data.allItSolution.nodes,
-                    }}
-                /> */}
         <JoinUsArea data={content["join-us-section"]} />
       </main>
       <Footer data={{ ...data.site.siteMetadata }} />
