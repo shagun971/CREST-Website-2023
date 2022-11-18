@@ -9,7 +9,7 @@
         {
           "id": 1,
           "title": "Big Data",
-          "description":"Big Data Description Here...",
+          "description": "Big Data Description Here...",
           "images": [
             {
               "src": "../images/blog/blog-05-1170x600.jpg"
@@ -20,7 +20,7 @@
         {
           "id": 2,
           "title": "Software Security Intelligence",
-          "description":"Software Security Intelligence Description Here...",
+          "description": "Software Security Intelligence Description Here...",
           "images": [
             {
               "src": "../images/blog/blog-05-1170x600.jpg"
@@ -31,7 +31,7 @@
         {
           "id": 3,
           "title": "Socio-Technical",
-          "description":"Socio-Technical Description Here...",
+          "description": "Socio-Technical Description Here...",
           "images": [
             {
               "src": "../images/blog/blog-05-1170x600.jpg"
@@ -42,7 +42,7 @@
         {
           "id": 4,
           "title": "TIPS",
-          "description":"TIPS Description Here...",
+          "description": "TIPS Description Here...",
           "images": [
             {
               "src": "../images/blog/blog-05-1170x600.jpg"
@@ -53,47 +53,13 @@
         {
           "id": 5,
           "title": "Software System & Security Integration",
-          "description":"Software System & Security Integration's Description Here ...",
+          "description": "Software System & Security Integration's Description Here ...",
           "images": [
             {
               "src": "../images/blog/blog-05-1170x600.jpg"
             }
           ],
           "path": "https://www.defence.gov.au/"
-        }
-      ]
-    },
-    {
-      "id": "infotechno-hero-content",
-      "section": "hero-section",
-      "images": [
-        {
-          "src": "../images/hero/home-infotechno-main-slider-slide-01-image-01.png"
-        },
-        {
-          "src": "../images/hero/home-infotechno-main-slider-slide-01-image-02.png"
-        }
-      ],
-      "headings": [
-        {
-          "level": "h6",
-          "content": "IT Design & Consulting"
-        },
-        {
-          "level": "h1",
-          "content": "Facilitate All <br/> Local IT-related Service Providers"
-        }
-      ],
-      "texts": [
-        {
-          "content": "Highly Tailored IT Design, Management & Support Services."
-        }
-      ],
-      "buttons": [
-        {
-          "id": 1,
-          "path": "/",
-          "content": "Get Details"
         }
       ]
     },
@@ -164,17 +130,81 @@
       ]
     },
     {
-      "id": "infotechno-feature",
-      "section": "feature-section",
+      "id": "infotechno-our-works",
+      "section": "our-works-section",
       "section_title": {
-        "title": "For your very specific industry, <br/> we have <span>highly-tailored IT solutions.</span>",
-        "subtitle": "FEATURED SERVICES"
+        "title": "Our Works",
+        "subtitle": "Keep Building",
+        "description": "At CREST researchers are leveraging existing software engineering, analytical reasoning, natural language processing and machine learning tools and techniques to develop a secure and integrated platform. Our aim is to help build a secure and integrated platform that is easy to use and evolve with the changing threat landscape and increase the operation efficiency of the cybersecurity team."
       },
-      "motto": {
-        "text": "Challenges are just opportunities in disguise.",
-        "linkText": "Take the challenge!",
-        "link": "/it-services"
-      }
+      "items": [
+        {
+          "id": 1,
+          "title": "Project 1",
+          "description": "Project 1 Description Here...",
+          "images": [
+            {
+              "src": "../images/box-image/image-03-330x330.jpg"
+            }
+          ],
+          "path": "https://crest-bigdata.github.io/"
+        },
+        {
+          "id": 2,
+          "title": "Project 2",
+          "description": "Project 2 Description Here...",
+          "images": [
+            {
+              "src": "../images/box-image/image-03-330x330.jpg"
+            }
+          ],
+          "path": "https://crest-bigdata.github.io/"
+        },
+        {
+          "id": 3,
+          "title": "Project 3",
+          "description": "Project 3 Description Here...",
+          "images": [
+            {
+              "src": "../images/box-image/image-03-330x330.jpg"
+            }
+          ],
+          "path": "https://crest-bigdata.github.io/"
+        },
+        {
+          "id": 4,
+          "title": "Project 4",
+          "description": "Project 4 Description Here...",
+          "images": [
+            {
+              "src": "../images/box-image/image-03-330x330.jpg"
+            }
+          ],
+          "path": "https://crest-bigdata.github.io/"
+        },
+        {
+          "id": 5,
+          "title": "Project 5",
+          "description": "Project 5 Description Here...",
+          "images": [
+            {
+              "src": "../images/box-image/image-03-330x330.jpg"
+            }
+          ],
+          "path": "https://crest-bigdata.github.io/"
+        },
+        {
+            "id": 6,
+            "title": "Project 6",
+            "description": "Project 6 Description Here...",
+            "images": [
+              {
+                "src": "../images/box-image/image-03-330x330.jpg"
+              }
+            ],
+            "path": "https://crest-bigdata.github.io/"
+          }
+      ]
     },
     {
       "id": "infotechno-about",
