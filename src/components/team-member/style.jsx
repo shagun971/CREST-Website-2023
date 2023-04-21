@@ -11,6 +11,10 @@ export const TeamMemberInner = styled.div`
 
 export const TeamMemberImage = styled.div`
     position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+
 `;
 
 export const TeamMemberSocialWrap = styled.div`
@@ -33,6 +37,7 @@ export const TeamMemberInfo = styled.div`
         css`
             text-align: center;
         `}
+    display: block;
 `;
 
 export const TeamMemberName = styled.h5`

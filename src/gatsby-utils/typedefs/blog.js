@@ -1,5 +1,5 @@
 module.exports = `
-type Article implements Node @childof(type: "MarkdownRemark"){
+type Article implements Node @childof(type: "Mdx"){
     id: ID!
     title: String!
     slug: String!
@@ -14,7 +14,9 @@ type Article implements Node @childof(type: "MarkdownRemark"){
     excerpt: String!
     is_featured: Boolean
     author: Author @link(from: "author", by: "name")
+    description: String!
     content: String
+    type: String
 }
 type BlogDate {
     date: Date! @dateformat

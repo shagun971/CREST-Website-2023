@@ -12,78 +12,72 @@ module.exports = {
     },
     pathPrefix: `/`,
     siteMetadata: {
-        title: "React Gatsby Technology & Blog Template",
-        titleTemplate: `Mitech`,
-        description: `Mitech is a Powerful & flexible Technology And Digital Software Gatsby Template. 06 Stunning Homepages are included in this template. You can use any template or mix content from different home pages for your website.`,
-        author: `@HasThemes`,
-        twitterUsername: `@HasThemes`,
-        image: "landing.png",
-        siteUrl: "https://mitech.gatsbydemo.hasthemes.com/",
-        canonical: "https://mitech.gatsbydemo.hasthemes.com/",
-        getform: "https://getform.io/f/22b43bd4-29a7-4795-ba95-6abfe8bf1f39",
-        copyright:
-            "Mitech. <a href='https://example.com/' target='_blank' rel='noopener noreferrer'>All Rights Reserved.</a>",
-        siteLanguage: "en",
-        socials: [
-            {
-                id: 1,
-                icon: "fab fa-facebook-f",
-                link: "https://www.facebook.com",
-                title: "Facebook",
-            },
-            {
-                id: 2,
-                icon: "fab fa-twitter",
-                link: "https://www.twitter.com",
-                title: "Twitter",
-            },
-            {
-                id: 3,
-                icon: "fab fa-instagram",
-                link: "https://www.instagram.com",
-                title: "Instagram",
-            },
-            {
-                id: 4,
-                icon: "fab fa-linkedin",
-                link: "https://www.linkedin.com",
-                title: "Linkedin",
-            },
-        ],
-        contact: {
-            phone: "190068668",
-            address: "58 Howard Street #2 San Francisco, CA 941",
-            email: "hello@mitech.com",
-            website: "https://example.com/",
-            rating: "4.9",
-            customers: "700",
-            clients: "3200",
+        title: "CREST - Centre for Research on Engineering Software Technologies",
+        titleTemplate: `CREST`,
+        description: `CREST is a center for Research on Engineering Software Technologies located at the University of Adelaide. `,
+        author: `@crest_uofa`,
+        twitterUsername: `@crest_uofa`,
+        image: 'landing.png',
+        siteUrl: 'https://crest-centre.net/',
+        getform: "https://getform.io/f/58c49e90-e767-4e18-959e-4fcd84bf8659",
+        copyright: "CREST. <a href='https://crest-centre.net/' target='_blank' rel='noopener noreferrer'>All Rights Reserved.</a>",
+        social: {
+          facebook: "https://www.facebook.com",
+          twitter: "https://twitter.com/crest_uofa",
+          instagram: "https://www.instagram.com",
+          linkedin: "https://www.linkedin.com/company/crest-centre/"
         },
-    },
+        contact: {
+          phone: '+61 8 8313 4478',
+          address: "Room 4.54, Ingkarni Wardli, North Terrace, The University of Adelaide, SA, Australia",
+          email: 'ali.babar@adelaide.edu.au',
+          website: "https://www.adelaide.edu.au/directory/ali.babar",
+          rating: "4.9",
+          customers: "700",
+          clients: "3200",
+          addressInfos: [
+            {
+              "id": "adelaide",
+              "state": "South Australia",
+              "address": "Room 4.54, Ingkarni Wardli, North Terrace",
+              "email": "ali.babar@adelaide.edu.au",
+              "phone": "+61 8 8313 4478"
+            }
+          ]
+        }
+      },
     // mapping: {
     // 	"MarkdownRemark.frontmatter.author": `AuthorsJson.name`,
     // },
     plugins: [
+        `gatsby-plugin-stylus`,
+        `gatsby-plugin-postcss`,
+            // Add after these plugins if used
+        {
+            resolve: `gatsby-plugin-purgecss`,
+            options: {
+                printRejected: true, // Print removed selectors and processed file names
+                develop: true, // Enable while using `gatsby develop`
+                // tailwind: true, // Enable tailwindcss support
+                // ignore: ['/ignored.css', 'prismjs/', 'docsearch.js/'], // Ignore files/folders
+                // purgeOnly : ['components/', '/main.css', 'bootstrap/'], // Purge only these files/folders
+                purgeCSSOptions: {
+                // https://purgecss.com/configuration.html#options
+                safelist: [/^bm-/, /^swiper-/], // Don't remove this selector
+                },
+                // More options defined here https://purgecss.com/configuration.html#options
+            },
+        },
         `gatsby-plugin-react-helmet`,
         `gatsby-plugin-image`,
         `gatsby-transformer-sharp`,
         `gatsby-plugin-sharp`,
         `gatsby-plugin-styled-components`,
         "gatsby-transformer-json",
+        `gatsby-plugin-anchor-links`,
         // "gatsby-plugin-preload-fonts",
         {
-            resolve: `gatsby-transformer-remark`,
-            options: {
-                excerpt_separator: `<!-- endexcerpt -->`,
-                plugins: [
-                    {
-                        resolve: `gatsby-remark-images`,
-                        options: {
-                            maxWidth: 1200,
-                        },
-                    },
-                ],
-            },
+            resolve: 'gatsby-plugin-mdx-frontmatter'
         },
         {
             resolve: `gatsby-source-filesystem`,
@@ -173,6 +167,28 @@ module.exports = {
                 useClassNames: true,
             },
         },
-        "gatsby-plugin-offline",
+        {
+            resolve: `gatsby-plugin-mdx`,
+            options: {
+                extensions: [`.md`, `.mdx`],
+                gatsbyRemarkPlugins: [
+                    `gatsby-remark-prismjs`,
+                    {
+                        resolve: `gatsby-remark-images`,
+                        options: {
+                            maxWidth: 1200,
+                        },
+                    },
+                ],
+                plugins: [`gatsby-remark-images`]
+            },
+        },
+        {
+            resolve: `gatsby-source-google-scholar`,
+            options: {
+              queries: [`Nguyen Khoi Tran Adelaide`],
+            },
+        },
+        'gatsby-plugin-netlify'
     ],
 };

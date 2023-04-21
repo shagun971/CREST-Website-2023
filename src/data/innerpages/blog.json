@@ -15,7 +15,7 @@
             "path": "/blog",
             "images": [
                 {
-                    "src": "../images/ad/blog-sidebar-ads.jpg"
+                    "src": "../images/ad/motivation-ads.jpg"
                 }
             ]
         },
@@ -30,7 +30,7 @@
             "id": "blog-intro",
             "section": "blog-section",
             "section_title": {
-                "title": "Interesting articles <span>updated daily</span>"
+                "title": "Interesting articles <span>updated frequently</span>"
             }
         }
     ]

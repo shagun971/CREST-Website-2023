@@ -28,5 +28,6 @@ export const query = graphql`
         quote_text
         quote_author
         video_link
+        description
     }
 `;

@@ -5,6 +5,10 @@ import { Navigation, Autoplay, Pagination, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { StyledWrap } from "./style";
 import "./swiper.css";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 const SwiperSlider = ({
     options,
@@ -39,7 +43,7 @@ const SwiperSlider = ({
         autoplay: options?.autoplay
             ? {
                   delay: 2500,
-                  disableOnInteraction: false,
+                  disableOnInteraction: true,
               }
             : false,
     };

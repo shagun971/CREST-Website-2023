@@ -1,0 +1,37 @@
+{
+    "title": "news",
+    "pageType": "innerpage",
+    "content": [
+        {
+            "id": "news-recent-widget",
+            "section": "recent-widget-section",
+            "section_title": {
+                "title": "Recent News"
+            }
+        },
+        {
+            "id": "news-ad-widget",
+            "section": "ad-section",
+            "path": "/news",
+            "images": [
+                {
+                    "src": "../images/ad/motivation-ads.jpg"
+                }
+            ]
+        },
+        {
+            "id": "news-tags-widget",
+            "section": "tag-section",
+            "section_title": {
+                "title": "Popular Tags"
+            }
+        },
+        {
+            "id": "news-intro",
+            "section": "news-section",
+            "section_title": {
+                "title": "We are <span>moving fast</span>"
+            }
+        }
+    ]
+}

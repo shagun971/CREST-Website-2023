@@ -20,7 +20,7 @@ const BlogArea = ({ data }) => {
                         <Blog
                             title={blog.title}
                             slug={blog.slug}
-                            excerpt={blog.excerpt}
+                            excerpt={blog.description}
                             format={blog.format}
                             postedAt={blog.postedAt}
                             author={blog.author}

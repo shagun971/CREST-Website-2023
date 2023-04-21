@@ -15,6 +15,7 @@ import {
 } from "./style";
 
 const ListingArea = ({ data }) => {
+    console.log(data)
     return (
         <SectionWrap>
             <Container>
@@ -28,6 +29,7 @@ const ListingArea = ({ data }) => {
                 )}
                 <JobList>
                     {data?.items?.map((job, i) => {
+                        console.log(job)
                         const isEven = i % 2 === 0;
                         return (
                             <JobItem key={job.id} isEven={isEven}>
@@ -41,12 +43,8 @@ const ListingArea = ({ data }) => {
                                     </Col>
                                     <Col lg={3}>
                                         <JobButton>
-                                            <Button
-                                                variant="outlined"
-                                                color="light"
-                                            >
-                                                Get Started
-                                            </Button>
+                                            <a href={job.path}><Button to={job.path} varient="outlined" bordercolor="#ddd">Detail</Button></a>
+                                            
                                         </JobButton>
                                     </Col>
                                 </Row>

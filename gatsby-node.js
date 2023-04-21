@@ -5,17 +5,7 @@ const onCreateNode = require("./src/gatsby-utils/onCreateNode");
 const createResolvers = require("./src/gatsby-utils/createResolvers");
 const createPages = require("./src/gatsby-utils/createPages");
 
-exports.onCreateWebpackConfig = ({ getConfig, actions }) => {
-    const oldConfig = getConfig();
-    const config = {
-        ...oldConfig,
-        output: {
-            ...oldConfig.output,
-            globalObject: "this",
-        },
-    };
-
-    actions.replaceWebpackConfig(config);
+exports.onCreateWebpackConfig = ({ stage, actions }) => {
     actions.setWebpackConfig({
         resolve: {
             alias: {

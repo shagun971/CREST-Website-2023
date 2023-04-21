@@ -5,251 +5,118 @@
         {
             "id": "menu-1",
             "text": "Home",
-            "link": "/",
-            "submenu": [
-                {
-                    "id": "menu-11",
-                    "text": "Infotechno",
-                    "link": "/"
-                },
-                {
-                    "id": "menu-12",
-                    "text": "Appointment",
-                    "link": "/homepages/appointment"
-                },
-                {
-                    "id": "menu-13",
-                    "text": "Processing",
-                    "link": "/homepages/processing"
-                },
-                {
-                    "id": "menu-14",
-                    "text": "Services",
-                    "link": "/homepages/services"
-                },
-                {
-                    "id": "menu-15",
-                    "text": "Resolutions",
-                    "link": "/homepages/resolutions"
-                },
-                {
-                    "id": "menu-16",
-                    "text": "Cybersecurity",
-                    "link": "/homepages/cybersecurity"
-                },
-                {
-                    "id": "menu-17",
-                    "text": "Modern IT Company",
-                    "link": "/homepages/modern-it-company"
-                }
-            ]
+            "link": "/"
         },
         {
             "id": "menu-2",
-            "text": "Company",
-            "link": "/about-us",
-            "submenu": [
+            "text": "Research",
+            "link": "/research",
+            "megamenu": [
                 {
-                    "id": "menu-21",
-                    "text": "About Us",
-                    "link": "/about-us"
+                    "title": "Clusters",
+                    "submenu": [
+                        {
+                            "id": "menu-411",
+                            "text": "Big Data",
+                            "link": "https://crest-bigdata.github.io/"
+                        },
+                        {
+                            "id": "menu-412",
+                            "text": "Socio-technical",
+                            "link": "http://socio-technical.crest-centre.net/"
+                        },
+                        {
+                            "id": "menu-413",
+                            "text": "Software Security Intelligence",
+                            "link": "https://ssi.crest-centre.net/"
+                        },
+                        {
+                            "id": "menu-414",
+                            "text": "Software System and Security Integration",
+                            "link": "#"
+                        },
+                        {
+                            "id": "menu-415",
+                            "text": "Trusted Information Processing System",
+                            "link": "https://dlt.crest-centre.net/"
+                        }
+                    ]
                 },
                 {
-                    "id": "menu-22",
-                    "text": "Contact Us",
-                    "link": "/contact-us"
-                },
-                {
-                    "id": "menu-23",
-                    "text": "Leadership",
-                    "link": "/leadership"
-                },
-                {
-                    "id": "menu-24",
-                    "text": "Why Choose Us",
-                    "link": "/why-choose-us"
-                },
-                {
-                    "id": "menu-25",
-                    "text": "Our History",
-                    "link": "/our-history"
-                },
-                {
-                    "id": "menu-26",
-                    "text": "FAQs",
-                    "link": "/faq"
-                },
-                {
-                    "id": "menu-27",
-                    "text": "Careers",
-                    "link": "/careers"
-                },
-                {
-                    "id": "menu-28",
-                    "text": "Pricing Plans",
-                    "link": "/pricing-plan"
+                    "title": "Projects",
+                    "submenu": [
+                        {
+                            "id": "menu-421",
+                            "text": "C3i",
+                            "link": "/elements/counters"
+                        },
+                        {
+                            "id": "menu-422",
+                            "text": "POKAPS",
+                            "link": "/elements/dividers"
+                        },
+                        {
+                            "id": "menu-423",
+                            "text": "CCOP",
+                            "link": "/elements/flexible-image-slider"
+                        }
+                    ]
                 }
             ]
         },
         {
             "id": "menu-3",
-            "text": "Services",
-            "link": "/it-services",
-            "submenu": [
-                {
-                    "id": "menu-31",
-                    "text": "IT Services",
-                    "link": "/it-services"
-                },
-                {
-                    "id": "menu-32",
-                    "text": "IT Solutions",
-                    "link": "/it-solutions"
-                }
-            ]
+            "text": "News",
+            "link": "/latest-news"
         },
         {
             "id": "menu-4",
-            "text": "Elements",
+            "text": "Resources",
             "link": "/",
             "megamenu": [
                 {
-                    "title": "Element Group 01",
+                    "title": "Publications",
                     "submenu": [
                         {
                             "id": "menu-411",
-                            "text": "Accordion",
-                            "link": "/elements/accordion"
+                            "text": "Journal Papers",
+                            "link": "/resources/publications/papers"
                         },
                         {
                             "id": "menu-412",
-                            "text": "Box Icon",
-                            "link": "/elements/box-icon"
-                        },
-                        {
-                            "id": "menu-413",
-                            "text": "Box Image",
-                            "link": "/elements/box-image"
-                        },
-                        {
-                            "id": "menu-414",
-                            "text": "Box Large Image",
-                            "link": "/elements/box-large-image"
-                        },
-                        {
-                            "id": "menu-415",
-                            "text": "Buttons",
-                            "link": "/elements/button"
-                        },
-                        {
-                            "id": "menu-416",
-                            "text": "Call to action",
-                            "link": "/elements/call-to-action"
-                        },
-                        {
-                            "id": "menu-417",
-                            "text": "Client Logo",
-                            "link": "/elements/client-logo"
+                            "text": "Conference Presentations",
+                            "link": "/resources/publications/conference-presentations"
                         }
+
                     ]
                 },
                 {
-                    "title": "Element Group 02",
+                    "title": "Talks",
                     "submenu": [
                         {
                             "id": "menu-421",
-                            "text": "Counters",
+                            "text": "Guest Talks",
                             "link": "/elements/counters"
                         },
                         {
                             "id": "menu-422",
-                            "text": "Dividers",
+                            "text": "Our Talks",
                             "link": "/elements/dividers"
-                        },
-                        {
-                            "id": "menu-423",
-                            "text": "Flexible image slider",
-                            "link": "/elements/flexible-image-slider"
-                        },
-                        {
-                            "id": "menu-424",
-                            "text": "Google Map",
-                            "link": "/elements/google-map"
-                        },
-                        {
-                            "id": "menu-425",
-                            "text": "Gradation",
-                            "link": "/elements/gradation"
-                        },
-                        {
-                            "id": "menu-426",
-                            "text": "Lists",
-                            "link": "/elements/lists"
-                        },
-                        {
-                            "id": "menu-427",
-                            "text": "Message box",
-                            "link": "/elements/message-box"
                         }
                     ]
                 },
                 {
-                    "title": "Element Group 03",
+                    "title": "Events",
                     "submenu": [
                         {
                             "id": "menu-431",
-                            "text": "Popup Video",
-                            "link": "/elements/popup-video"
+                            "text": "Workshops",
+                            "link": "/resources/events/workshops"
                         },
                         {
                             "id": "menu-432",
-                            "text": "Pricing Box",
+                            "text": "Conference",
                             "link": "/elements/pricing-box"
-                        },
-                        {
-                            "id": "menu-433",
-                            "text": "Progress Bar",
-                            "link": "/elements/progress-bar"
-                        },
-                        {
-                            "id": "menu-434",
-                            "text": "Progress Circle",
-                            "link": "/elements/progress-circle"
-                        },
-                        {
-                            "id": "menu-435",
-                            "text": "Social Networks",
-                            "link": "/elements/social-networks"
-                        },
-                        {
-                            "id": "menu-436",
-                            "text": "Tabs",
-                            "link": "/elements/tabs"
-                        },
-                        {
-                            "id": "menu-437",
-                            "text": "Team member",
-                            "link": "/elements/team-member"
-                        }
-                    ]
-                },
-                {
-                    "title": "Element Group 04",
-                    "submenu": [
-                        {
-                            "id": "menu-441",
-                            "text": "Testimonials",
-                            "link": "/elements/testimonials"
-                        },
-                        {
-                            "id": "menu-442",
-                            "text": "Timeline",
-                            "link": "/elements/timeline"
-                        },
-                        {
-                            "id": "menu-443",
-                            "text": "Typed Text",
-                            "link": "/elements/typed-text"
                         }
                     ]
                 }
@@ -257,20 +124,50 @@
         },
         {
             "id": "menu-5",
-            "text": "Case Studies",
-            "link": "/case-studies"
+            "text": "Blogs",
+            "link": "/blogs"
         },
         {
             "id": "menu-6",
-            "text": "Blog",
-            "link": "/blog",
+            "text": "Team",
+            "link": "/team",
             "submenu": [
                 {
                     "id": "menu-61",
-                    "text": "Single Blog",
-                    "link": "/5-ways-technology-has-improved-business-today"
+                    "text": "Faculty Members",
+                    "link": "/team#faculty-members"
+                },
+                {
+                    "id": "menu-62",
+                    "text": "Research Fellows",
+                    "link": "/team#research-fellows"
+                },
+                {
+                    "id": "menu-63",
+                    "text": "PhD Students",
+                    "link": "/team#phd"
+                },
+                {
+                    "id": "menu-64",
+                    "text": "Research Engineers",
+                    "link": "/team#assistants"
+                },
+                {
+                    "id": "menu-66",
+                    "text": "Collaborators and Associates",
+                    "link": "/team#collaborators"
+                },
+                {
+                    "id": "menu-67",
+                    "text": "Alumni",
+                    "link": "/team#alumni"
                 }
             ]
+        },
+        {
+            "id": "menu-7",
+            "text": "Join us",
+            "link": "/positions"
         }
     ]
 }

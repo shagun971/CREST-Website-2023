@@ -35,6 +35,7 @@ export const theme = {
         whiteSmoke: "#f5f5f5",
         klein: "#002fa6",
         water: "#e7edfa",
+        grayText: "#3a394c",
     },
     lineHieghts: {
         body: 1.74,

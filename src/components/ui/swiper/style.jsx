@@ -151,6 +151,7 @@ export const StyledWrap = styled.div`
             .swiper-wrapper,
             .swiper-autoheight .swiper-wrapper {
                 align-items: center;
+                justify-content: center;
             }
         `}
     ${({ $opacityStyle }) =>

@@ -57,6 +57,7 @@ export const query = graphql`
             date(formatString: "LL")
             slug
         }
+        description
         content
     }
 `;

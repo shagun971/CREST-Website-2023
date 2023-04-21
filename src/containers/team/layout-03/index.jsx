@@ -3,13 +3,20 @@ import PropTypes from "prop-types";
 import { ItemType } from "@utils/types";
 import { Container, Row, Col } from "@ui/wrapper";
 import TeamMember from "@components/team-member";
+import SectionTitle from "@ui/section-title";
 import { TeamWrapper } from "./style";
 
 const TeamArea = ({ data }) => {
     return (
         <TeamWrapper>
             <Container>
-                <Row>
+                {data?.section_title && (
+                    <SectionTitle
+                        mb={["45px", null, null, "70px"]}
+                        {...data.section_title}
+                    />
+                )}
+                <Row gutters={{ lg: 160 }}>
                     {data?.items?.map((member) => (
                         <Col lg={3} md={6} key={member.id} mb="30px">
                             <TeamMember

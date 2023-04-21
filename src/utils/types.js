@@ -142,6 +142,25 @@ export const BlogType = {
     tags: PropTypes.arrayOf(PropTypes.shape(BlogMetaType)),
 };
 
+export const NewsType = {
+    id: IDType,
+    title: PropTypes.string,
+    slug: PropTypes.string,
+    postedAt: PropTypes.shape(BlogPostedAtType),
+    author: PropTypes.shape(AuthorType),
+    excerpt: PropTypes.string,
+    format: BlogFormatType,
+    image: PropTypes.shape(ImageType),
+    categories: PropTypes.arrayOf(PropTypes.shape(BlogMetaType)),
+    tags: PropTypes.arrayOf(PropTypes.shape(BlogMetaType)),
+};
+
+export const ResourcesType = {
+    id: PropTypes.string,
+    type: PropTypes.string,
+};
+
+
 export const SoicalType = {
     id: IDType,
     title: PropTypes.string,
