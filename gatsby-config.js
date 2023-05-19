@@ -183,12 +183,12 @@ module.exports = {
                 plugins: [`gatsby-remark-images`]
             },
         },
-        {
-            resolve: `gatsby-source-google-scholar`,
-            options: {
-              queries: [`Nguyen Khoi Tran Adelaide`],
-            },
-        },
+        // {
+        //     resolve: `gatsby-source-google-scholar`,
+        //     options: {
+        //       queries: [`Nguyen Khoi Tran Adelaide`],
+        //     },
+        // },
         'gatsby-plugin-netlify'
     ],
 };
