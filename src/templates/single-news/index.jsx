@@ -17,7 +17,6 @@ import BlogMedia from "@components/blog/blog-media";
 import SocialShare from "@components/blog/social-share";
 import { Container } from "@ui/wrapper";
 import { NewsType } from "@utils/types";
-import { MDXRenderer } from "gatsby-plugin-mdx";
 import { MDXProvider } from "@mdx-js/react";
 // Markdown Components
 
@@ -46,11 +45,11 @@ const SingleNewsTemplate = ({ pageContext, location, data }) => {
           socials: data.site.siteMetadata.socials,
         }}
       />
-      <main className='site-wrapper-reveal'>
+      <main className="site-wrapper-reveal">
         <PageHeader
           pageContext={pageContext}
           location={location}
-          title='News / Event'
+          title="News / Event"
         />
         <StyledSection>
           <Container>
@@ -61,21 +60,21 @@ const SingleNewsTemplate = ({ pageContext, location, data }) => {
               title={newsData?.title}
               quote_text={newsData?.quote_text}
               quote_author={newsData?.quote_author}
-              mb='46px'
+              mb="46px"
             />
             <StyledBlogWrap>
-              <header className='blog-header'>
+              <header className="blog-header">
                 <Categories
-                  textAlign='center'
-                  mb='10px'
+                  textAlign="center"
+                  mb="10px"
                   categories={newsData?.categories}
                 />
                 {newsData?.title && <StyledTitle>{newsData.title}</StyledTitle>}
                 <StyledHeaderMeta>
                   {newsData?.author && (
                     <AuthorMeta
-                      mt='10px'
-                      mr='20px'
+                      mt="10px"
+                      mr="20px"
                       slug={newsData.author?.slug}
                       name={newsData.author?.name}
                       image={newsData.author?.image}
@@ -83,20 +82,18 @@ const SingleNewsTemplate = ({ pageContext, location, data }) => {
                   )}
                   {newsData?.postedAt && (
                     <BlogMeta
-                      mt='10px'
-                      mr='20px'
+                      mt="10px"
+                      mr="20px"
                       path={`/date/${newsData.postedAt.slug}`}
                       text={newsData.postedAt.date}
-                      icon='fa fa-calendar-alt'
+                      icon="fa fa-calendar-alt"
                     />
                   )}
                 </StyledHeaderMeta>
               </header>
-              <StyledContent className='markdown'>
+              <StyledContent className="markdown">
                 <MDXProvider components={MarkdownComponents}>
-                  <MDXRenderer>
-                    {newsData?.content || "News Content"}
-                  </MDXRenderer>
+                  {newsData?.content || "News Content"}
                 </MDXProvider>
               </StyledContent>
               <StyledFooter>

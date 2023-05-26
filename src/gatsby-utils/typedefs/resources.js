@@ -1,7 +1,7 @@
 module.exports = `
-type Resources implements Node @childof(type: "Mdx"){
+type Resources implements Node @childOf(types: ["Mdx"]){
     id: String!
-    content: String
+    body: String!
     type: String
 }
 `;

@@ -15,6 +15,7 @@ module.exports = ({ node, actions, createNodeId }) => {
             internal: {
                 type: "Page",
                 contentDigest: node.internal.contentDigest,
+                contentFilePath: node.internal.contentFilePath
             },
         });
     }
@@ -36,6 +37,7 @@ module.exports = ({ node, actions, createNodeId }) => {
             internal: {
                 type: "ItService",
                 contentDigest: node.internal.contentDigest,
+                contentFilePath: node.internal.contentFilePath
             },
         });
     }
@@ -56,6 +58,7 @@ module.exports = ({ node, actions, createNodeId }) => {
             internal: {
                 type: "ItSolution",
                 contentDigest: node.internal.contentDigest,
+                contentFilePath: node.internal.contentFilePath
             },
         });
     }
@@ -78,6 +81,7 @@ module.exports = ({ node, actions, createNodeId }) => {
             internal: {
                 type: "CaseStudy",
                 contentDigest: node.internal.contentDigest,
+                contentFilePath: node.internal.contentFilePath
             },
         });
     }
@@ -92,20 +96,24 @@ module.exports = ({ node, actions, createNodeId }) => {
             internal: {
                 type: "General",
                 contentDigest: node.internal.contentDigest,
+                contentFilePath: node.internal.contentFilePath
             },
         });
     }
 
     if (node.internal.type === "Mdx") {
+        console.log(JSON.stringify(node));
         if (node.frontmatter.type === "resources") {
+            console.log(node);
             createNode({
               id: node.frontmatter.id,
               parent: node.id,
               type: node.frontmatter.type,
-            //   content: node.body,
+              body: node.body,
               internal: {
                 type: "Resources",
                 contentDigest: node.internal.contentDigest,
+                contentFilePath: node.internal.contentFilePath
             },
             });
         }
@@ -132,6 +140,7 @@ module.exports = ({ node, actions, createNodeId }) => {
                 internal: {
                     type: "Article",
                     contentDigest: node.internal.contentDigest,
+                    contentFilePath: node.internal.contentFilePath
                 },
             });
         } else if (node.frontmatter.type === "news") {
@@ -157,6 +166,7 @@ module.exports = ({ node, actions, createNodeId }) => {
                 internal: {
                     type: "News",
                     contentDigest: node.internal.contentDigest,
+                    contentFilePath: node.internal.contentFilePath
                 },
             });
         }

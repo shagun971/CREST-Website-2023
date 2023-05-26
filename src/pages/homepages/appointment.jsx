@@ -70,57 +70,48 @@ const ApppoinmentPage = ({ location, data }) => {
     );
 };
 
-export const query = graphql`
-    query AppointmentPageQuery {
-        allGeneral {
-            nodes {
-                section
-                ...HeaderTwo
-            }
-        }
-        site {
-            ...Site
-        }
-        page(title: { eq: "appointment" }, pageType: { eq: "frontpage" }) {
-            content {
-                ...PageContent
-            }
-        }
-        allItService(
-            sort: { order: DESC, fields: id }
-            filter: { is_featured: { eq: true } }
-        ) {
-            nodes {
-                ...ItServiceOne
-            }
-        }
-        allItSolution(limit: 3) {
-            nodes {
-                ...ItSolutionThree
-            }
-        }
-        allCaseStudy(filter: { is_featured: { eq: true } }, limit: 4) {
-            nodes {
-                id
-                title
-                slug
-                category
-                excerpt
-                featured_image {
-                    src {
-                        childImageSharp {
-                            gatsbyImageData(
-                                formats: WEBP
-                                quality: 100
-                                placeholder: DOMINANT_COLOR
-                            )
-                        }
-                    }
-                }
-            }
-        }
+export const query = graphql`query AppointmentPageQuery {
+  allGeneral {
+    nodes {
+      section
+      ...HeaderTwo
     }
-`;
+  }
+  site {
+    ...Site
+  }
+  page(title: {eq: "appointment"}, pageType: {eq: "frontpage"}) {
+    content {
+      ...PageContent
+    }
+  }
+  allItService(sort: {id: DESC}, filter: {is_featured: {eq: true}}) {
+    nodes {
+      ...ItServiceOne
+    }
+  }
+  allItSolution(limit: 3) {
+    nodes {
+      ...ItSolutionThree
+    }
+  }
+  allCaseStudy(filter: {is_featured: {eq: true}}, limit: 4) {
+    nodes {
+      id
+      title
+      slug
+      category
+      excerpt
+      featured_image {
+        src {
+          childImageSharp {
+            gatsbyImageData(formats: WEBP, quality: 100, placeholder: DOMINANT_COLOR)
+          }
+        }
+      }
+    }
+  }
+}`;
 
 ApppoinmentPage.propTypes = {
     location: PropTypes.shape({}),

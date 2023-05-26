@@ -190,6 +190,14 @@ module.exports = async ({ graphql, actions }) => {
                     }
                 }
             }
+            allResources {
+                nodes {
+                    id
+                    internal {
+                        contentFilePath
+                    }
+                }
+            }   
         }
     `);
 
@@ -402,4 +410,19 @@ module.exports = async ({ graphql, actions }) => {
         path: "/search",
         component: searchPage,
     });
+
+    const resources = result.data.allResources.nodes;
+    console.log(resources);
+    const paperTemplate = path.resolve("./src/templates/papers.jsx");
+    const paperResource = resources.find((resource) => resource.id === "papers");
+    console.log(paperResource);
+    
+    createPage({
+        component: `${paperTemplate}?__contentFilePath=${paperResource.internal.contentFilePath}`,
+        path: `/resources/publications/${paperResource.id}`,
+        context: {
+            id: paperResource.id,
+            slug: paperResource.id
+        }
+    })
 };

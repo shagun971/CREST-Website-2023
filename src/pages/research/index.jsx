@@ -18,149 +18,141 @@ import CaseStudyArea from "@containers/case-study/layout-01";
 import TestimonialArea from "@containers/testimonial/layout-01";
 import BlogArea from "@containers/blog/layout-01";
 import ContactArea from "@containers/contact/layout-01";
+import BlogOne from "../../graphql/blog-one.fragment";
 
 const ResearchPage = ({ location, data }) => {
-    const content = normalizedData(data?.page.content || []);
-    const globalContent = normalizedData(data?.allGeneral.nodes || []);
+  const content = normalizedData(data?.page.content || []);
+  const globalContent = normalizedData(data?.allGeneral.nodes || []);
 
-    return (
-        <Layout location={location}>
-            <Seo title="Centre for Research on Engineering Software Technologies" />
-            <Header
-                data={{
-                    ...globalContent["header"],
-                    ...globalContent["menu"],
-                }}
-            />
-            <main className="site-wrapper-reveal">
-                <HeroArea data={content["hero-section"]} />
+  return (
+    <Layout location={location}>
+      <Seo title="Centre for Research on Engineering Software Technologies" />
+      <Header
+        data={{
+          ...globalContent["header"],
+          ...globalContent["menu"],
+        }}
+      />
+      <main className="site-wrapper-reveal">
+        <HeroArea data={content["hero-section"]} />
 
-                <ITSolutionArea
-                    data={{
-                        ...content["feature-section"],
-                        items: data.allItSolution.nodes,
-                    }}
-                />
-                <AboutServiceWrap>
-                    <AboutArea data={content["about-section"]} />
-                    <ITServiceArea
-                        data={{
-                            ...content["service-section"],
-                            items: data.allItService.nodes,
-                        }}
-                    />
-                </AboutServiceWrap>
-                <FunfactArea data={content["funfact-section"]} />
-                <CtaArea data={content["cta-section"]} />
-                <CaseStudyArea
-                    data={{
-                        ...content["case-study-section"],
-                        items: data.allCaseStudy.nodes,
-                    }}
-                />
-                <TestimonialArea data={content["testimonial-section"]} />
-                <BlogArea
-                    data={{
-                        ...content["blog-section"],
-                        featuredBlogs: data.featuredBlogs.nodes,
-                        recentBlogs: data.recentBlogs.nodes,
-                    }}
-                />
-                <PartnerArea data={content["partner-section"]} />
-                <ContactArea data={content["contact-section"]} />
-            </main>
-            <Footer data={{ ...data.site.siteMetadata }} />
-        </Layout>
-    );
+        <ITSolutionArea
+          data={{
+            ...content["feature-section"],
+            items: data.allItSolution.nodes,
+          }}
+        />
+        <AboutServiceWrap>
+          <AboutArea data={content["about-section"]} />
+          <ITServiceArea
+            data={{
+              ...content["service-section"],
+              items: data.allItService.nodes,
+            }}
+          />
+        </AboutServiceWrap>
+        <FunfactArea data={content["funfact-section"]} />
+        <CtaArea data={content["cta-section"]} />
+        <CaseStudyArea
+          data={{
+            ...content["case-study-section"],
+            items: data.allCaseStudy.nodes,
+          }}
+        />
+        <TestimonialArea data={content["testimonial-section"]} />
+        <BlogArea
+          data={{
+            ...content["blog-section"],
+            featuredBlogs: data.featuredBlogs.nodes,
+            recentBlogs: data.recentBlogs.nodes,
+          }}
+        />
+        <PartnerArea data={content["partner-section"]} />
+        <ContactArea data={content["contact-section"]} />
+      </main>
+      <Footer data={{ ...data.site.siteMetadata }} />
+    </Layout>
+  );
 };
 
 export const query = graphql`
-    query researchPageQuery {
-        allGeneral {
-            nodes {
-                section
-                ...HeaderOne
-            }
-        }
-        site {
-            ...Site
-        }
-        page(title: { eq: "processing" }, pageType: { eq: "frontpage" }) {
-            content {
-                ...PageContent
-            }
-        }
-        allItSolution(
-            sort: { order: DESC, fields: id }
-            filter: { is_featured: { eq: true } }
-            limit: 3
-        ) {
-            nodes {
-                ...ItSolutionTwo
-            }
-        }
-        allItService(
-            sort: { order: DESC, fields: id }
-            filter: { is_featured: { eq: false } }
-        ) {
-            nodes {
-                ...ItServiceThree
-            }
-        }
-        allCaseStudy(filter: { is_featured: { eq: true } }, limit: 4) {
-            nodes {
-                ...CaseStudyOne
-            }
-        }
-        featuredBlogs: allArticle(
-            filter: { is_featured: { eq: true } }
-            limit: 2
-        ) {
-            nodes {
-                ...BlogOne
-            }
-        }
-        recentBlogs: allArticle(
-            filter: { is_featured: { eq: false } }
-            limit: 5
-        ) {
-            nodes {
-                ...BlogTwo
-            }
-        }
+  query researchPageQuery {
+    allGeneral {
+      nodes {
+        section
+        ...HeaderOne
+      }
     }
+    site {
+      ...Site
+    }
+    page(title: { eq: "processing" }, pageType: { eq: "frontpage" }) {
+      content {
+        ...PageContent
+      }
+    }
+    allItSolution(
+      sort: { id: DESC }
+      filter: { is_featured: { eq: true } }
+      limit: 3
+    ) {
+      nodes {
+        ...ItSolutionTwo
+      }
+    }
+    allItService(sort: { id: DESC }, filter: { is_featured: { eq: false } }) {
+      nodes {
+        ...ItServiceThree
+      }
+    }
+    allCaseStudy(filter: { is_featured: { eq: true } }, limit: 4) {
+      nodes {
+        ...CaseStudyOne
+      }
+    }
+    featuredBlogs: allArticle(filter: { is_featured: { eq: true } }, limit: 2) {
+      nodes {
+        ...BlogOne
+      }
+    }
+    recentBlogs: allArticle(filter: { is_featured: { eq: false } }, limit: 5) {
+      nodes {
+        ...BlogTwo
+      }
+    }
+  }
 `;
 
 ResearchPage.propTypes = {
-    location: PropTypes.shape({}),
-    data: PropTypes.shape({
-        page: PropTypes.shape({
-            content: PropTypes.arrayOf(PropTypes.shape({})),
-        }),
-        allGeneral: PropTypes.shape({
-            nodes: PropTypes.arrayOf(PropTypes.shape({})),
-        }),
-        site: PropTypes.shape({
-            siteMetadata: PropTypes.shape({
-                socials: PropTypes.arrayOf(PropTypes.shape({})),
-            }),
-        }),
-        allItSolution: PropTypes.shape({
-            nodes: PropTypes.arrayOf(PropTypes.shape({})),
-        }),
-        allItService: PropTypes.shape({
-            nodes: PropTypes.arrayOf(PropTypes.shape({})),
-        }),
-        allCaseStudy: PropTypes.shape({
-            nodes: PropTypes.arrayOf(PropTypes.shape({})),
-        }),
-        featuredBlogs: PropTypes.shape({
-            nodes: PropTypes.arrayOf(PropTypes.shape({})),
-        }),
-        recentBlogs: PropTypes.shape({
-            nodes: PropTypes.arrayOf(PropTypes.shape({})),
-        }),
+  location: PropTypes.shape({}),
+  data: PropTypes.shape({
+    page: PropTypes.shape({
+      content: PropTypes.arrayOf(PropTypes.shape({})),
     }),
+    allGeneral: PropTypes.shape({
+      nodes: PropTypes.arrayOf(PropTypes.shape({})),
+    }),
+    site: PropTypes.shape({
+      siteMetadata: PropTypes.shape({
+        socials: PropTypes.arrayOf(PropTypes.shape({})),
+      }),
+    }),
+    allItSolution: PropTypes.shape({
+      nodes: PropTypes.arrayOf(PropTypes.shape({})),
+    }),
+    allItService: PropTypes.shape({
+      nodes: PropTypes.arrayOf(PropTypes.shape({})),
+    }),
+    allCaseStudy: PropTypes.shape({
+      nodes: PropTypes.arrayOf(PropTypes.shape({})),
+    }),
+    featuredBlogs: PropTypes.shape({
+      nodes: PropTypes.arrayOf(PropTypes.shape({})),
+    }),
+    recentBlogs: PropTypes.shape({
+      nodes: PropTypes.arrayOf(PropTypes.shape({})),
+    }),
+  }),
 };
 
 export default ResearchPage;

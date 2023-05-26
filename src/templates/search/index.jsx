@@ -142,45 +142,40 @@ const SearchTemplate = ({ data, pageContext, location }) => {
     );
 };
 
-export const query = graphql`
-    query BlogBySearchQuery {
-        allGeneral {
-            nodes {
-                section
-                ...HeaderOne
-            }
-        }
-        site {
-            ...Site
-        }
-        page(title: { eq: "blog" }, pageType: { eq: "innerpage" }) {
-            content {
-                ...PageContent
-            }
-        }
-        blogs: allArticle {
-            nodes {
-                ...BlogSix
-            }
-        }
-        recentPosts: allArticle(
-            sort: { fields: postedAt___date, order: ASC }
-            limit: 5
-        ) {
-            nodes {
-                ...BlogTwo
-            }
-        }
-        tags: allArticle {
-            nodes {
-                tags {
-                    title
-                    slug
-                }
-            }
-        }
+export const query = graphql`query BlogBySearchQuery {
+  allGeneral {
+    nodes {
+      section
+      ...HeaderOne
     }
-`;
+  }
+  site {
+    ...Site
+  }
+  page(title: {eq: "blog"}, pageType: {eq: "innerpage"}) {
+    content {
+      ...PageContent
+    }
+  }
+  blogs: allArticle {
+    nodes {
+      ...BlogSix
+    }
+  }
+  recentPosts: allArticle(sort: {postedAt: {date: ASC}}, limit: 5) {
+    nodes {
+      ...BlogTwo
+    }
+  }
+  tags: allArticle {
+    nodes {
+      tags {
+        title
+        slug
+      }
+    }
+  }
+}`;
 
 SearchTemplate.propTypes = {
     location: PropTypes.shape({

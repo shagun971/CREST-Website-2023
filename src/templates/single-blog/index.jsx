@@ -17,7 +17,6 @@ import BlogMedia from "@components/blog/blog-media";
 import SocialShare from "@components/blog/social-share";
 import { Container } from "@ui/wrapper";
 import { BlogType } from "@utils/types";
-import { MDXRenderer } from "gatsby-plugin-mdx";
 import { MDXProvider } from "@mdx-js/react";
 // Markdown Components
 import List from "@ui/list";
@@ -32,7 +31,7 @@ import {
   StyledFooter,
 } from "./style";
 
-const SingleBlogTemplate = ({ pageContext, location, data }) => {
+const SingleBlogTemplate = ({ pageContext, location, data, children }) => {
   const globalContent = normalizedData(data?.allGeneral?.nodes || []);
   const articleData = data.article;
   return (
@@ -45,11 +44,11 @@ const SingleBlogTemplate = ({ pageContext, location, data }) => {
           socials: data.site.siteMetadata.socials,
         }}
       />
-      <main className='site-wrapper-reveal'>
+      <main className="site-wrapper-reveal">
         <PageHeader
           pageContext={pageContext}
           location={location}
-          title='Blog'
+          title="Blog"
         />
         <StyledSection>
           <Container>
@@ -60,13 +59,13 @@ const SingleBlogTemplate = ({ pageContext, location, data }) => {
               title={articleData?.title}
               quote_text={articleData?.quote_text}
               quote_author={articleData?.quote_author}
-              mb='46px'
+              mb="46px"
             />
             <StyledBlogWrap>
-              <header className='blog-header'>
+              <header className="blog-header">
                 <Categories
-                  textAlign='center'
-                  mb='10px'
+                  textAlign="center"
+                  mb="10px"
                   categories={articleData?.categories}
                 />
                 {articleData?.title && (
@@ -75,8 +74,8 @@ const SingleBlogTemplate = ({ pageContext, location, data }) => {
                 <StyledHeaderMeta>
                   {articleData?.author && (
                     <AuthorMeta
-                      mt='10px'
-                      mr='20px'
+                      mt="10px"
+                      mr="20px"
                       slug={articleData.author?.slug}
                       name={articleData.author?.name}
                       image={articleData.author?.image}
@@ -84,11 +83,11 @@ const SingleBlogTemplate = ({ pageContext, location, data }) => {
                   )}
                   {articleData?.postedAt && (
                     <BlogMeta
-                      mt='10px'
-                      mr='20px'
+                      mt="10px"
+                      mr="20px"
                       path={`/date/${articleData.postedAt.slug}`}
                       text={articleData.postedAt.date}
-                      icon='fa fa-calendar-alt'
+                      icon="fa fa-calendar-alt"
                     />
                   )}
                   {/* <BlogMeta
@@ -101,10 +100,8 @@ const SingleBlogTemplate = ({ pageContext, location, data }) => {
                 </StyledHeaderMeta>
               </header>
               <StyledContent className="markdown">
-                <MDXProvider components={MarkdownComponents}>
-                  <MDXRenderer>
-                    {articleData?.content || "Blog Content"}
-                  </MDXRenderer>
+                <MDXProvider>
+                  {children || "Blog Content"}
                 </MDXProvider>
               </StyledContent>
               <StyledFooter>

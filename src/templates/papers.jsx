@@ -6,20 +6,19 @@ import Header from "@layout/header/layout-01";
 import { MDXProvider } from "@mdx-js/react";
 import { normalizedData } from "@utils";
 import { graphql } from "gatsby";
-import { MDXRenderer } from "gatsby-plugin-mdx";
 import PropTypes from "prop-types";
 import * as React from "react";
 import { ResourcesType } from "@utils/types";
 import styled, { device, themeGet } from "@styled";
 import { MarkdownComponents } from "@ui/markdown";
 
-const PapersPage = ({ pageContext, location, data }) => {
+const PapersPage = ({ pageContext, location, data, children }) => {
   const content = normalizedData(data?.page?.content || []);
   const globalContent = normalizedData(data?.allGeneral.nodes || []);
   const papersData = data.resources;
   return (
     <Layout location={location}>
-      <Seo title='Papers' />
+      <Seo title="Papers" />
       <Header
         data={{
           ...globalContent["header"],
@@ -29,17 +28,15 @@ const PapersPage = ({ pageContext, location, data }) => {
       <PageHeader
         pageContext={pageContext}
         location={location}
-        title='Our Papers'
+        title="Our Papers"
       />
-      <main className='site-wrapper-reveal'>
+      <main className="site-wrapper-reveal">
         <StyledSection>
           <StyledContentWrap>
-            <StyledContent className='markdown'>
+            <StyledContent className="markdown">
               {papersData ? (
                 <MDXProvider components={MarkdownComponents}>
-                  <MDXRenderer>
-                    {papersData?.content || "News Content"}
-                  </MDXRenderer>
+                  {children}
                 </MDXProvider>
               ) : (
                 <p>Content is empty.</p>

@@ -35,6 +35,7 @@ exports.onCreateWebpackConfig = ({ stage, actions }) => {
 
 exports.createSchemaCustomization = createSchemaCustomization;
 
+
 exports.onCreateNode = onCreateNode;
 
 exports.createResolvers = createResolvers;
@@ -44,7 +45,9 @@ exports.createPages = createPages;
 const { deleteThisPages, defaultHome, mode } = pageOptions;
 
 exports.onCreatePage = ({ page, actions }) => {
-    if (!page.isCreatedByStatefulCreatePages) return;
+    if (!page.isCreatedByStatefulCreatePages) {
+      return;
+    }
 
     const { deletePage, createPage } = actions;
     const pagePath = page.path.slice(0, -1);

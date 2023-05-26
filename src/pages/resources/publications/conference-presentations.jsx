@@ -6,7 +6,6 @@ import Header from "@layout/header/layout-01";
 import { MDXProvider } from "@mdx-js/react";
 import { normalizedData } from "@utils";
 import { graphql } from "gatsby";
-import { MDXRenderer } from "gatsby-plugin-mdx";
 import PropTypes from "prop-types";
 import * as React from "react";
 import { ResourcesType } from "@utils/types";
@@ -37,9 +36,7 @@ const ConferencePresentationsPage = ({ pageContext, location, data }) => {
             <StyledContent className='markdown'>
               {papersData ? (
                 <MDXProvider components={MarkdownComponents}>
-                  <MDXRenderer>
-                    {papersData?.content || "News Content"}
-                  </MDXRenderer>
+                  {papersData?.body || "News Content"}
                 </MDXProvider>
               ) : (
                 <p>Content is empty.</p>

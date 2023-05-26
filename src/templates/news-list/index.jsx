@@ -87,42 +87,36 @@ const NewsListTemplate = ({ pageContext, location, data }) => {
     );
 };
 
-export const query = graphql`
-    query NewsListTemplateQuery($skip: Int!, $limit: Int!) {
-        allGeneral {
-            nodes {
-                section
-                ...HeaderOne
-            }
-        }
-        site {
-            ...Site
-        }
-        page(title: { eq: "news" }, pageType: { eq: "innerpage" }) {
-            content {
-                ...PageContent
-            }
-        }
-        news: allNews(
-            sort: { fields: postedAt___date, order: DESC }
-            limit: $limit
-            skip: $skip
-        ) {
-            totalCount
-            nodes {
-                ...NewsListItem
-            }
-        }
-        tags: allNews {
-            nodes {
-                tags {
-                    title
-                    slug
-                }
-            }
-        }
+export const query = graphql`query NewsListTemplateQuery($skip: Int!, $limit: Int!) {
+  allGeneral {
+    nodes {
+      section
+      ...HeaderOne
     }
-`;
+  }
+  site {
+    ...Site
+  }
+  page(title: {eq: "news"}, pageType: {eq: "innerpage"}) {
+    content {
+      ...PageContent
+    }
+  }
+  news: allNews(sort: {postedAt: {date: DESC}}, limit: $limit, skip: $skip) {
+    totalCount
+    nodes {
+      ...NewsListItem
+    }
+  }
+  tags: allNews {
+    nodes {
+      tags {
+        title
+        slug
+      }
+    }
+  }
+}`;
 NewsListTemplate.propTypes = {
     pageContext: PropTypes.shape({
         currentPage: PropTypes.number,

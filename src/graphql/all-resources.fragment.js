@@ -4,6 +4,6 @@ export const query = graphql`
     fragment AllResources on Resources {
         id
         type
-        content
+        body
     }
 `;

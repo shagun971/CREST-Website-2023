@@ -1,9 +1,10 @@
 {
-    "workbench.colorCustomizations": {
-        "activityBar.activeBorder": "#7f2321"
-    },
-    "peacock.remoteColor": "#423ece",
-    "editor.tabSize": 4,
-    "editor.insertSpaces": true,
-    "editor.detectIndentation": false,
+  "workbench.colorCustomizations": {
+    "activityBar.activeBorder": "#7f2321"
+  },
+  "peacock.remoteColor": "#423ece",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
+  "editor.indentSize": 2
 }

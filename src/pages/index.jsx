@@ -27,7 +27,8 @@ import NewsArea from "../containers/news-area/layout-01";
 const InfotechnoPage = ({ location, data }) => {
   const content = normalizedData(data?.page.content || []);
   const globalContent = normalizedData(data?.allGeneral.nodes || []);
-
+  console.log(globalContent);
+  console.log(content["slider-section"]);
   return (
     <Layout location={location}>
       <Seo title="Centre for Research on Engineering Software Technologies" />
@@ -63,7 +64,7 @@ const InfotechnoPage = ({ location, data }) => {
 };
 
 export const query = graphql`
-  query infotechnoPageQuery {
+  query indexPageQuery {
     allGeneral {
       nodes {
         section
@@ -79,7 +80,7 @@ export const query = graphql`
       }
     }
     allItSolution(
-      sort: { order: DESC, fields: id }
+      sort: { id: DESC }
       filter: { is_featured: { eq: true } }
       limit: 3
     ) {
@@ -87,10 +88,7 @@ export const query = graphql`
         ...ItSolutionTwo
       }
     }
-    allItService(
-      sort: { order: DESC, fields: id }
-      filter: { is_featured: { eq: false } }
-    ) {
+    allItService(sort: { id: DESC }, filter: { is_featured: { eq: false } }) {
       nodes {
         ...ItServiceThree
       }
@@ -102,25 +100,19 @@ export const query = graphql`
     }
     featuredBlogs: allArticle(
       filter: { is_featured: { eq: true } }
-      sort: { fields: postedAt___date, order: DESC }
+      sort: { postedAt: { date: DESC } }
       limit: 1
     ) {
       nodes {
         ...BlogThree
       }
     }
-    recentBlogs: allArticle(
-      sort: { fields: postedAt___date, order: DESC }
-      limit: 3
-    ) {
+    recentBlogs: allArticle(sort: { postedAt: { date: DESC } }, limit: 3) {
       nodes {
         ...BlogFour
       }
     }
-    recentNews: allNews(
-      sort: { fields: postedAt___date, order: DESC }
-      limit: 4
-    ) {
+    recentNews: allNews(sort: { postedAt: { date: DESC } }, limit: 4) {
       nodes {
         ...NewsOne
       }
