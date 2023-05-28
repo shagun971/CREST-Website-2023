@@ -12,13 +12,13 @@ import { ResourcesType } from "@utils/types";
 import styled, { device, themeGet } from "@styled";
 import { MarkdownComponents } from "@ui/markdown";
 
-const ConferencePresentationsPage = ({ pageContext, location, data }) => {
+const PapersPage = ({ pageContext, location, data, children }) => {
   const content = normalizedData(data?.page?.content || []);
   const globalContent = normalizedData(data?.allGeneral.nodes || []);
-  const papersData = data.resources;
+  const resourceData = data.resources;
   return (
     <Layout location={location}>
-      <Seo title='Conference Presentations' />
+      <Seo title={resourceData.title} />
       <Header
         data={{
           ...globalContent["header"],
@@ -28,15 +28,15 @@ const ConferencePresentationsPage = ({ pageContext, location, data }) => {
       <PageHeader
         pageContext={pageContext}
         location={location}
-        title='Conference Presentations'
+        title={resourceData.title}
       />
-      <main className='site-wrapper-reveal'>
+      <main className="site-wrapper-reveal">
         <StyledSection>
           <StyledContentWrap>
-            <StyledContent className='markdown'>
-              {papersData ? (
+            <StyledContent className="markdown">
+              {resourceData ? (
                 <MDXProvider components={MarkdownComponents}>
-                  {papersData?.body || "News Content"}
+                  {children}
                 </MDXProvider>
               ) : (
                 <p>Content is empty.</p>
@@ -51,7 +51,7 @@ const ConferencePresentationsPage = ({ pageContext, location, data }) => {
 };
 
 export const query = graphql`
-  query ConferencePresentationsPageQuery {
+  query PapersPageQuery {
     allGeneral {
       nodes {
         section
@@ -61,13 +61,13 @@ export const query = graphql`
     site {
       ...Site
     }
-    resources(id: { eq: "conference-presentations" }) {
+    resources(id: { eq: "papers" }) {
       ...AllResources
     }
   }
 `;
 
-ConferencePresentationsPage.propTypes = {
+PapersPage.propTypes = {
   pageContext: PropTypes.shape({}),
   location: PropTypes.shape({}),
   data: PropTypes.shape({
@@ -143,4 +143,4 @@ const StyledContent = styled.div`
   }
 `;
 
-export default ConferencePresentationsPage;
+export default PapersPage;

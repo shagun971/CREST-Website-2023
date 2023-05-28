@@ -106,14 +106,15 @@ module.exports = ({ node, actions, createNodeId }) => {
         if (node.frontmatter.type === "resources") {
             console.log(node);
             createNode({
-              id: node.frontmatter.id,
-              parent: node.id,
-              type: node.frontmatter.type,
-              body: node.body,
-              internal: {
-                type: "Resources",
-                contentDigest: node.internal.contentDigest,
-                contentFilePath: node.internal.contentFilePath
+                id: node.frontmatter.id,
+                title: node.frontmatter.title,
+                parent: node.id,
+                type: node.frontmatter.type,
+                body: node.body,
+                internal: {
+                    type: "Resources",
+                    contentDigest: node.internal.contentDigest,
+                    contentFilePath: node.internal.contentFilePath
             },
             });
         }

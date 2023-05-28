@@ -157,6 +157,7 @@ export const NewsType = {
 
 export const ResourcesType = {
     id: PropTypes.string,
+    title: PropTypes.string,
     type: PropTypes.string,
     body: PropTypes.string,
 };
