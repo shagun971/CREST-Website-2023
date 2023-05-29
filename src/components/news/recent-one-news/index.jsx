@@ -78,7 +78,7 @@ const News = ({
                 )}
                 {title && (
                     <BlogTitle>
-                        <Anchor path={`/news/${slug}`}>
+                        <Anchor path={slug}>
                             {title}
                         </Anchor>
                     </BlogTitle>

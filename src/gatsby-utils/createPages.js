@@ -154,6 +154,9 @@ module.exports = async ({ graphql, actions }) => {
               slug
             }
             type
+            internal {
+              contentFilePath
+            }
           }
           next {
             title
@@ -173,6 +176,9 @@ module.exports = async ({ graphql, actions }) => {
               }
             }
             type
+            internal {
+              contentFilePath
+            }
           }
           previous {
             title
@@ -192,6 +198,9 @@ module.exports = async ({ graphql, actions }) => {
               }
             }
             type
+            internal {
+              contentFilePath
+            }
           }
         }
       }
@@ -251,7 +260,7 @@ module.exports = async ({ graphql, actions }) => {
   const blogs = result.data.allArticle.edges;
   blogs.forEach(({ node, next, previous }) => {
     createPage({
-      path: `blog/${node.slug}`,
+      path: node.slug,
       component: `${singleBlogPage}?__contentFilePath=${node.internal.contentFilePath}`,
       context: {
         slug: node.slug,
@@ -287,8 +296,8 @@ module.exports = async ({ graphql, actions }) => {
   const news = result.data.allNews.edges;
   news.forEach(({ node, next, previous }) => {
     createPage({
-      path: `news/${node.slug}`,
-      component: singleNewsPage,
+      path: node.slug,
+      component: `${singleNewsPage}?__contentFilePath=${node.internal.contentFilePath}`,
       context: {
         slug: node.slug,
         next,

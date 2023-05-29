@@ -77,7 +77,7 @@ const Blog = ({
                     )}
                     {title && (
                         <BlogTitle>
-                            <Anchor path={`/blog/${slug}`}>{title}</Anchor>
+                            <Anchor path={`/${slug}`}>{title}</Anchor>
                         </BlogTitle>
                     )}
                     <BlogHeaderMeta>
@@ -108,7 +108,7 @@ const Blog = ({
                 )}
                 <BlogFooter>
                     <BlogFooterLeft>
-                        <Button path={`/blog/${slug}`}>Read More</Button>
+                        <Button path={`/${slug}`}>Read More</Button>
                     </BlogFooterLeft>
                     <BlogFooterRight>
                         <SocialShare

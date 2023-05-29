@@ -101,7 +101,7 @@ const SingleBlogTemplate = ({ pageContext, location, data, children }) => {
               </header>
               <StyledContent className="markdown">
                 <MDXProvider>
-                  {children || "Blog Content"}
+                  {children || "No Blog Content Available Yet!"}
                 </MDXProvider>
               </StyledContent>
               <StyledFooter>

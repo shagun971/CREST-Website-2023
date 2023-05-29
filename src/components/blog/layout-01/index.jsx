@@ -69,7 +69,7 @@ const Blog = ({
                     )}
                     {title && (
                         <BlogTitle>
-                            <Anchor path={`/blog/${slug}`}>{title}</Anchor>
+                            <Anchor path={`/${slug}`}>{title}</Anchor>
                         </BlogTitle>
                     )}
                 </BlogHeader>
@@ -81,7 +81,7 @@ const Blog = ({
                 <ReadMoreBtn>
                     <Button
                         icon="far fa-long-arrow-right"
-                        path={`/blog/${slug}`}
+                        path={`/${slug}`}
                         variant="texted"
                         icondistance="4px"
                         fontWeight={500}

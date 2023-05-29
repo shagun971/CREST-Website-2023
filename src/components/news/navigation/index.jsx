@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import PostNav from "@components/post-nav/layout-link-only";
+import PostNav from "@components/post-nav/layout-02";
 import { ImageType } from "@utils/types";
 import { Navigtion } from "./style";
 
@@ -12,15 +12,17 @@ const NavigationArea = ({ data }) => {
             {data?.previous && (
                 <PostNav
                     rel="prev"
-                    slug={'news/' + data?.previous.slug}
+                    slug={data?.previous.slug}
                     title={data?.previous.title}
+                    image={data?.previous.image}
                 />
             )}
             {data?.next && (
                 <PostNav
                     rel="next"
-                    slug={'news/' + data?.next.slug}
+                    slug={data?.next.slug}
                     title={data?.next.title}
+                    image={data?.next.image}
                 />
             )}
         </Navigtion>

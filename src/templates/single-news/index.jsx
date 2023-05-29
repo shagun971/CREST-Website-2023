@@ -31,7 +31,7 @@ import {
   StyledFooter,
 } from "./style";
 
-const SingleNewsTemplate = ({ pageContext, location, data }) => {
+const SingleNewsTemplate = ({ pageContext, location, data, children }) => {
   const globalContent = normalizedData(data?.allGeneral?.nodes || []);
   const newsData = data.news;
   console.log(newsData);
@@ -93,7 +93,7 @@ const SingleNewsTemplate = ({ pageContext, location, data }) => {
               </header>
               <StyledContent className="markdown">
                 <MDXProvider components={MarkdownComponents}>
-                  {newsData?.content || "News Content"}
+                  {children || "No News Content Available Yet!"}
                 </MDXProvider>
               </StyledContent>
               <StyledFooter>

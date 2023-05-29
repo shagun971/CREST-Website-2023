@@ -96,13 +96,13 @@ const Blog = ({
             <BlogInfo>
                 {title && (
                     <BlogTitle>
-                        <Anchor to={`/blog/${slug}`}>{title}</Anchor>
+                        <Anchor to={`/${slug}`}>{title}</Anchor>
                     </BlogTitle>
                 )}
                 {excerpt && <BlogExcerpt>{excerpt}</BlogExcerpt>}
                 <ReadMoreBtn>
                     <Button
-                        to={`/blog/${slug}`}
+                        to={`/${slug}`}
                         icon="far fa-long-arrow-right"
                         variant="texted"
                         icondistance="4px"

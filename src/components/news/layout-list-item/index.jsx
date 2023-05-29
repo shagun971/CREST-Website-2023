@@ -51,7 +51,7 @@ const News = ({
             <BlogMedia>
                 {format === "image" && image?.src && (
                     <BlogThumb>
-                        <Anchor path={`/news/${slug}`}>
+                        <Anchor path={`/${slug}`}>
                             <Image src={image.src} alt={image?.alt || title} />
                         </Anchor>
                     </BlogThumb>
@@ -77,7 +77,7 @@ const News = ({
                     )}
                     {title && (
                         <BlogTitle>
-                            <Anchor path={`/news/${slug}`}>{title}</Anchor>
+                            <Anchor path={`/${slug}`}>{title}</Anchor>
                         </BlogTitle>
                     )}
                     <BlogHeaderMeta>
@@ -108,7 +108,7 @@ const News = ({
                 )}
                 <BlogFooter>
                     <BlogFooterLeft>
-                        <Button path={`/news/${slug}`}>Read More</Button>
+                        <Button path={`/${slug}`}>Read More</Button>
                     </BlogFooterLeft>
                     <BlogFooterRight>
                         <SocialShare
