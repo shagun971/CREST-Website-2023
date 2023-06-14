@@ -56,37 +56,32 @@ const InfotechnoPage = ({ location, data }) => {
     );
 };
 
-export const query = graphql`
-    query processingPageQuery {
-        allGeneral {
-            nodes {
-                section
-                ...HeaderOne
-            }
-        }
-        site {
-            ...Site
-        }
-        page(title: { eq: "processing" }, pageType: { eq: "frontpage" }) {
-            content {
-                ...PageContent
-            }
-        }
-        allItSolution(filter: { is_featured: { eq: true } }) {
-            nodes {
-                ...ItSolutionOne
-            }
-        }
-        allItService(
-            sort: { order: DESC, fields: id }
-            filter: { is_featured: { eq: false } }
-        ) {
-            nodes {
-                ...ItServiceThree
-            }
-        }
+export const query = graphql`query processingPageQuery {
+  allGeneral {
+    nodes {
+      section
+      ...HeaderOne
     }
-`;
+  }
+  site {
+    ...Site
+  }
+  page(title: {eq: "processing"}, pageType: {eq: "frontpage"}) {
+    content {
+      ...PageContent
+    }
+  }
+  allItSolution(filter: {is_featured: {eq: true}}) {
+    nodes {
+      ...ItSolutionOne
+    }
+  }
+  allItService(sort: {id: DESC}, filter: {is_featured: {eq: false}}) {
+    nodes {
+      ...ItServiceThree
+    }
+  }
+}`;
 
 InfotechnoPage.propTypes = {
     location: PropTypes.shape({}),

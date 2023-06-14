@@ -7,22 +7,22 @@
             "section": "hero-section",
             "images": [
                 {
-                    "src": "../images/hero/slider-processing-slide-01-image-01.png"
+                    "src": "../images/hero/slider-processing-slide-01-image-01.webp"
                 }
             ],
             "headings": [
                 {
-                    "level": "h6",
-                    "content": "IT Software and design"
+                    "level": "h1",
+                    "content": "<span>CREST</span>"
                 },
                 {
-                    "level": "h1",
-                    "content": "Virtual technology in a <span>Refined IT System</span>"
+                    "level": "h4",
+                    "content": "<span>C</span>entre for <span>R</span>esearch on <span>E</span>ngineering <span>S</span>oftware <span>T</span>echnologies"
                 }
             ],
             "texts": [
                 {
-                    "content": "Set the trends for desktop & server virtualization technology"
+                    "content": "Helping industries, governments, and societies to build human- as well as technological-based competencies in software systems engineering."
                 }
             ],
             "buttons": [
@@ -30,7 +30,7 @@
                     "id": 1,
                     "path": "/homepages/processing",
                     "color": "secondary",
-                    "content": "Free Sample"
+                    "content": "About us"
                 }
             ],
             "video_button": {
@@ -232,116 +232,56 @@
             ]
         },
         {
-            "id": "processing-partner",
+            "id": "infotechno-partner",
             "section": "partner-section",
             "items": [
                 {
                     "id": 1,
                     "images": [
                         {
-                            "src": "../images/partners/mitech-client-logo-01.png"
+                            "src": "../images/partners/NextGenTechFund_logo.png"
                         },
                         {
-                            "src": "../images/partners/mitech-client-logo-01-hover.png"
+                            "src": "../images/partners/NextGenTechFund_logo.png"
                         }
                     ],
-                    "path": "/"
+                    "path": "https://www.innovationhub.defence.gov.au/"
                 },
                 {
                     "id": 2,
                     "images": [
                         {
-                            "src": "../images/partners/mitech-client-logo-02.png"
+                            "src": "../images/partners/cscrc.jpg"
                         },
                         {
-                            "src": "../images/partners/mitech-client-logo-02-hover.png"
+                            "src": "../images/partners/cscrc.jpg"
                         }
                     ],
-                    "path": "/"
+                    "path": "https://www.cybersecuritycrc.org.au/"
                 },
                 {
                     "id": 3,
                     "images": [
                         {
-                            "src": "../images/partners/mitech-client-logo-03.png"
+                            "src": "../images/partners/DATA61-CSIRO_Colour_RGB.jpg"
                         },
                         {
-                            "src": "../images/partners/mitech-client-logo-03-hover.png"
+                            "src": "../images/partners/DATA61-CSIRO_Colour_RGB.jpg"
                         }
                     ],
-                    "path": "/"
+                    "path": "https://www.csiro.au/"
                 },
                 {
                     "id": 4,
                     "images": [
                         {
-                            "src": "../images/partners/mitech-client-logo-04.png"
+                            "src": "../images/partners/sa.jpg"
                         },
                         {
-                            "src": "../images/partners/mitech-client-logo-04-hover.png"
+                            "src": "../images/partners/sa.jpg"
                         }
                     ],
-                    "path": "/"
-                },
-                {
-                    "id": 5,
-                    "images": [
-                        {
-                            "src": "../images/partners/mitech-client-logo-05.png"
-                        },
-                        {
-                            "src": "../images/partners/mitech-client-logo-05-hover.png"
-                        }
-                    ],
-                    "path": "/"
-                },
-                {
-                    "id": 6,
-                    "images": [
-                        {
-                            "src": "../images/partners/mitech-client-logo-06.png"
-                        },
-                        {
-                            "src": "../images/partners/mitech-client-logo-06-hover.png"
-                        }
-                    ],
-                    "path": "/"
-                },
-                {
-                    "id": 7,
-                    "images": [
-                        {
-                            "src": "../images/partners/mitech-client-logo-07.png"
-                        },
-                        {
-                            "src": "../images/partners/mitech-client-logo-07-hover.png"
-                        }
-                    ],
-                    "path": "/"
-                },
-                {
-                    "id": 8,
-                    "images": [
-                        {
-                            "src": "../images/partners/mitech-client-logo-08.png"
-                        },
-                        {
-                            "src": "../images/partners/mitech-client-logo-08-hover.png"
-                        }
-                    ],
-                    "path": "/"
-                },
-                {
-                    "id": 9,
-                    "images": [
-                        {
-                            "src": "../images/partners/mitech-client-logo-09.png"
-                        },
-                        {
-                            "src": "../images/partners/mitech-client-logo-09-hover.png"
-                        }
-                    ],
-                    "path": "/"
+                    "path": "https://southaustralia.com/"
                 }
             ]
         },

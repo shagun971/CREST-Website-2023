@@ -21,7 +21,7 @@ const BlogListTemplate = ({ pageContext, location, data }) => {
     const content = normalizedData(data?.page?.content || []);
     const globalContent = normalizedData(data?.allGeneral.nodes || []);
     const { currentPage, numberOfPages } = pageContext;
-
+    console.log(`${currentPage} vs ${numberOfPages} `);
     return (
         <Layout location={location}>
             <Seo
@@ -82,7 +82,7 @@ const BlogListTemplate = ({ pageContext, location, data }) => {
                                 />
                                 <Pagination
                                     mt="40px"
-                                    rootPage="/blog"
+                                    rootPage="/blogs"
                                     currentPage={currentPage}
                                     numberOfPages={numberOfPages}
                                 />
@@ -96,50 +96,41 @@ const BlogListTemplate = ({ pageContext, location, data }) => {
     );
 };
 
-export const query = graphql`
-    query BlogListTemplateQuery($skip: Int!, $limit: Int!) {
-        allGeneral {
-            nodes {
-                section
-                ...HeaderOne
-            }
-        }
-        site {
-            ...Site
-        }
-        page(title: { eq: "blog" }, pageType: { eq: "innerpage" }) {
-            content {
-                ...PageContent
-            }
-        }
-        blogs: allArticle(
-            sort: { fields: postedAt___date, order: DESC }
-            limit: $limit
-            skip: $skip
-        ) {
-            totalCount
-            nodes {
-                ...BlogFive
-            }
-        }
-        recentPosts: allArticle(
-            sort: { fields: postedAt___date, order: ASC }
-            limit: 5
-        ) {
-            nodes {
-                ...BlogTwo
-            }
-        }
-        tags: allArticle {
-            nodes {
-                tags {
-                    title
-                    slug
-                }
-            }
-        }
+export const query = graphql`query BlogListTemplateQuery($skip: Int!, $limit: Int!) {
+  allGeneral {
+    nodes {
+      section
+      ...HeaderOne
     }
-`;
+  }
+  site {
+    ...Site
+  }
+  page(title: {eq: "blog"}, pageType: {eq: "innerpage"}) {
+    content {
+      ...PageContent
+    }
+  }
+  blogs: allArticle(sort: {postedAt: {date: DESC}}, limit: $limit, skip: $skip) {
+    totalCount
+    nodes {
+      ...BlogFive
+    }
+  }
+  recentPosts: allArticle(sort: {postedAt: {date: ASC}}, limit: 5) {
+    nodes {
+      ...BlogTwo
+    }
+  }
+  tags: allArticle {
+    nodes {
+      tags {
+        title
+        slug
+      }
+    }
+  }
+}`;
 BlogListTemplate.propTypes = {
     pageContext: PropTypes.shape({
         currentPage: PropTypes.number,

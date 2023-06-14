@@ -21,7 +21,7 @@ const BlogArea = ({ data }) => {
 
                 <Row>
                     {data?.featuredBlog && (
-                        <Col lg={6}>
+                        <Col lg={5}>
                             <FeaturedBlog
                                 key={data.featuredBlog.slug}
                                 format={data.featuredBlog.format}
@@ -38,13 +38,14 @@ const BlogArea = ({ data }) => {
                         </Col>
                     )}
 
-                    <Col lg={6}>
+                    <Col lg={7}>
                         {data?.recentBlogs && (
                             <BlogList>
                                 {data.recentBlogs.map((recentBlog) => (
                                     <BlogListItem key={recentBlog.slug}>
                                         <RecentBlog
                                             format={recentBlog.format}
+                                            excerpt={recentBlog.excerpt}
                                             title={recentBlog.title}
                                             slug={recentBlog.slug}
                                             postedAt={recentBlog.postedAt}

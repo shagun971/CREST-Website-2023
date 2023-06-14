@@ -1,0 +1,11 @@
+.cache/
+node_modules/
+public/
+.git
+.eslint*
+.prettier*
+.git*
+.vscode
+README.md
+Dockerfile*
+docker-compose.yml

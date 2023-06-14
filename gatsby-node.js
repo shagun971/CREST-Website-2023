@@ -5,17 +5,7 @@ const onCreateNode = require("./src/gatsby-utils/onCreateNode");
 const createResolvers = require("./src/gatsby-utils/createResolvers");
 const createPages = require("./src/gatsby-utils/createPages");
 
-exports.onCreateWebpackConfig = ({ getConfig, actions }) => {
-    const oldConfig = getConfig();
-    const config = {
-        ...oldConfig,
-        output: {
-            ...oldConfig.output,
-            globalObject: "this",
-        },
-    };
-
-    actions.replaceWebpackConfig(config);
+exports.onCreateWebpackConfig = ({ stage, actions }) => {
     actions.setWebpackConfig({
         resolve: {
             alias: {
@@ -45,6 +35,7 @@ exports.onCreateWebpackConfig = ({ getConfig, actions }) => {
 
 exports.createSchemaCustomization = createSchemaCustomization;
 
+
 exports.onCreateNode = onCreateNode;
 
 exports.createResolvers = createResolvers;
@@ -54,7 +45,9 @@ exports.createPages = createPages;
 const { deleteThisPages, defaultHome, mode } = pageOptions;
 
 exports.onCreatePage = ({ page, actions }) => {
-    if (!page.isCreatedByStatefulCreatePages) return;
+    if (!page.isCreatedByStatefulCreatePages) {
+      return;
+    }
 
     const { deletePage, createPage } = actions;
     const pagePath = page.path.slice(0, -1);

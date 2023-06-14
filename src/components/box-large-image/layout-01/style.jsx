@@ -2,7 +2,10 @@ import styled, { themeGet } from "@styled";
 import Anchor from "@ui/anchor";
 
 export const BoxLargeImgInner = styled.div`
+    margin-block-start: 30px;
     transition: ${themeGet("transition")};
+    border-radius: ${themeGet("radii.md")};
+    overflow: hidden;
 `;
 
 export const BoxLargeImgMedia = styled.div`
@@ -19,12 +22,13 @@ export const BoxLargeImgMedia = styled.div`
         position: absolute;
         inset: 0;
         z-index: 1;
-        opacity: 0.5;
-        background-image: linear-gradient(
-            -180deg,
-            transparent 39%,
-            #1c0f69 100%
-        );
+        opacity: 0.4;
+        // background-image: linear-gradient(
+        //     -180deg,
+        //     transparent 0 80%,
+        //     #000
+        // );
+        background-image: linear-gradient(0deg, rgba(1,0,15,1) 0%, rgba(0,0,48,0.8) 30%, rgba(80,86,87,0.1) 100%);
     }
 `;
 
@@ -63,10 +67,10 @@ export const BoxLargeImgContent = styled.div`
 `;
 
 export const HeadingWrap = styled.h5`
-    font-size: 24px;
-    line-height: 1.5;
+    font-size: 22px;
+    line-height: 1.3;
     color: #fff;
-    font-weight: 500;
+    font-weight: 600;
 `;
 
 export const TextWrap = styled.p`
@@ -87,7 +91,7 @@ export const BoxLargeImgLink = styled(Anchor)`
 `;
 
 export const BoxLargeImgWrap = styled.div`
-    max-width: 370px;
+    max-width: 360px;
     margin-inline: auto;
     width: 100%;
     height: 100%;
@@ -100,11 +104,13 @@ export const BoxLargeImgWrap = styled.div`
     &:hover {
         ${BoxLargeImgInner} {
             transform: translateY(-5px);
+            box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
         }
         ${BoxLargeImgMedia} {
             &:after {
-                background: ${themeGet("colors.primary")};
-                opacity: 0.8;
+                // background: ${themeGet("colors.primary")};
+                background-image: linear-gradient(0deg, rgba(1,0,15,1) 0%, rgba(0,0,48,0.8) 55%, rgba(80,86,87,0.1) 100%);
+                opacity: 0.6;
             }
         }
         ${BoxLargeImgBtnInner} {
@@ -112,12 +118,16 @@ export const BoxLargeImgWrap = styled.div`
             opacity: 1;
         }
         ${BoxLargeImgHeading} {
-            transform: translateY(-100%);
-            opacity: 0;
+            // transform: translateY(-100%);
+            opacity: 1;
         }
         ${BoxLargeImgLink} {
             opacity: 1;
             visibility: visible;
+        }
+        ${HeadingWrap} {
+            color: ${themeGet("colors.danger")};
+            text-shadow: 1px 1px 2px rgba(22,10,6,0.4);
         }
     }
 `;

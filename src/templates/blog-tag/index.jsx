@@ -85,47 +85,40 @@ const BlogTagTemplate = ({ pageContext, location, data }) => {
     );
 };
 
-export const query = graphql`
-    query BlogTagPageQuery($slug: String) {
-        allGeneral {
-            nodes {
-                section
-                ...HeaderOne
-            }
-        }
-        site {
-            ...Site
-        }
-        page(title: { eq: "blog" }, pageType: { eq: "innerpage" }) {
-            content {
-                ...PageContent
-            }
-        }
-        blogs: allArticle(
-            filter: { tags: { elemMatch: { slug: { eq: $slug } } } }
-        ) {
-            nodes {
-                ...BlogFive
-            }
-        }
-        recentPosts: allArticle(
-            sort: { fields: postedAt___date, order: ASC }
-            limit: 5
-        ) {
-            nodes {
-                ...BlogTwo
-            }
-        }
-        tags: allArticle {
-            nodes {
-                tags {
-                    title
-                    slug
-                }
-            }
-        }
+export const query = graphql`query BlogTagPageQuery($slug: String) {
+  allGeneral {
+    nodes {
+      section
+      ...HeaderOne
     }
-`;
+  }
+  site {
+    ...Site
+  }
+  page(title: {eq: "blog"}, pageType: {eq: "innerpage"}) {
+    content {
+      ...PageContent
+    }
+  }
+  blogs: allArticle(filter: {tags: {elemMatch: {slug: {eq: $slug}}}}) {
+    nodes {
+      ...BlogFive
+    }
+  }
+  recentPosts: allArticle(sort: {postedAt: {date: ASC}}, limit: 5) {
+    nodes {
+      ...BlogTwo
+    }
+  }
+  tags: allArticle {
+    nodes {
+      tags {
+        title
+        slug
+      }
+    }
+  }
+}`;
 
 BlogTagTemplate.propTypes = {
     location: PropTypes.shape({}),

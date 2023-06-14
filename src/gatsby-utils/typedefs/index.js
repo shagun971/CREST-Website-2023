@@ -7,6 +7,8 @@ const generalDefs = require("./general");
 const siteDefs = require("./site");
 const blogDefs = require("./blog");
 const authorDefs = require("./author");
+const newsDefs = require("./news");
+const resourcesDefs = require("./resources");
 
 module.exports = {
     pageDefs,
@@ -18,4 +20,6 @@ module.exports = {
     siteDefs,
     blogDefs,
     authorDefs,
+    newsDefs,
+    resourcesDefs,
 };

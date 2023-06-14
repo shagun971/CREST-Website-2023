@@ -77,53 +77,45 @@ const ServicesPage = ({ location, data }) => {
     );
 };
 
-export const query = graphql`
-    query servicesPageQuery {
-        allGeneral {
-            nodes {
-                section
-                ...HeaderOne
-            }
-        }
-        site {
-            ...Site
-        }
-        page(title: { eq: "services" }, pageType: { eq: "frontpage" }) {
-            content {
-                ...PageContent
-            }
-        }
-        allItSolution(limit: 6) {
-            nodes {
-                ...ItSolutionTwo
-            }
-        }
-        services: allItService(
-            sort: { order: DESC, fields: id }
-            filter: { is_featured: { eq: true } }
-        ) {
-            nodes {
-                ...ItServiceOne
-            }
-        }
-        allCaseStudy(limit: 2) {
-            nodes {
-                ...CaseStudyTwo
-            }
-        }
-        featuredBlog: article(is_featured: { eq: true }) {
-            ...BlogThree
-        }
-        recentBlogs: allArticle(
-            filter: { is_featured: { eq: false } }
-            limit: 3
-        ) {
-            nodes {
-                ...BlogFour
-            }
-        }
+export const query = graphql`query servicesPageQuery {
+  allGeneral {
+    nodes {
+      section
+      ...HeaderOne
     }
-`;
+  }
+  site {
+    ...Site
+  }
+  page(title: {eq: "services"}, pageType: {eq: "frontpage"}) {
+    content {
+      ...PageContent
+    }
+  }
+  allItSolution(limit: 6) {
+    nodes {
+      ...ItSolutionTwo
+    }
+  }
+  services: allItService(sort: {id: DESC}, filter: {is_featured: {eq: true}}) {
+    nodes {
+      ...ItServiceOne
+    }
+  }
+  allCaseStudy(limit: 2) {
+    nodes {
+      ...CaseStudyTwo
+    }
+  }
+  featuredBlog: article(is_featured: {eq: true}) {
+    ...BlogThree
+  }
+  recentBlogs: allArticle(filter: {is_featured: {eq: false}}, limit: 3) {
+    nodes {
+      ...BlogFour
+    }
+  }
+}`;
 
 ServicesPage.propTypes = {
     location: PropTypes.shape({}),

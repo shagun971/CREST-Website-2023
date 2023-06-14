@@ -50,32 +50,27 @@ const WhyChooseUsPage = ({ pageContext, location, data }) => {
     );
 };
 
-export const query = graphql`
-    query WhyChooseUsPageQuery {
-        allGeneral {
-            nodes {
-                section
-                ...HeaderOne
-            }
-        }
-        site {
-            ...Site
-        }
-        page(title: { eq: "why-choose-us" }, pageType: { eq: "innerpage" }) {
-            content {
-                ...PageContent
-            }
-        }
-        services: allItService(
-            sort: { order: DESC, fields: id }
-            filter: { is_featured: { eq: false } }
-        ) {
-            nodes {
-                ...ItServiceThree
-            }
-        }
+export const query = graphql`query WhyChooseUsPageQuery {
+  allGeneral {
+    nodes {
+      section
+      ...HeaderOne
     }
-`;
+  }
+  site {
+    ...Site
+  }
+  page(title: {eq: "why-choose-us"}, pageType: {eq: "innerpage"}) {
+    content {
+      ...PageContent
+    }
+  }
+  services: allItService(sort: {id: DESC}, filter: {is_featured: {eq: false}}) {
+    nodes {
+      ...ItServiceThree
+    }
+  }
+}`;
 
 WhyChooseUsPage.propTypes = {
     pageContext: PropTypes.shape({}),

@@ -85,45 +85,40 @@ const BlogAuthorTemplate = ({ pageContext, location, data }) => {
     );
 };
 
-export const query = graphql`
-    query BlogAuthorPageQuery($slug: String) {
-        allGeneral {
-            nodes {
-                section
-                ...HeaderOne
-            }
-        }
-        site {
-            ...Site
-        }
-        page(title: { eq: "blog" }, pageType: { eq: "innerpage" }) {
-            content {
-                ...PageContent
-            }
-        }
-        blogs: allArticle(filter: { author: { slug: { eq: $slug } } }) {
-            nodes {
-                ...BlogFive
-            }
-        }
-        recentPosts: allArticle(
-            sort: { fields: postedAt___date, order: ASC }
-            limit: 5
-        ) {
-            nodes {
-                ...BlogTwo
-            }
-        }
-        tags: allArticle {
-            nodes {
-                tags {
-                    title
-                    slug
-                }
-            }
-        }
+export const query = graphql`query BlogAuthorPageQuery($slug: String) {
+  allGeneral {
+    nodes {
+      section
+      ...HeaderOne
     }
-`;
+  }
+  site {
+    ...Site
+  }
+  page(title: {eq: "blog"}, pageType: {eq: "innerpage"}) {
+    content {
+      ...PageContent
+    }
+  }
+  blogs: allArticle(filter: {author: {slug: {eq: $slug}}}) {
+    nodes {
+      ...BlogFive
+    }
+  }
+  recentPosts: allArticle(sort: {postedAt: {date: ASC}}, limit: 5) {
+    nodes {
+      ...BlogTwo
+    }
+  }
+  tags: allArticle {
+    nodes {
+      tags {
+        title
+        slug
+      }
+    }
+  }
+}`;
 
 BlogAuthorTemplate.propTypes = {
     location: PropTypes.shape({}),

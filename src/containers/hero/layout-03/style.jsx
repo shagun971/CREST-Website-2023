@@ -69,17 +69,20 @@ export const ImageBox = styled.div`
     }
 `;
 
-export const StyledSubtitle = styled.h6`
+export const StyledSubtitle = styled.h3`
     line-height: 36px;
     text-transform: uppercase;
     margin-block-end: 15px;
     color: #fff;
-    font-size: 16px;
+    font-size: 32px;
     letter-spacing: 1px;
     ${device.medium} {
         letter-spacing: 3px;
-        font-size: 18px;
+        font-size: 32px;
         margin-block-end: 20px;
+    }
+    span {
+        color: ${themeGet("colors.secondary")};
     }
 `;
 

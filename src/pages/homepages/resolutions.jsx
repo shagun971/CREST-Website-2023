@@ -57,37 +57,32 @@ const ResolutionsPage = ({ location, data }) => {
     );
 };
 
-export const query = graphql`
-    query resoultionsPageQuery {
-        allGeneral {
-            nodes {
-                section
-                ...HeaderOne
-            }
-        }
-        site {
-            ...Site
-        }
-        page(title: { eq: "resolutions" }, pageType: { eq: "frontpage" }) {
-            content {
-                ...PageContent
-            }
-        }
-        features: allItSolution(
-            filter: { is_featured: { eq: true } }
-            limit: 3
-        ) {
-            nodes {
-                ...ItSolutionTwo
-            }
-        }
-        services: allItService(sort: { order: DESC, fields: id }, limit: 8) {
-            nodes {
-                ...ItServiceOne
-            }
-        }
+export const query = graphql`query resoultionsPageQuery {
+  allGeneral {
+    nodes {
+      section
+      ...HeaderOne
     }
-`;
+  }
+  site {
+    ...Site
+  }
+  page(title: {eq: "resolutions"}, pageType: {eq: "frontpage"}) {
+    content {
+      ...PageContent
+    }
+  }
+  features: allItSolution(filter: {is_featured: {eq: true}}, limit: 3) {
+    nodes {
+      ...ItSolutionTwo
+    }
+  }
+  services: allItService(sort: {id: DESC}, limit: 8) {
+    nodes {
+      ...ItServiceOne
+    }
+  }
+}`;
 
 ResolutionsPage.propTypes = {
     location: PropTypes.shape({}),

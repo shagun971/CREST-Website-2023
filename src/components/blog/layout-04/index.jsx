@@ -22,6 +22,7 @@ import {
 const Blog = ({
     format,
     title,
+    excerpt,
     slug,
     author,
     image,
@@ -60,7 +61,7 @@ const Blog = ({
                             slug={author.slug}
                             name={author.name}
                             image={author.image}
-                            color="#fff"
+                            color="#000"
                         />
                     </BlogThumbMeta>
                 )}
@@ -78,9 +79,14 @@ const Blog = ({
                 {title && (
                     <BlogTitle>
                         <Anchor path={`/${slug}`}>
-                            {truncateString(title, 33)}
+                            {title}
                         </Anchor>
                     </BlogTitle>
+                )}
+                {excerpt && (
+                    <p>
+                        {truncateString(excerpt, 120)}
+                    </p>
                 )}
             </BlogInfo>
         </BlogWrapper>

@@ -15,6 +15,7 @@ module.exports = ({ node, actions, createNodeId }) => {
             internal: {
                 type: "Page",
                 contentDigest: node.internal.contentDigest,
+                contentFilePath: node.internal.contentFilePath
             },
         });
     }
@@ -36,6 +37,7 @@ module.exports = ({ node, actions, createNodeId }) => {
             internal: {
                 type: "ItService",
                 contentDigest: node.internal.contentDigest,
+                contentFilePath: node.internal.contentFilePath
             },
         });
     }
@@ -56,6 +58,7 @@ module.exports = ({ node, actions, createNodeId }) => {
             internal: {
                 type: "ItSolution",
                 contentDigest: node.internal.contentDigest,
+                contentFilePath: node.internal.contentFilePath
             },
         });
     }
@@ -78,6 +81,7 @@ module.exports = ({ node, actions, createNodeId }) => {
             internal: {
                 type: "CaseStudy",
                 contentDigest: node.internal.contentDigest,
+                contentFilePath: node.internal.contentFilePath
             },
         });
     }
@@ -92,32 +96,81 @@ module.exports = ({ node, actions, createNodeId }) => {
             internal: {
                 type: "General",
                 contentDigest: node.internal.contentDigest,
+                contentFilePath: node.internal.contentFilePath
             },
         });
     }
 
-    if (node.internal.type === "MarkdownRemark") {
-        createNode({
-            id: createNodeId(`Article-${node.id}`),
-            parent: node.id,
-            title: node.frontmatter.title,
-            slug: slugify(node.frontmatter.title),
-            postedAt: node.frontmatter.date,
-            image: node.frontmatter.image,
-            quote_text: node.frontmatter.quote_text,
-            quote_author: node.frontmatter.quote_author,
-            video_link: node.frontmatter.video_link,
-            categories: node.frontmatter.categories,
-            tags: node.frontmatter.tags,
-            format: node.frontmatter.format,
-            is_featured: node.frontmatter.is_featured,
-            author: node.frontmatter.author,
-            excerpt: node.excerpt,
-            internal: {
-                type: "Article",
-                contentDigest: node.internal.contentDigest,
+    if (node.internal.type === "Mdx") {
+        console.log(JSON.stringify(node));
+        if (node.frontmatter.type === "resources") {
+            console.log(node);
+            createNode({
+                id: node.frontmatter.id,
+                title: node.frontmatter.title,
+                parent: node.id,
+                type: node.frontmatter.type,
+                body: node.body,
+                internal: {
+                    type: "Resources",
+                    contentDigest: node.internal.contentDigest,
+                    contentFilePath: node.internal.contentFilePath
             },
-        });
+            });
+        }
+        else if (node.frontmatter.type === "blog") {
+            createNode({
+                id: createNodeId(`Article-${node.id}`),
+                parent: node.id,
+                title: node.frontmatter.title,
+                slug: `blog/${slugify(node.frontmatter.title)}`,
+                postedAt: node.frontmatter.date,
+                image: node.frontmatter.image,
+                quote_text: node.frontmatter.quote_text,
+                quote_author: node.frontmatter.quote_author,
+                video_link: node.frontmatter.video_link,
+                categories: node.frontmatter.categories,
+                tags: node.frontmatter.tags,
+                format: node.frontmatter.format,
+                is_featured: node.frontmatter.is_featured,
+                author: node.frontmatter.author,
+                // define a description entity in frontmatter metadata to replace excerpt
+                excerpt: node.frontmatter.description,
+                description: node.frontmatter.description,
+                type: node.frontmatter.type,
+                internal: {
+                    type: "Article",
+                    contentDigest: node.internal.contentDigest,
+                    contentFilePath: node.internal.contentFilePath
+                },
+            });
+        } else if (node.frontmatter.type === "news") {
+            createNode({
+                id: createNodeId(`News-${node.id}`),
+                parent: node.id,
+                title: node.frontmatter.title,
+                slug: `news/${slugify(node.frontmatter.title)}`,
+                postedAt: node.frontmatter.date,
+                image: node.frontmatter.image,
+                quote_text: node.frontmatter.quote_text,
+                quote_author: node.frontmatter.quote_author,
+                video_link: node.frontmatter.video_link,
+                categories: node.frontmatter.categories,
+                tags: node.frontmatter.tags,
+                format: node.frontmatter.format,
+                is_featured: node.frontmatter.is_featured,
+                author: node.frontmatter.author,
+                // define a description entity in frontmatter metadata to replace excerpt
+                excerpt: node.frontmatter.description,
+                description: node.frontmatter.description,
+                type: node.frontmatter.type,
+                internal: {
+                    type: "News",
+                    contentDigest: node.internal.contentDigest,
+                    contentFilePath: node.internal.contentFilePath
+                },
+            });
+        }
     }
 
     if (node.internal.type === "AuthorsJson") {

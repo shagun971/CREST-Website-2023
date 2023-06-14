@@ -23,15 +23,15 @@ const PopularTags = ({ className, data, ...rest }) => {
         }
     });
 
-    const sortedTags = tagList.sort((a, b) => (b.count < a.count ? -1 : 0));
-
+    const sortedTags = tagList.sort((a, b) => (b.count - a.count));
+    console.log(sortedTags);
     return (
         <Wrapper className={cn("popular-tags-widget", className)} {...rest}>
             {data?.section_title && (
                 <WidgetTitle>{data.section_title?.title}</WidgetTitle>
             )}
             <StyledTags>
-                {sortedTags.slice(0, 3).map((tag) => (
+                {sortedTags.slice(0, 6).map((tag) => (
                     <StyledTag key={tag.slug} path={`/tag/${tag.slug}`}>
                         {tag.title}
                     </StyledTag>
