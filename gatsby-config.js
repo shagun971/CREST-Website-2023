@@ -14,7 +14,7 @@ module.exports = {
     author: "@crest_uofa",
     twitterUsername: "@crest_uofa",
     image: "landing.png",
-    siteUrl: "https://crest-centre.net/",
+    siteUrl: "https://new.crest-centre.net/",
     getform: "https://getform.io/f/58c49e90-e767-4e18-959e-4fcd84bf8659",
     copyright:
       "CREST. <a href='https://crest-centre.net/' target='_blank' rel='noopener noreferrer'>All Rights Reserved.</a>",
