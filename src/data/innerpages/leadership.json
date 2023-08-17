@@ -218,30 +218,6 @@
                 },
                 {
                     "id": 8,
-                    "name": "Yaser Mansouri",
-                    "designation": "Post Doc",
-                    "images": [
-                        {
-                            "src": "../images/team/yaser.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com/citations?user=VPjDr3AAAAAJ&hl=en",
-                            "title": "Google Scholar"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-dribbble",
-                            "link": "https://ieeexplore.ieee.org/author/37086475255",
-                            "title": "Personal Website"
-                        }
-                    ]
-                },
-                {
-                    "id": 9,
                     "name": "Asangi Jayatilaka",
                     "designation": "Post Doc",
                     "images": [
@@ -267,6 +243,90 @@
                             "icon": "fab fa-dribbble",
                             "link": "https://researchers.adelaide.edu.au/profile/asangi.jayatilaka",
                             "title": "Personal Website"
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "name": "Triet Huynh Minh Le",
+                    "designation": "PhD",
+                    "images": [
+                        {
+                            "src": "../images/team/triet.jpg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 3,
+                            "icon": "fab fa-dribbble",
+                            "link": "https://www.trietle.net/",
+                            "title": "Personal Website"
+                        },
+                        {
+                            "id": 4,
+                            "icon": "fab si-googlescholar",
+                            "link": "https://scholar.google.com/citations?user=6nlR-XIAAAAJ",
+                            "title": "Google Scholar"
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "name": "Kun-Ting Chen",
+                    "designation": "Post Doc",
+                    "images": [
+                        {
+                            "src": "../images/team/kuntingchen.jpg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 2,
+                            "icon": "fab fa-twitter",
+                            "link": "https://twitter.com/kuntingchen1",
+                            "title": "Twitter"
+                        },
+                        {
+                            "id": 3,
+                            "icon": "fab fa-dribbble",
+                            "link": "https://github.com/Kun-Ting",
+                            "title": "Personal Website"
+                        },
+                        {
+                            "id": 4,
+                            "icon": "fab si-googlescholar",
+                            "link": "https://scholar.google.com/citations?hl=en&user=8gpa65AAAAAJ",
+                            "title": "Google Scholar"
+                        },
+                        {
+                            "id": 4,
+                            "icon": "fab fa-linkedin",
+                            "link": "https://www.linkedin.com/in/kun-ting-chen-313a5116a",
+                            "title": "Linkedin"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Bushra Sabir",
+                    "designation": "PhD",
+                    "images": [
+                        {
+                            "src": "../images/team/busra.jpg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 2,
+                            "icon": "fab fa-twitter",
+                            "link": "https://twitter.com/bushra_sabir",
+                            "title": "Twitter"
+                        },
+                        {
+                            "id": 4,
+                            "icon": "fab si-googlescholar",
+                            "link": "https://scholar.google.com/citations?user=FeX-_H8AAAAJ&hl=en",
+                            "title": "Google Scholar"
                         }
                     ]
                 },
@@ -412,54 +472,6 @@
                 "title": "<span>PhD Student</span>"
             },
             "items": [
-                {
-                    "id": 1,
-                    "name": "Triet Huynh Minh Le",
-                    "designation": "PhD",
-                    "images": [
-                        {
-                            "src": "../images/team/triet.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 3,
-                            "icon": "fab fa-dribbble",
-                            "link": "https://www.trietle.net/",
-                            "title": "Personal Website"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com/citations?user=6nlR-XIAAAAJ",
-                            "title": "Google Scholar"
-                        }
-                    ]
-                },
-                {
-                    "id": 2,
-                    "name": "Bushra Sabir",
-                    "designation": "PhD",
-                    "images": [
-                        {
-                            "src": "../images/team/busra.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://twitter.com/bushra_sabir",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com/citations?user=FeX-_H8AAAAJ&hl=en",
-                            "title": "Google Scholar"
-                        }
-                    ]
-                },
                 {
                     "id": 3,
                     "name": "Fangchao Tian",
@@ -1118,6 +1130,30 @@
                             "icon": "fab fa-twitter",
                             "link": "https://mobile.twitter.com/dungleba",
                             "title": "Twitter"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "Yaser Mansouri",
+                    "designation": "Post Doc",
+                    "images": [
+                        {
+                            "src": "../images/team/yaser.jpg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 4,
+                            "icon": "fab si-googlescholar",
+                            "link": "https://scholar.google.com/citations?user=VPjDr3AAAAAJ&hl=en",
+                            "title": "Google Scholar"
+                        },
+                        {
+                            "id": 3,
+                            "icon": "fab fa-dribbble",
+                            "link": "https://ieeexplore.ieee.org/author/37086475255",
+                            "title": "Personal Website"
                         }
                     ]
                 }
