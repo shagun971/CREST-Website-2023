@@ -104,6 +104,33 @@
                             "title": "Personal Website"
                         }
                     ]
+                },
+                {
+                    "id": 4,
+                    "name": "Chelsea Liu",
+                    "designation": "Associate Professor",
+                    "position": "faculty",
+                    "introduction": "Dr Chelsea Liu is an Associate Professor at The University of Adelaide Business School and previously worked as a Visiting Assistant Professor in Finance at the Foster School of Business, University of Washington. Chelsea has a PhD in Business, a Master of Computer and Information Technology from the University of Pennsylvania, among other degrees in law, commerce, and education. Chelsea is a Deputy Editor of the Australian Journal of Management, Executive Editor of the Review of Corporate Finance, Editor of Pacific Accounting Review, and Associate Editor of Journal of Industrial and Business Economics. Chelsea’s research has been published in leading academic journals worldwide, including the Journal of Financial and Quantitative Analysis, Journal of Corporate Finance, Journal of Banking and Finance, Journal of Business Finance and Accounting, Journal of Empirical Legal Studies, and Journal of Business Ethics, among others. Chelsea’s research on climate finance, corporate governance, and cybersecurity benefits from her industry qualification as a solicitor and barrister in the High Court of Australia and her experience of working in commercial law firms prior to joining academia.",
+                    "images": [
+                        {
+                            "src": "../images/team/chelsea.jpg"
+                        }
+                    ],
+                    "competencies": "Corporate Governance, Cybersecurity, FinTech",
+                    "socials": {
+                        "facebook": "",
+                        "twitter": "",
+                        "instagram": "",
+                        "personalwebsite": "https://sites.google.com/view/chelsealiu",
+                        "linkedin": "",
+                        "github": "",
+                        "googlescholar": "https://scholar.google.com.au/citations?user=JBrgSqgAAAAJ&hl=en&oi=sra"
+                    },
+                    
+                    "projecturl": "",
+                    "researchtopic": "",
+                    "researchlink": "",
+                    "is_featured": true
                 }
             ]
         },
@@ -115,7 +142,7 @@
             },
             "items": [
                 {
-                    "id": 4,
+                    "id": 5,
                     "name": "Aufeef Chauhan",
                     "designation": "Post Doc",
                     "images": [
@@ -125,13 +152,13 @@
                     ],
                     "socials": [
                         {
-                            "id": 4,
+                            "id": 5,
                             "icon": "fab si-googlescholar",
                             "link": "https://scholar.google.dk/citations?user=7fy5Oa0AAAAJ&hl=en",
                             "title": "Google Scholar"
                         },
                         {
-                            "id": 4,
+                            "id": 5,
                             "icon": "fab fa-linkedin",
                             "link": "https://au.linkedin.com/in/aufeefchauhan",
                             "title": "Linkedin"
@@ -139,7 +166,7 @@
                     ]
                 },
                 {
-                    "id": 5,
+                    "id": 6,
                     "name": "Nguyen Khoi Tran",
                     "designation": "Post Doc",
                     "images": [
@@ -175,7 +202,7 @@
                     ]
                 },
                 {
-                    "id": 6,
+                    "id": 7,
                     "name": "Victor Prokhorenko",
                     "designation": "Post Doc",
                     "images": [
@@ -193,7 +220,7 @@
                     ]
                 },
                 {
-                    "id": 7,
+                    "id": 8,
                     "name": "Yaser Mansouri",
                     "designation": "Post Doc",
                     "images": [
@@ -217,7 +244,7 @@
                     ]
                 },
                 {
-                    "id": 8,
+                    "id": 9,
                     "name": "Asangi Jayatilaka",
                     "designation": "Post Doc",
                     "images": [
@@ -247,7 +274,7 @@
                     ]
                 },
                 {
-                    "id": 9,
+                    "id": 10,
                     "name": "Chadni Islam",
                     "designation": "Post Doc",
                     "images": [
@@ -283,7 +310,7 @@
                     ]
                 },
                 {
-                    "id": 10,
+                    "id": 11,
                     "name": "Sheik Mohammad Mostakim Fattah",
                     "designation": "Post Doc",
                     "images": [
@@ -319,7 +346,7 @@
                     ]
                 },
                 {
-                    "id": 11,
+                    "id": 12,
                     "name": "Xiaoyu Xia",
                     "designation": "Post Doc",
                     "images": [
@@ -353,6 +380,31 @@
                             "title": "Twitter"
                         }
                     ]
+                },{
+                    "id": 13,
+                    "name": "Boyu Zhang",
+                    "designation": "Post Doc",
+                    "position": "researchfellows",
+                    "introduction": "Boyu Zhang is a post-doctoral researcher at the Centre for Research on Engineering Software Technologies (CREST) at the University of Adelaide. His research focuses on the application of large language models for code generation, as well as vulnerability detection and repair. Boyu obtained his Ph.D. in computer science from Swinburne University of Technology, where he specialized in training deep neural networks to improve generalization using a multitask optimization framework. Before joining CREST, he worked as a senior algorithm engineer at Alibaba, specializing in prohibited products recognition on e-commerce platforms such as Lazada and AliExpress via the techniques of representation learning, natural language processing and human-in-the-loop approaches.",
+                    "images": [
+                        {
+                            "src": "../images/team/boyu.jpg"
+                        }
+                    ],
+                    "competencies": "Distributed systems, edge-cloud computing, Internet of Things, Microservice Applications",
+                    "socials": {
+                        "facebook": "",
+                        "twitter": "",
+                        "instagram": "",
+                        "personalwebsite": "",
+                        "linkedin": "https://www.linkedin.com/in/boyu-zhang-75094a60/",
+                        "github": "https://github.com/boyuZh",
+                        "googlescholar": "https://scholar.google.com/citations?&user=bpdpe1cAAAAJ&view_op=list_works&sortby=pubdate"
+                    },
+                    "projecturl": "",
+                    "researchtopic": "",
+                    "researchlink": "",
+                    "is_featured": true
                 }
             ]
         },
