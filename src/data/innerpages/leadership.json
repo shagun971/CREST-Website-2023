@@ -431,7 +431,7 @@
             },
             "items": [
                 {
-                    "id": 2,
+                    "id": 1,
                     "name": "Bushra Sabir",
                     "designation": "PhD",
                     "images": [
@@ -455,25 +455,7 @@
                     ]
                 },
                 {
-                    "id": 3,
-                    "name": "Fangchao Tian",
-                    "designation": "PhD",
-                    "images": [
-                        {
-                            "src": "../images/team/fangchao.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com/citations?user=10EKKn0AAAAJ&hl=en",
-                            "title": "Google Scholar"
-                        }
-                    ]
-                },
-                {
-                    "id": 4,
+                    "id": 2,
                     "name": "Yasir Abdullah J Althobaiti",
                     "designation": "PhD",
                     "images": [
@@ -484,7 +466,7 @@
                     "socials": []
                 },
                 {
-                    "id": 5,
+                    "id": 3,
                     "name": "Nesara Dissanayake",
                     "designation": "PhD",
                     "images": [
@@ -514,43 +496,7 @@
                     ]
                 },
                 {
-                    "id": 6,
-                    "name": "Roshan Rajapakse",
-                    "designation": "PhD",
-                    "images": [
-                        {
-                            "src": "../images/team/roshan.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://twitter.com/rosh_nr",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com/citations?user=GVmzDu4AAAAJ&hl=en",
-                            "title": "Google Scholar"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://www.linkedin.com/in/roshanrajapakse/",
-                            "title": "Linkedin"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-github",
-                            "link": "https://github.com/RoshanRajapakse",
-                            "title": "GitHub"
-                        }
-                    ]
-                },
-                {
-                    "id": 7,
+                    "id": 4,
                     "name": "Orvila Sarker",
                     "designation": "PhD",
                     "images": [
@@ -580,61 +526,7 @@
                     ]
                 },
                 {
-                    "id": 8,
-                    "name": "Mubin Ul Haque",
-                    "designation": "PhD",
-                    "images": [
-                        {
-                            "src": "../images/team/mubin.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://twitter.com/mubin_swarup",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com/citations?user=zkXUCDUAAAAJ&hl=en",
-                            "title": "Google Scholar"
-                        }
-                    ]
-                },
-                {
-                    "id": 9,
-                    "name": "Zarrin Tasnim Sworna",
-                    "designation": "PhD",
-                    "images": [
-                        {
-                            "src": "../images/team/zarrin.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://mobile.twitter.com/swornolota",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com/citations?user=7J612VQAAAAJ&hl=en",
-                            "title": "Google Scholar"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://bd.linkedin.com/in/zarrin-tasnim-sworna-764428a6",
-                            "title": "Linkedin"
-                        }
-                    ]
-                },
-                {
-                    "id": 10,
+                    "id": 5,
                     "name": "Roland Croft",
                     "designation": "PhD",
                     "images": [
@@ -676,7 +568,7 @@
                     ]
                 },
                 {
-                    "id": 11,
+                    "id": 6,
                     "name": "Yongzheng Xie",
                     "designation": "PhD",
                     "images": [
@@ -694,7 +586,7 @@
                     ]
                 },
                 {
-                    "id": 12,
+                    "id": 7,
                     "name": "Liuyue Jiang",
                     "designation": "PhD",
                     "images": [
@@ -730,31 +622,7 @@
                     ]
                 },
                 {
-                    "id": 13,
-                    "name": "Hussain Ahmad",
-                    "designation": "PhD",
-                    "images": [
-                        {
-                            "src": "../images/team/Hussain.png"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://twitter.com/HussainAhmad_5",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://www.linkedin.com/in/hussainahmad5/",
-                            "title": "Linkedin"
-                        }
-                    ]
-                },
-                {
-                    "id": 14,
+                    "id": 8,
                     "name": "Mehdi Kholoosi",
                     "designation": "PhD",
                     "images": [
@@ -772,7 +640,7 @@
                     ]
                 },
                 {
-                    "id": 15,
+                    "id": 9,
                     "name": "Zahra Mousavi",
                     "designation": "PhD",
                     "images": [
@@ -796,7 +664,7 @@
                     ]
                 },
                 {
-                    "id": 16,
+                    "id": 10,
                     "name": "Ali Kazemi Arani",
                     "designation": "PhD",
                     "images": [
@@ -876,21 +744,49 @@
                 },
                 {
                     "id": 4,
-                    "name": "Amrit Swaroop Sinha",
+                    "name": "Ashwinraj Giriraj",
                     "designation": "Research Engineer",
                     "images": [
                         {
-                            "src": "../images/team/Amrit.jpeg"
+                            "src": "../images/team/ashwinraj.jpg"
+                        }
+                    ],
+                    "socials": []
+                },
+                {
+                    "id": 5,
+                    "name": "Antony Nicholas Cameron",
+                    "designation": "Project Officer",
+                    "images": [
+                        {
+                            "src": "../images/team/Antony.jpg"
                         }
                     ],
                     "socials": [
                         {
                             "id": 4,
                             "icon": "fab fa-linkedin",
-                            "link": "https://au.linkedin.com/in/amrit-swaroop-sinha",
+                            "link": "https://www.linkedin.com/in/antony-cameron-45199b1a3/",
                             "title": "Linkedin"
+                        },
+                        {
+                            "id": 3,
+                            "icon": "fab fa-github",
+                            "link": "https://github.com/anc29",
+                            "title": "GitHub"
                         }
                     ]
+                },
+                {
+                    "id": 6,
+                    "name": "Navaneeth Sivakumar",
+                    "designation": "Research Assistant",
+                    "images": [
+                        {
+                            "src": "../images/team/Navaneeth.jpg"
+                        }
+                    ],
+                    "socials": []
                 }
             ]
         },
@@ -1080,6 +976,240 @@
                     ]
                 },
                 {
+                    "id": "leonardo-horn-lwaya",
+                    "name": "Leonardo Horn Iwaya",
+                    "designation": "Post Doc",
+                    "images": [
+                        {
+                            "src": "../images/team/leonardo.jpg"
+                        }
+                    ],
+                    "socials": []
+                },
+                {
+                    "id": "hao-chen",
+                    "name": "Hao Chen",
+                    "designation": "PhD",
+                    "position": "alumni",
+                    "images": [
+                        {
+                            "src": "../images/team/chenhao.jpeg"
+                        }
+                    ],
+                    "socials": []
+                    
+                },
+                {
+                    "id": "monica-bian",
+                    "name": "Monica Bian",
+                    "designation": "Post Doc",
+                    "position": "alumni",
+                    "images": [
+                        {
+                            "src": "../images/team/monica.jpg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                        "id": 3,
+                        "icon": "fab fa-dribbble",
+                        "link": "https://researchers.adelaide.edu.au/profile/monica.bian#my-research",
+                        "title": "Personal Website"
+                    },
+                    {
+                        "id": 2,
+                        "icon": "fab fa-twitter",
+                        "link": "https://twitter.com/Monica_RR_Bian",
+                        "title": "Twitter"
+                       }
+                    ]
+                },
+                {
+                    "id": "guanhua-wang",
+                    "name": "Guanhua Wang",
+                    "designation": "PhD",
+                    "position": "alumni",
+                    "images": [
+                        {
+                            "src": "../images/team/guanhua.jpeg"
+                        }
+                    ],
+                    "socials": []
+                },
+                {
+                    "id": "bakheet-aljedaani",
+                    "name": "Bakheet Aljedaani",
+                    "designation": "PhD",
+                    "images": [
+                        {
+                            "src": "../images/team/Bakheet.jpg"
+                        }
+                    ],
+                    "socials": []
+                },  
+                {
+                    "id": "david-hin",
+                    "name": "David Hin",
+                    "designation": "Honour Student",
+                    "position": "alumni",
+                    "images": [
+                        {
+                            "src": "../images/team/david.jpg"
+                        }
+                    ],
+                    "socials": []
+                },
+                {
+                    "id": "xu-zhan",
+                    "name": "Xu Zhan",
+                    "designation": "Research Assistant",
+                    "images": [
+                        {
+                            "src": "../images/team/xuzhan.png"
+                        }
+                    ],
+                    "socials": []
+                },
+                {
+                    "id": "fengyi-yang",
+                    "name": "Fengyi Yang",
+                    "designation": "Research Assistant",
+                    "images": [
+                        {
+                            "src": "../images/team/Fengyi.jpg"
+                        }
+                    ],
+                    "socials": []
+                },
+                {
+                    "id": "khoa-nguyen",
+                    "name": "Mai Anh Khoa Nguyen",
+                    "designation": "Research Engineer",
+                    "position": "alumni",
+                    "images": [
+                        {
+                            "src": "../images/team/leo.jpg"
+                        }
+                    ],
+                    "socials": []
+                },
+                {
+                    "id": "anupam",
+                    "name": "Anupam",
+                    "designation": "Research Engineer",
+                    "position": "alumni",
+                    "images": [
+                        {
+                            "src": "../images/team/anupam.jpg"
+                        }
+                    ],
+                    "socials": []
+                },
+                {
+                    "id": "bo-li",
+                    "name": "Bo Li",
+                    "designation": "Master Student",
+                    "position": "alumni",
+                    "images": [
+                        {
+                            "src": "../images/team/boli.png"
+                        }
+                    ],
+                    "socials": []
+                },
+                
+                {
+                    "id": "anying-xiang",
+                    "name": "Anying Xiang",
+                    "designation": "Research Engineer",
+                    "position": "alumni",
+                    "images": [
+                        {
+                            "src": "../images/team/Anying.png"
+                        }
+                    ],
+                    "socials": []
+                },
+                {
+                    "id": "hien-le",
+                    "name": "Hien Le",
+                    "designation": "Master Student",
+                    "position": "alumni",
+                    "images": [
+                        {
+                            "src": "../images/team/hienle.jpg"
+                        }
+                    ],
+                    "socials": []
+                },
+                {
+                    "id": "minhaj-ahmed",
+                    "name": "Minhaj Ahmed",
+                    "designation": "Bachelor Student",
+                    "position": "alumni",
+                    "images": [
+                        {
+                            "src": "../images/team/minhaj.png"
+                        }
+                    ],
+                    "socials": []
+                },
+                {
+                    "id": "huaming-chen",
+                    "name": "Huaming Chen",
+                    "designation": "Post Doc",
+                    "position": "alumni",
+                    "images": [
+                        {
+                            "src": "../images/team/HuamingChen.jpg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 4,
+                            "icon": "fab si-googlescholar",
+                            "link": "https://scholar.google.com/citations?user=3-qRVLUAAAAJ&hl=en",
+                            "title": "Google Scholar"
+                        },
+                        {
+                            "id": 4,
+                            "icon": "fab fa-linkedin",
+                            "link": "https://www.linkedin.com/in/huaming-chen/",
+                            "title": "Linkedin"
+                        },
+                        {
+                            "id": 3,
+                            "icon": "fab fa-dribbble",
+                            "link": "https://researchers.adelaide.edu.au/profile/huaming.chen",
+                            "title": "Personal Website"
+                        }
+                    ]
+                },
+                {
+                    "id": "mojtaba-shahin",
+                    "name": "Mojtaba Shahin",
+                    "designation": "alumni",
+                    "images": [
+                        {
+                            "src": "../images/team/mojtaba.jpeg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 4,
+                            "icon": "fab si-googlescholar",
+                            "link": "https://scholar.google.com.au/citations?user=Aml0q7sAAAAJ&hl=en",
+                            "title": "Google Scholar"
+                        },
+                        {
+                            "id": 3,
+                            "icon": "fab fa-dribbble",
+                            "link": "http://mojtabashahin.wordpress.com/",
+                            "title": "Personal Website"
+                        }
+                    ]
+                },
+                {
                     "id": 11,
                     "name": "Sheik Mohammad Mostakim Fattah",
                     "designation": "Post Doc",
@@ -1244,6 +1374,156 @@
                             "icon": "fab fa-dribbble",
                             "link": "https://ieeexplore.ieee.org/author/37086475255",
                             "title": "Personal Website"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "Amrit Swaroop Sinha",
+                    "designation": "Research Engineer",
+                    "images": [
+                        {
+                            "src": "../images/team/Amrit.jpeg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 4,
+                            "icon": "fab fa-linkedin",
+                            "link": "https://au.linkedin.com/in/amrit-swaroop-sinha",
+                            "title": "Linkedin"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "Fangchao Tian",
+                    "designation": "PhD",
+                    "images": [
+                        {
+                            "src": "../images/team/fangchao.jpg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 4,
+                            "icon": "fab si-googlescholar",
+                            "link": "https://scholar.google.com/citations?user=10EKKn0AAAAJ&hl=en",
+                            "title": "Google Scholar"
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "name": "Roshan Rajapakse",
+                    "designation": "PhD",
+                    "images": [
+                        {
+                            "src": "../images/team/roshan.jpg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 2,
+                            "icon": "fab fa-twitter",
+                            "link": "https://twitter.com/rosh_nr",
+                            "title": "Twitter"
+                        },
+                        {
+                            "id": 4,
+                            "icon": "fab si-googlescholar",
+                            "link": "https://scholar.google.com/citations?user=GVmzDu4AAAAJ&hl=en",
+                            "title": "Google Scholar"
+                        },
+                        {
+                            "id": 4,
+                            "icon": "fab fa-linkedin",
+                            "link": "https://www.linkedin.com/in/roshanrajapakse/",
+                            "title": "Linkedin"
+                        },
+                        {
+                            "id": 3,
+                            "icon": "fab fa-github",
+                            "link": "https://github.com/RoshanRajapakse",
+                            "title": "GitHub"
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "name": "Mubin Ul Haque",
+                    "designation": "PhD",
+                    "images": [
+                        {
+                            "src": "../images/team/mubin.jpg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 2,
+                            "icon": "fab fa-twitter",
+                            "link": "https://twitter.com/mubin_swarup",
+                            "title": "Twitter"
+                        },
+                        {
+                            "id": 4,
+                            "icon": "fab si-googlescholar",
+                            "link": "https://scholar.google.com/citations?user=zkXUCDUAAAAJ&hl=en",
+                            "title": "Google Scholar"
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "name": "Zarrin Tasnim Sworna",
+                    "designation": "PhD",
+                    "images": [
+                        {
+                            "src": "../images/team/zarrin.jpg"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 2,
+                            "icon": "fab fa-twitter",
+                            "link": "https://mobile.twitter.com/swornolota",
+                            "title": "Twitter"
+                        },
+                        {
+                            "id": 4,
+                            "icon": "fab si-googlescholar",
+                            "link": "https://scholar.google.com/citations?user=7J612VQAAAAJ&hl=en",
+                            "title": "Google Scholar"
+                        },
+                        {
+                            "id": 4,
+                            "icon": "fab fa-linkedin",
+                            "link": "https://bd.linkedin.com/in/zarrin-tasnim-sworna-764428a6",
+                            "title": "Linkedin"
+                        }
+                    ]
+                },
+                {
+                    "id": 13,
+                    "name": "Hussain Ahmad",
+                    "designation": "PhD",
+                    "images": [
+                        {
+                            "src": "../images/team/Hussain.png"
+                        }
+                    ],
+                    "socials": [
+                        {
+                            "id": 2,
+                            "icon": "fab fa-twitter",
+                            "link": "https://twitter.com/HussainAhmad_5",
+                            "title": "Twitter"
+                        },
+                        {
+                            "id": 4,
+                            "icon": "fab fa-linkedin",
+                            "link": "https://www.linkedin.com/in/hussainahmad5/",
+                            "title": "Linkedin"
                         }
                     ]
                 }
