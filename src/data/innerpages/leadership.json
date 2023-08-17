@@ -109,28 +109,25 @@
                     "id": 4,
                     "name": "Chelsea Liu",
                     "designation": "Associate Professor",
-                    "position": "faculty",
-                    "introduction": "Dr Chelsea Liu is an Associate Professor at The University of Adelaide Business School and previously worked as a Visiting Assistant Professor in Finance at the Foster School of Business, University of Washington. Chelsea has a PhD in Business, a Master of Computer and Information Technology from the University of Pennsylvania, among other degrees in law, commerce, and education. Chelsea is a Deputy Editor of the Australian Journal of Management, Executive Editor of the Review of Corporate Finance, Editor of Pacific Accounting Review, and Associate Editor of Journal of Industrial and Business Economics. Chelsea’s research has been published in leading academic journals worldwide, including the Journal of Financial and Quantitative Analysis, Journal of Corporate Finance, Journal of Banking and Finance, Journal of Business Finance and Accounting, Journal of Empirical Legal Studies, and Journal of Business Ethics, among others. Chelsea’s research on climate finance, corporate governance, and cybersecurity benefits from her industry qualification as a solicitor and barrister in the High Court of Australia and her experience of working in commercial law firms prior to joining academia.",
                     "images": [
                         {
                             "src": "../images/team/chelsea.jpg"
                         }
                     ],
-                    "competencies": "Corporate Governance, Cybersecurity, FinTech",
-                    "socials": {
-                        "facebook": "",
-                        "twitter": "",
-                        "instagram": "",
-                        "personalwebsite": "https://sites.google.com/view/chelsealiu",
-                        "linkedin": "",
-                        "github": "",
-                        "googlescholar": "https://scholar.google.com.au/citations?user=JBrgSqgAAAAJ&hl=en&oi=sra"
-                    },
-                    
-                    "projecturl": "",
-                    "researchtopic": "",
-                    "researchlink": "",
-                    "is_featured": true
+                    "socials": [
+                        {
+                            "id": 4,
+                            "icon": "fab si-googlescholar",
+                            "link": "https://scholar.google.com.au/citations?user=JBrgSqgAAAAJ&hl=en&oi=sra",
+                            "title": "Google Scholar"
+                        },
+                        {
+                            "id": 3,
+                            "icon": "fab fa-dribbble",
+                            "link":  "https://sites.google.com/view/chelsealiu",
+                            "title": "Personal Website"
+                        }
+                    ]
                 }
             ]
         },
