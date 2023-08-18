@@ -14,7 +14,7 @@ const PopupVideoArea = () => {
                         <PopupVideoOne
                             image={{ src: ImageOne }}
                             video_button={{
-                                link: "https://www.youtube.com/watch?v=9No-FiEInLA",
+                                link: "https://www.youtube.com/watch?v=1S5drvhJaKY",
                             }}
                         />
                     </Col>
@@ -22,7 +22,15 @@ const PopupVideoArea = () => {
                         <PopupVideoTwo
                             image={{ src: ImageOne }}
                             video_button={{
-                                link: "https://www.youtube.com/watch?v=9No-FiEInLA",
+                                link: "https://www.youtube.com/watch?v=LY3nXQjMJmo",
+                            }}
+                        />
+                    </Col>
+                    <Col md={6}>
+                        <PopupVideoTwo
+                            image={{ src: ImageOne }}
+                            video_button={{
+                                link: "https://www.youtube.com/watch?v=Co_PqcG-DXg",
                             }}
                         />
                     </Col>
