@@ -315,8 +315,7 @@
                             "src": "../images/team/limeng.jpg"
                         }
                     ],
-                    "socials": {
-                    }
+                    "socials": []
                     
                 },
                 {
@@ -704,6 +703,9 @@
                         {
                             "src": "../images/team/shagun.jpg"
                         }
+                    ],
+                    "socials": [
+
                     ]
                 },
                 {
@@ -805,6 +807,8 @@
                         {
                             "src": "../images/team/shagun.jpg"
                         }
+                    ],
+                    "socials": [
                     ]
                 },
                 {
