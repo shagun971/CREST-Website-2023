@@ -3,7 +3,7 @@ import styled, { device } from "@styled";
 export const SectionWrap = styled.div`
     padding-block: 80px;
     .popup-one, .Col {
-        margin-bottom: 30px;
+        margin-bottom: 80px;
         padding-left: 20px;
         padding-right: 20px;
     }

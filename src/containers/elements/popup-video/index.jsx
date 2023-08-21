@@ -105,6 +105,51 @@ const videoData = [
         title: "Security Awareness of End Users of Mobile Health Applications: An Empirical Study",
         image: images.image20
     },
+    { 
+        link: "https://www.youtube.com/watch?v=tPMVWjxPtpg", 
+        title: "An Empirical Study on Developing Secure Mobile Health Apps: The Developers Perspective",
+        image: images.image21
+    },
+    { 
+        link: "https://www.youtube.com/watch?v=lNMFdR3O96g", 
+        title: "Designing a Security Platform for Collaborating Autonomous Systems - An Experience Report",
+        image: images.image22
+    },
+    { 
+        link: "https://www.youtube.com/watch?v=cmE-DKFp0CY", 
+        title: "Architecture-centric Support for Integrating Security Tool in a Security Orchestration Platform",
+        image: images.image23
+    },
+    { 
+        link: "https://www.youtube.com/watch?v=AnCeygDOroc", 
+        title: "Challenges in Docker Development: A Large-scale Study Using Stack Overflow",
+        image: images.image24
+    },
+    { 
+        link: "https://www.youtube.com/watch?v=hoH56fle9oM", 
+        title: "Architecture Centric Support for Security Orchestration, Automation and Response (SOAR)",
+        image: images.image25
+    },
+    { 
+        link: "https://www.youtube.com/watch?v=jBIvJDHb8AM", 
+        title: "A Large-scale Study of Security Vulnerability Support on Developer Q&A Websites",
+        image: images.image26
+    },
+    { 
+        link: "https://www.youtube.com/watch?v=Rb6gtzEF34Q", 
+        title: "PUMiner: Mining Security Posts from Developer Question and Answer Websites with PU Learning",
+        image: images.image27
+    },
+    { 
+        link: "https://www.youtube.com/watch?v=1Ip_6VXg2Po", 
+        title: "ReinforceBug: A Framework to Generate Adversarial Textual Examples",
+        image: images.image28
+    },
+    { 
+        link: "https://www.youtube.com/watch?v=KQJD4Yn5slw", 
+        title: "Short Text Spam Detection using Deep Learning",
+        image: images.image29
+    },
 ];
 
 const PopupVideoArea = () => {
