@@ -1,4 +1,5 @@
 import * as React from "react";
+import { normalizedData } from "@utils";
 import PropTypes from "prop-types";
 import Seo from "@components/seo";
 import Layout from "@layout";
@@ -10,6 +11,7 @@ import CtaArea from "@containers/cta/layout-04";
 import PopupVideoArea from "@containers/elements/popup-video";
 
 const PopupVideoPage = ({ pageContext, location }) => {
+
     return (
         <Layout location={location}>
             <Seo title="Popup Video" />
@@ -32,5 +34,6 @@ PopupVideoPage.propTypes = {
     pageContext: PropTypes.shape({}),
     location: PropTypes.shape({}),
 };
+
 
 export default PopupVideoPage;
