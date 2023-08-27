@@ -1,106 +1,115 @@
 {
-    "title": "careers",
-    "pageType": "innerpage",
-    "content": [
+  "title": "careers",
+  "pageType": "innerpage",
+  "content": [
+    {
+      "id": "careers-listing-open",
+      "section": "listing-section-open",
+      "section_title": {
+        "title": "Become a part of our big family to <span>explore more.</span>"
+      },
+      "items": [
         {
-            "id": "careers-listing",
-            "section": "listing-section",
-            "section_title": {
-                "title": "Become a part of our big family to <span>explore more.</span>"
-            },
-            "items": [
-                {
-                    "id": "job-5",
-                    "title": "Research Associate (B) - School of Computer Science",
-                    "type": "Full time",
-                    "description": "(Level B), $104,624 to $119,391 salary scale per annum plus an employer contribution of 17% superannuation applies. ",
-                    "path": "https://careers.adelaide.edu.au/cw/en/job/510241/research-associate-b-school-of-computer-science"
-                },
-                {
-                    "id": "job-4",
-                    "title": "Research Associate (B) - School of Computer Science",
-                    "type": "Full time",
-                    "description": "Level B, $104,624 to $119,391 salary scale per annum plus an employer contribution of 17% superannuation applies.",
-                    "path": "https://careers.adelaide.edu.au/cw/en/job/510256/research-associate-b-school-of-computer-science"
-                },
-                {
-                    "id": "job-4",
-                    "title": "Research Associate (A) - School of Computer Science",
-                    "type": "Full time",
-                    "description": "Level A, $89,610 to $96,007 salary scale per annum plus an employer contribution of 17% superannuation applies.",
-                    "path": "https://careers.adelaide.edu.au/cw/en/job/510276/research-associate-a-school-of-computer-science"
-                },
-                {
-                    "id": "job-4",
-                    "title": "Research Associate (A) - School of Computer Science",
-                    "type": "Full time",
-                    "description": "Level A, $89,610 to $96,007 salary scale per annum plus an employer contribution of 17% superannuation applies.",
-                    "path": "https://careers.adelaide.edu.au/cw/en/job/510240/research-associate-a-school-of-computer-science"
-                }
-            ]
+          "id": "job-5",
+          "title": "Research Associate (B) - School of Computer Science",
+          "type": "Full time",
+          "description": "(Level B), $104,624 to $119,391 salary scale per annum plus an employer contribution of 17% superannuation applies. ",
+          "path": "https://careers.adelaide.edu.au/cw/en/job/510241/research-associate-b-school-of-computer-science"
         },
         {
-            "id": "careers-gallery",
-            "section": "gallery-section",
-            "section_title": {
-                "title": "Pay a visit & have some coffee!"
-            },
-            "buttons": [
-                {
-                    "id": 1,
-                    "variant": "texted",
-                    "path": "/leadership",
-                    "icon": "far fa-long-arrow-right",
-                    "icondistance": "4px",
-                    "content": "View All Team"
-                }
-            ],
-            "images": [
-                {
-                    "src": "../images/box-image/office-1.jpg"
-                },
-                {
-                    "src": "../images/box-image/office-2.jpg"
-                },
-                {
-                    "src": "../images/box-image/office-3.jpg"
-                },
-                {
-                    "src": "../images/box-image/office-4.jpg"
-                }
-            ]
+          "id": "job-4",
+          "title": "Research Associate (B) - School of Computer Science",
+          "type": "Full time",
+          "description": "Level B, $104,624 to $119,391 salary scale per annum plus an employer contribution of 17% superannuation applies.",
+          "path": "https://careers.adelaide.edu.au/cw/en/job/510256/research-associate-b-school-of-computer-science"
         },
         {
-            "id": "faq-contact-content",
-            "section": "contact-section",
-            "headings": [
-                {
-                    "level": "h3",
-                    "content": "Obtaining further information by <span>make a contact</span> with our experienced IT staffs."
-                },
-                {
-                    "level": "h6",
-                    "content": "REACH OUT NOW!"
-                },
-                {
-                    "level": "h2",
-                    "content": "190068668"
-                }
-            ],
-            "texts": [
-                {
-                    "content": "We’re available for 8 hours a day! <br/> Contact to require a detailed analysis and assessment of your plan"
-                }
-            ],
-            "buttons": [
-                {
-                    "id": 1,
-                    "color": "secondary",
-                    "hoverStyle": "three",
-                    "path": "/contact-us",
-                    "content": "Contact Us"
-                }
-            ]
+          "id": "job-4",
+          "title": "Research Associate (A) - School of Computer Science",
+          "type": "Full time",
+          "description": "Level A, $89,610 to $96,007 salary scale per annum plus an employer contribution of 17% superannuation applies.",
+          "path": "https://careers.adelaide.edu.au/cw/en/job/510276/research-associate-a-school-of-computer-science"
         }
-    ]
+      ]
+    },
+    {
+      "id": "careers-listing-closed",
+      "section": "listing-section-closed",
+      "section_title": {
+        "title": "Become a part of our big family to <span>explore more.</span>"
+      },
+      "items": [
+        {
+          "id": "job-4",
+          "title": "Research Associate (A) - School of Computer Science",
+          "type": "Full time",
+          "description": "Level A, $89,610 to $96,007 salary scale per annum plus an employer contribution of 17% superannuation applies.",
+          "path": "https://careers.adelaide.edu.au/cw/en/job/510240/research-associate-a-school-of-computer-science"
+        }
+      ]
+    },
+    {
+      "id": "careers-gallery",
+      "section": "gallery-section",
+      "section_title": {
+        "title": "Pay a visit & have some coffee!"
+      },
+      "buttons": [
+        {
+          "id": 1,
+          "variant": "texted",
+          "path": "/leadership",
+          "icon": "far fa-long-arrow-right",
+          "icondistance": "4px",
+          "content": "View All Team"
+        }
+      ],
+      "images": [
+        {
+          "src": "../images/box-image/office-1.jpg"
+        },
+        {
+          "src": "../images/box-image/office-2.jpg"
+        },
+        {
+          "src": "../images/box-image/office-3.jpg"
+        },
+        {
+          "src": "../images/box-image/office-4.jpg"
+        }
+      ]
+    },
+    {
+      "id": "faq-contact-content",
+      "section": "contact-section",
+      "headings": [
+        {
+          "level": "h3",
+          "content": "Obtaining further information by <span>make a contact</span> with our experienced IT staffs."
+        },
+        {
+          "level": "h6",
+          "content": "REACH OUT NOW!"
+        },
+        {
+          "level": "h2",
+          "content": "190068668"
+        }
+      ],
+      "texts": [
+        {
+          "content": "We’re available for 8 hours a day! <br/> Contact to require a detailed analysis and assessment of your plan"
+        }
+      ],
+      "buttons": [
+        {
+          "id": 1,
+          "color": "secondary",
+          "hoverStyle": "three",
+          "path": "/contact-us",
+          "content": "Contact Us"
+        }
+      ]
+    }
+  ]
 }
