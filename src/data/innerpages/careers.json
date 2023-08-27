@@ -10,12 +10,21 @@
       },
       "items": [
         {
-          "id": "job-5",
-          "title": "Research Associate (B) - School of Computer Science",
-          "type": "Full time",
-          "description": "(Level B), $104,624 to $119,391 salary scale per annum plus an employer contribution of 17% superannuation applies. ",
-          "path": "https://careers.adelaide.edu.au/cw/en/job/510241/research-associate-b-school-of-computer-science"
-        },
+          "id": "job-1",
+          "title": "Software Engineer-Faculty of Sciences, Engineering and Technology",
+          "type": "Contract/Temp",
+          "description": "$77,409 to $86,072 salary scale per annum plus an employer contribution of 17% superannuation applies. ",
+          "path": "https://www.seek.com.au/job/69394665?type=standout#sol=9a490861416a7b3d7536ffb7d4c34c63fa56c9d5"
+        }
+      ]
+    },
+    {
+      "id": "careers-listing-closed",
+      "section": "listing-section-closed",
+      "section_title": {
+        "title": "Become a part of our big family to <span>explore more.</span>"
+      },
+      "items": [
         {
           "id": "job-4",
           "title": "Research Associate (B) - School of Computer Science",
@@ -29,16 +38,14 @@
           "type": "Full time",
           "description": "Level A, $89,610 to $96,007 salary scale per annum plus an employer contribution of 17% superannuation applies.",
           "path": "https://careers.adelaide.edu.au/cw/en/job/510276/research-associate-a-school-of-computer-science"
-        }
-      ]
-    },
-    {
-      "id": "careers-listing-closed",
-      "section": "listing-section-closed",
-      "section_title": {
-        "title": "Become a part of our big family to <span>explore more.</span>"
-      },
-      "items": [
+        },
+        {
+          "id": "job-5",
+          "title": "Research Associate (B) - School of Computer Science",
+          "type": "Full time",
+          "description": "(Level B), $104,624 to $119,391 salary scale per annum plus an employer contribution of 17% superannuation applies. ",
+          "path": "https://careers.adelaide.edu.au/cw/en/job/510241/research-associate-b-school-of-computer-science"
+        },
         {
           "id": "job-4",
           "title": "Research Associate (A) - School of Computer Science",
