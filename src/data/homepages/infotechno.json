@@ -140,7 +140,7 @@
       "items": [
         {
           "id": 1,
-          "title": "Project 1",
+          "title": "Socio-technical aspects of security patch management",
           "description": "Project 1 Description Here...",
           "images": [
             {
@@ -151,7 +151,7 @@
         },
         {
           "id": 2,
-          "title": "Project 2",
+          "title": "Human-centric aspects in phishing",
           "description": "Project 2 Description Here...",
           "images": [
             {
@@ -162,7 +162,7 @@
         },
         {
           "id": 3,
-          "title": "Project 3",
+          "title": "CCOP- Platform to gather and visualise cyber security data",
           "description": "Project 3 Description Here...",
           "images": [
             {
@@ -173,7 +173,7 @@
         },
         {
           "id": 4,
-          "title": "Project 4",
+          "title": "DevSecOps for intra-organizational software dev. teams",
           "description": "Project 4 Description Here...",
           "images": [
             {
@@ -184,7 +184,7 @@
         },
         {
           "id": 5,
-          "title": "Project 5",
+          "title": "Security training, education and awareness design & evaluation",
           "description": "Project 5 Description Here...",
           "images": [
             {
@@ -195,7 +195,7 @@
         },
         {
           "id": 6,
-          "title": "Project 6",
+          "title": "Multi-Cloud Infrastructure",
           "description": "Project 6 Description Here...",
           "images": [
             {
@@ -205,8 +205,8 @@
           "path": "https://crest-bigdata.github.io/"
         },
         {
-          "id": 6,
-          "title": "Project 7",
+          "id": 7,
+          "title": "Fragmented Hybrid Cloud",
           "description": "Project 6 Description Here...",
           "images": [
             {
@@ -216,8 +216,8 @@
           "path": "https://crest-bigdata.github.io/"
         },
         {
-          "id": 6,
-          "title": "Project 8",
+          "id": 8,
+          "title": "CREST Cloud Tools",
           "description": "Project 6 Description Here...",
           "images": [
             {
@@ -227,8 +227,8 @@
           "path": "https://crest-bigdata.github.io/"
         },
         {
-          "id": 6,
-          "title": "Project 9",
+          "id": 9,
+          "title": "CREST Big Data Platform",
           "description": "Project 6 Description Here...",
           "images": [
             {
@@ -238,8 +238,8 @@
           "path": "https://crest-bigdata.github.io/"
         },
         {
-          "id": 6,
-          "title": "Project 10",
+          "id": 10,
+          "title": "Big Data Cyber Security Analytics",
           "description": "Project 6 Description Here...",
           "images": [
             {
