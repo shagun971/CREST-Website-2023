@@ -1,173 +1,177 @@
 {
-    "id": "menu-data",
-    "section": "menu",
-    "menu": [
+  "id": "menu-data",
+  "section": "menu",
+  "menu": [
+    {
+      "id": "menu-1",
+      "text": "Home",
+      "link": "/"
+    },
+    {
+      "id": "menu-2",
+      "text": "Research",
+      "link": "/research",
+      "megamenu": [
         {
-            "id": "menu-1",
-            "text": "Home",
-            "link": "/"
+          "title": "Clusters",
+          "submenu": [
+            {
+              "id": "menu-411",
+              "text": "Big Data",
+              "link": "https://crest-bigdata.github.io/"
+            },
+            {
+              "id": "menu-412",
+              "text": "Socio-technical",
+              "link": "http://socio-technical.crest-centre.net/"
+            },
+            {
+              "id": "menu-413",
+              "text": "Software Security Intelligence",
+              "link": "https://ssi.crest-centre.net/"
+            },
+            {
+              "id": "menu-414",
+              "text": "Software System and Security Integration",
+              "link": "#"
+            },
+            {
+              "id": "menu-415",
+              "text": "Trusted Information Processing System",
+              "link": "https://dlt.crest-centre.net/"
+            }
+          ]
         },
         {
-            "id": "menu-2",
-            "text": "Research",
-            "link": "/research",
-            "megamenu": [
-                {
-                    "title": "Clusters",
-                    "submenu": [
-                        {
-                            "id": "menu-411",
-                            "text": "Big Data",
-                            "link": "https://crest-bigdata.github.io/"
-                        },
-                        {
-                            "id": "menu-412",
-                            "text": "Socio-technical",
-                            "link": "http://socio-technical.crest-centre.net/"
-                        },
-                        {
-                            "id": "menu-413",
-                            "text": "Software Security Intelligence",
-                            "link": "https://ssi.crest-centre.net/"
-                        },
-                        {
-                            "id": "menu-414",
-                            "text": "Software System and Security Integration",
-                            "link": "#"
-                        },
-                        {
-                            "id": "menu-415",
-                            "text": "Trusted Information Processing System",
-                            "link": "https://dlt.crest-centre.net/"
-                        }
-                    ]
-                },
-                {
-                    "title": "Projects",
-                    "submenu": [
-                        {
-                            "id": "menu-421",
-                            "text": "C3i",
-                            "link": "/elements/counters"
-                        },
-                        {
-                            "id": "menu-422",
-                            "text": "POKAPS",
-                            "link": "/elements/dividers"
-                        },
-                        {
-                            "id": "menu-423",
-                            "text": "CCOP",
-                            "link": "/elements/flexible-image-slider"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "menu-3",
-            "text": "News",
-            "link": "/latest-news"
-        },
-        {
-            "id": "menu-4",
-            "text": "Resources",
-            "link": "/",
-            "megamenu": [
-                {
-                    "title": "Publications",
-                    "submenu": [
-                        {
-                            "id": "menu-411",
-                            "text": "Journal Papers",
-                            "link": "/resources/publications/papers"
-                        },
-                        {
-                            "id": "menu-412",
-                            "text": "Conference Presentations",
-                            "link": "/resources/publications/conference-presentations"
-                        }
-
-                    ]
-                },
-                {
-                    "title": "Talks",
-                    "submenu": [
-                        {
-                            "id": "menu-421",
-                            "text": "Guest Talks",
-                            "link": "/elements/counters"
-                        },
-                        {
-                            "id": "menu-422",
-                            "text": "Our Talks",
-                            "link": "/ourtalk"
-                        }
-                    ]
-                },
-                {
-                    "title": "Events",
-                    "submenu": [
-                        {
-                            "id": "menu-431",
-                            "text": "Workshops",
-                            "link": "/resources/events/workshops"
-                        },
-                        {
-                            "id": "menu-432",
-                            "text": "Conference",
-                            "link": "/elements/pricing-box"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "menu-5",
-            "text": "Blogs",
-            "link": "/blogs"
-        },
-        {
-            "id": "menu-6",
-            "text": "Team",
-            "link": "/team",
-            "submenu": [
-                {
-                    "id": "menu-61",
-                    "text": "Faculty Members",
-                    "link": "/team#faculty-members"
-                },
-                {
-                    "id": "menu-62",
-                    "text": "Research Fellows",
-                    "link": "/team#research-fellows"
-                },
-                {
-                    "id": "menu-63",
-                    "text": "PhD Students",
-                    "link": "/team#phd"
-                },
-                {
-                    "id": "menu-64",
-                    "text": "Research Engineers",
-                    "link": "/team#assistants"
-                },
-                {
-                    "id": "menu-66",
-                    "text": "Collaborators and Associates",
-                    "link": "/team#collaborators"
-                },
-                {
-                    "id": "menu-67",
-                    "text": "Alumni",
-                    "link": "/team#alumni"
-                }
-            ]
-        },
-        {
-            "id": "menu-7",
-            "text": "Join us",
-            "link": "/positions"
+          "title": "Projects",
+          "submenu": [
+            {
+              "id": "menu-421",
+              "text": "C3i",
+              "link": "/elements/counters"
+            },
+            {
+              "id": "menu-422",
+              "text": "POKAPS",
+              "link": "/elements/dividers"
+            },
+            {
+              "id": "menu-423",
+              "text": "CCOP",
+              "link": "/elements/flexible-image-slider"
+            },
+            {
+              "id": "menu-424",
+              "text": "project",
+              "link": "/elements/dividers"
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "id": "menu-3",
+      "text": "News",
+      "link": "/latest-news"
+    },
+    {
+      "id": "menu-4",
+      "text": "Resources",
+      "link": "/",
+      "megamenu": [
+        {
+          "title": "Publications",
+          "submenu": [
+            {
+              "id": "menu-411",
+              "text": "Journal Papers",
+              "link": "/resources/publications/papers"
+            },
+            {
+              "id": "menu-412",
+              "text": "Conference Presentations",
+              "link": "/resources/publications/conference-presentations"
+            }
+          ]
+        },
+        {
+          "title": "Talks",
+          "submenu": [
+            {
+              "id": "menu-421",
+              "text": "Guest Talks",
+              "link": "/elements/counters"
+            },
+            {
+              "id": "menu-422",
+              "text": "Our Talks",
+              "link": "/ourtalk"
+            }
+          ]
+        },
+        {
+          "title": "Events",
+          "submenu": [
+            {
+              "id": "menu-431",
+              "text": "Workshops",
+              "link": "/resources/events/workshops"
+            },
+            {
+              "id": "menu-432",
+              "text": "Conference",
+              "link": "/elements/pricing-box"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "menu-5",
+      "text": "Blogs",
+      "link": "/blogs"
+    },
+    {
+      "id": "menu-6",
+      "text": "Team",
+      "link": "/team",
+      "submenu": [
+        {
+          "id": "menu-61",
+          "text": "Faculty Members",
+          "link": "/team#faculty-members"
+        },
+        {
+          "id": "menu-62",
+          "text": "Research Fellows",
+          "link": "/team#research-fellows"
+        },
+        {
+          "id": "menu-63",
+          "text": "PhD Students",
+          "link": "/team#phd"
+        },
+        {
+          "id": "menu-64",
+          "text": "Research Engineers",
+          "link": "/team#assistants"
+        },
+        {
+          "id": "menu-66",
+          "text": "Collaborators and Associates",
+          "link": "/team#collaborators"
+        },
+        {
+          "id": "menu-67",
+          "text": "Alumni",
+          "link": "/team#alumni"
+        }
+      ]
+    },
+    {
+      "id": "menu-7",
+      "text": "Join us",
+      "link": "/positions"
+    }
+  ]
 }
