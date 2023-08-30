@@ -70,11 +70,6 @@
       ]
     },
     {
-      "id": "menu-3",
-      "text": "News",
-      "link": "/latest-news"
-    },
-    {
       "id": "menu-4",
       "text": "Resources",
       "link": "/",
@@ -97,11 +92,6 @@
         {
           "title": "Talks",
           "submenu": [
-            {
-              "id": "menu-421",
-              "text": "Guest Talks",
-              "link": "/elements/counters"
-            },
             {
               "id": "menu-422",
               "text": "Our Talks",
