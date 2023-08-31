@@ -42,13 +42,6 @@ const InfotechnoPage = ({ location, data }) => {
         <HomeSlider data={content["slider-section"]} />
         <PartnerArea data={content["partner-section"]} />
         <OurWorkSection data={content["our-works-section"]} />
-        <BlogArea
-          data={{
-            ...content["blog-section"],
-            featuredBlog: data.featuredBlogs.nodes[0],
-            recentBlogs: data.recentBlogs.nodes,
-          }}
-        />
         <TwitterArea />
         <JoinUsArea data={content["join-us-section"]} />
       </main>
