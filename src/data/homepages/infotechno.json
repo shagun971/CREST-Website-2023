@@ -8,7 +8,7 @@
       "items": [
         {
           "id": 1,
-          "title": "Big Data",
+          "title": "Security Intelligence",
           "description": "Big Data Description Here...",
           "images": [
             {
@@ -19,7 +19,7 @@
         },
         {
           "id": 2,
-          "title": "Software Security Intelligence",
+          "title": "Platform and Architecture",
           "description": "Software Security Intelligence Description Here...",
           "images": [
             {
@@ -30,7 +30,7 @@
         },
         {
           "id": 3,
-          "title": "Socio-Technical",
+          "title": "Citizen Big Data Analytics",
           "description": "Socio-Technical Description Here...",
           "images": [
             {
@@ -52,7 +52,7 @@
         },
         {
           "id": 5,
-          "title": "Software System & Security Integration",
+          "title": "Human Centricity / Social Technical",
           "description": "Software System & Security Integration's Description Here ...",
           "images": [
             {

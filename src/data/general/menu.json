@@ -17,27 +17,27 @@
           "submenu": [
             {
               "id": "menu-411",
-              "text": "Big Data",
+              "text": "Security Intelligence",
               "link": "https://crest-bigdata.github.io/"
             },
             {
               "id": "menu-412",
-              "text": "Socio-technical",
+              "text": "Platform and Architecture",
               "link": "http://socio-technical.crest-centre.net/"
             },
             {
               "id": "menu-413",
-              "text": "Software Security Intelligence",
+              "text": "Citizen Big Data Analytics",
               "link": "https://ssi.crest-centre.net/"
             },
             {
               "id": "menu-414",
-              "text": "Software System and Security Integration",
+              "text": "TIPS",
               "link": "#"
             },
             {
               "id": "menu-415",
-              "text": "Trusted Information Processing System",
+              "text": "Human Centricity / Social Technical",
               "link": "https://dlt.crest-centre.net/"
             }
           ]
