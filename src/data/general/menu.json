@@ -98,21 +98,6 @@
               "link": "/ourtalk"
             }
           ]
-        },
-        {
-          "title": "Events",
-          "submenu": [
-            {
-              "id": "menu-431",
-              "text": "Workshops",
-              "link": "/resources/events/workshops"
-            },
-            {
-              "id": "menu-432",
-              "text": "Conference",
-              "link": "/elements/pricing-box"
-            }
-          ]
         }
       ]
     },
