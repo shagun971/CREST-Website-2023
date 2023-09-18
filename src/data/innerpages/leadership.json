@@ -1,2055 +1,2060 @@
 {
-    "title": "leadership",
-    "pageType": "innerpage",
-    "content": [
+  "title": "leadership",
+  "pageType": "innerpage",
+  "content": [
+    {
+      "id": "leadership-head",
+      "section": "head-section",
+      "section_title": {
+        "title": "<span>Faculty Members</span>"
+      },
+      "items": [
         {
-            "id": "leadership-head",
-            "section": "head-section",
-            "section_title": {
-                "title": "<span>Faculty Members</span>"
+          "id": 1,
+          "name": "M. Ali Babar",
+          "designation": "Professor & Director CREST",
+          "images": [
+            {
+              "src": "../images/team/ali.jpeg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://twitter.com/alibabar",
+              "title": "Twitter"
             },
-            "items": [
-                {
-                    "id": 1,
-                    "name": "M. Ali Babar",
-                    "designation": "Professor & Director CREST",
-                    "images": [
-                        {
-                            "src": "../images/team/ali.jpeg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://twitter.com/alibabar",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-dribbble",
-                            "link": "https://malibabar.wordpress.com/",
-                            "title": "Personal Website"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com.au/citations?user=oagBheUAAAAJ&hl=en",
-                            "title": "Google Scholar"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://au.linkedin.com/in/muhammad-ali-babar-5bb4884",
-                            "title": "Linkedin"
-                        }
-                    ]
-                },
-                {
-                    "id": 2,
-                    "name": "Mingyu Guo",
-                    "designation": "Lecturer",
-                    "images": [
-                        {
-                            "src": "../images/team/mingyu.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com/citations?user=bxEKdzkAAAAJ&hl=en",
-                            "title": "Google Scholar"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://uk.linkedin.com/in/mingyu-guo-97236b1b",
-                            "title": "Linkedin"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-dribbble",
-                            "link": "https://cs.adelaide.edu.au/~mingyu/",
-                            "title": "Personal Website"
-                        }
-                    ]
-                },
-                {
-                    "id": 3,
-                    "name": "Faheem Ullah",
-                    "designation": "Lecturer",
-                    "images": [
-                        {
-                            "src": "../images/team/Faheem.jpg" 
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com/citations?user=4dB2Py0AAAAJ&hl=en",
-                            "title": "Google Scholar"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://au.linkedin.com/in/faheem-ullah-75b56267",
-                            "title": "Linkedin"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-dribbble",
-                            "link": "https://researchers.adelaide.edu.au/profile/faheem.ullah",
-                            "title": "Personal Website"
-                        }
-                    ]
-                },
-                {
-                    "id": 4,
-                    "name": "Chelsea Liu",
-                    "designation": "Associate Professor",
-                    "images": [
-                        {
-                            "src": "../images/team/chelsea.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com.au/citations?user=JBrgSqgAAAAJ&hl=en&oi=sra",
-                            "title": "Google Scholar"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-dribbble",
-                            "link":  "https://sites.google.com/view/chelsealiu",
-                            "title": "Personal Website"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "posdocs",
-            "section": "posdocs-section",
-            "section_title": {
-                "title": "<span>Research Fellows</span>"
+            {
+              "id": 3,
+              "icon": "fab fa-dribbble",
+              "link": "https://malibabar.wordpress.com/",
+              "title": "Personal Website"
             },
-            "items": [
-                {
-                    "id": 5,
-                    "name": "Aufeef Chauhan",
-                    "designation": "Post Doc",
-                    "images": [
-                        {
-                            "src": "../images/team/Aufeef.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 5,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.dk/citations?user=7fy5Oa0AAAAJ&hl=en",
-                            "title": "Google Scholar"
-                        },
-                        {
-                            "id": 5,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://au.linkedin.com/in/aufeefchauhan",
-                            "title": "Linkedin"
-                        }
-                    ]
-                },
-                {
-                    "id": 6,
-                    "name": "Nguyen Khoi Tran",
-                    "designation": "Post Doc",
-                    "images": [
-                        {
-                            "src": "../images/team/nguyen.png"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com/citations?user=aX4UR10AAAAJ&hl=en",
-                            "title": "Google Scholar"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://www.linkedin.com/in/nktrandlt/",
-                            "title": "Linkedin"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-dribbble",
-                            "link": "https://nk-tran.com/",
-                            "title": "Personal Website"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-github",
-                            "link": "https://github.com/nguyentran0212",
-                            "title": "GitHub"
-                        }
-                    ]
-                },
-                {
-                    "id": 7,
-                    "name": "Victor Prokhorenko",
-                    "designation": "Post Doc",
-                    "images": [
-                        {
-                            "src": "../images/team/victor.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 3,
-                            "icon": "fab fa-dribbble",
-                            "link": "https://ieeexplore.ieee.org/author/37085816139",
-                            "title": "Personal Website"
-                        }
-                    ]
-                },
-                {
-                    "id": 8,
-                    "name": "Asangi Jayatilaka",
-                    "designation": "Post Doc",
-                    "images": [
-                        {
-                            "src": "../images/team/asangi.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com.au/citations?user=shvEPagAAAAJ&hl=en",
-                            "title": "Google Scholar"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://au.linkedin.com/in/asangi-jayatilaka",
-                            "title": "Linkedin"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-dribbble",
-                            "link": "https://researchers.adelaide.edu.au/profile/asangi.jayatilaka",
-                            "title": "Personal Website"
-                        }
-                    ]
-                },
-                {
-                    "id": 9,
-                    "name": "Triet Huynh Minh Le",
-                    "designation": "PhD",
-                    "images": [
-                        {
-                            "src": "../images/team/triet.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 3,
-                            "icon": "fab fa-dribbble",
-                            "link": "https://www.trietle.net/",
-                            "title": "Personal Website"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com/citations?user=6nlR-XIAAAAJ",
-                            "title": "Google Scholar"
-                        }
-                    ]
-                },
-                {
-                    "id": 10,
-                    "name": "Kun-Ting Chen",
-                    "designation": "Post Doc",
-                    "images": [
-                        {
-                            "src": "../images/team/kuntingchen.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://twitter.com/kuntingchen1",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-dribbble",
-                            "link": "https://github.com/Kun-Ting",
-                            "title": "Personal Website"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com/citations?hl=en&user=8gpa65AAAAAJ",
-                            "title": "Google Scholar"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://www.linkedin.com/in/kun-ting-chen-313a5116a",
-                            "title": "Linkedin"
-                        }
-                    ]
-                },
-                {
-                    "id": 11,
-                    "name": "Limeng Zhang",
-                    "designation": "Post Doc",
-                    "images": [
-                        {
-                            "src": "../images/team/limeng.jpg"
-                        }
-                    ],
-                    "socials": []
-                    
-                },
-                {
-                    "id": 12,
-                    "name": "Samodha Pallewatta",
-                    "designation": "Post Doc",
-                    "images": [
-                        {
-                            "src": "../images/team/samodha.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 3,
-                            "icon": "fab fa-dribbble",
-                            "link": "https://github.com/Samodhap",
-                            "title": "Personal Website"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com/citations?user=-18pEVkAAAAJ&hl=en",
-                            "title": "Google Scholar"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://au.linkedin.com/in/samodha-pallewatta",
-                            "title": "Linkedin"
-                        }
-                    ]
-                },
-                {
-                    "id": 13,
-                    "name": "Sangwon Hyun",
-                    "designation": "Post Doc",
-                    "images": [
-                        {
-                            "src": "../images/team/Sangwon.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com/citations?hl=en&user=p3VIlT0AAAAJ",
-                            "title": "Google Scholar"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://www.linkedin.com/in/sangwon-hyun-022a32121/",
-                            "title": "Linkedin"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-dribbble",
-                            "link": "https://abalon1210.github.io/",
-                            "title": "Personal Website"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-github",
-                            "link": "https://github.com/abalon1210",
-                            "title": "GitHub"
-                        }
-                    ]
-                },
-                {
-                    "id": 13,
-                    "name": "Boyu Zhang",
-                    "designation": "Post Doc",
-                    "images": [
-                        {
-                            "src": "../images/team/boyu.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com/citations?&user=bpdpe1cAAAAJ&view_op=list_works&sortby=pubdate",
-                            "title": "Google Scholar"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link":  "https://www.linkedin.com/in/boyu-zhang-75094a60/",
-                            "title": "Linkedin"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-dribbble",
-                            "link": "https://abalon1210.github.io/",
-                            "title": "Personal Website"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-github",
-                            "link": "https://github.com/boyuZh",
-                            "title": "GitHub"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "phdstudent",
-            "section": "phdstudent",
-            "section_title": {
-                "title": "<span>PhD Student</span>"
+            {
+              "id": 4,
+              "icon": "fab si-googlescholar",
+              "link": "https://scholar.google.com.au/citations?user=oagBheUAAAAJ&hl=en",
+              "title": "Google Scholar"
             },
-            "items": [
-                {
-                    "id": 1,
-                    "name": "Bushra Sabir",
-                    "designation": "PhD",
-                    "images": [
-                        {
-                            "src": "../images/team/busra.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://twitter.com/bushra_sabir",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com/citations?user=FeX-_H8AAAAJ&hl=en",
-                            "title": "Google Scholar"
-                        }
-                    ]
-                },
-                {
-                    "id": 2,
-                    "name": "Yasir Abdullah J Althobaiti",
-                    "designation": "PhD",
-                    "images": [
-                        {
-                            "src": "../images/team/yasir.jpg"
-                        }
-                    ],
-                    "socials": []
-                },
-                {
-                    "id": 3,
-                    "name": "Nesara Dissanayake",
-                    "designation": "PhD",
-                    "images": [
-                        {
-                            "src": "../images/team/nesara.png"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://twitter.com/nesara_d?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com.au/citations?user=Vb1zvAQAAAAJ&hl=en",
-                            "title": "Google Scholar"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://www.linkedin.com/in/nesaradissanayake",
-                            "title": "Linkedin"
-                        }
-                    ]
-                },
-                {
-                    "id": 4,
-                    "name": "Orvila Sarker",
-                    "designation": "PhD",
-                    "images": [
-                        {
-                            "src": "../images/team/orvila.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://twitter.com/orvilasarker",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com/citations?user=EDKApo0AAAAJ&hl=en",
-                            "title": "Google Scholar"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://au.linkedin.com/in/orvila-sarker-03941814b",
-                            "title": "Linkedin"
-                        }
-                    ]
-                },
-                {
-                    "id": 5,
-                    "name": "Roland Croft",
-                    "designation": "PhD",
-                    "images": [
-                        {
-                            "src": "../images/team/roland.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://twitter.com/CroftRoland",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com/citations?user=R6gmQDcAAAAJ&hl=en",
-                            "title": "Google Scholar"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://www.linkedin.com/in/rolandcroft/",
-                            "title": "Linkedin"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-dribbble",
-                            "link": "https://rolandcroft.github.io/",
-                            "title": "Personal Website"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-github",
-                            "link": "https://github.com/RolandCroft",
-                            "title": "GitHub"
-                        }
-                    ]
-                },
-                {
-                    "id": 6,
-                    "name": "Yongzheng Xie",
-                    "designation": "PhD",
-                    "images": [
-                        {
-                            "src": "../images/team/carig.jpeg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 3,
-                            "icon": "fab fa-dribbble",
-                            "link": "https://www.adelaide.edu.au/directory/yongzheng.xie",
-                            "title": "Personal Website"
-                        }
-                    ]
-                },
-                {
-                    "id": 7,
-                    "name": "Liuyue Jiang",
-                    "designation": "PhD",
-                    "images": [
-                        {
-                            "src": "../images/team/liuyue.png"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://twitter.com/williamjiangau?lang=en",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://www.linkedin.com/in/william-jiang-854710186/",
-                            "title": "Linkedin"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-dribbble",
-                            "link": "https://iwill.one",
-                            "title": "Personal Website"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-github",
-                            "link": "https://github.com/williamjiangsa",
-                            "title": "GitHub"
-                        }
-                    ]
-                },
-                {
-                    "id": 8,
-                    "name": "Mehdi Kholoosi",
-                    "designation": "PhD",
-                    "images": [
-                        {
-                            "src": "../images/team/mehdi.png"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://twitter.com/MehdiKholoosi",
-                            "title": "Twitter"
-                        }
-                    ]
-                },
-                {
-                    "id": 9,
-                    "name": "Zahra Mousavi",
-                    "designation": "PhD",
-                    "images": [
-                        {
-                            "src": "../images/team/Zahra.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://twitter.com/mousavi_sz",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://www.linkedin.com/sz-mousavi-09a388108",
-                            "title": "Linkedin"
-                        }
-                    ]
-                },
-                {
-                    "id": 10,
-                    "name": "Ali Kazemi Arani",
-                    "designation": "PhD",
-                    "images": [
-                        {
-                            "src": "../images/team/ali.png"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://twitter.com/KazemiAli_",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://linkedin.com/in/ali-kazemi-arani-a8739552",
-                            "title": "Linkedin"
-                        }
-                    ]
-                }
-            ]
+            {
+              "id": 4,
+              "icon": "fab fa-linkedin",
+              "link": "https://au.linkedin.com/in/muhammad-ali-babar-5bb4884",
+              "title": "Linkedin"
+            }
+          ]
         },
         {
-            "id": "assistants",
-            "section": "assistants",
-            "section_title": {
-                "title": "<span>Research Assistants and Engineers</span>"
+          "id": 2,
+          "name": "Mingyu Guo",
+          "designation": "Lecturer",
+          "images": [
+            {
+              "src": "../images/team/mingyu.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 4,
+              "icon": "fab si-googlescholar",
+              "link": "https://scholar.google.com/citations?user=bxEKdzkAAAAJ&hl=en",
+              "title": "Google Scholar"
             },
-            "items": [
-                {
-                    "id": 1,
-                    "name": "Shagun Dhingra",
-                    "designation": "Research Engineer",
-                    "images": [
-                        {
-                            "src": "../images/team/shagun.jpg"
-                        }
-                    ],
-                    "socials": [
-
-                    ]
-                },
-                {
-                    "id": 2,
-                    "name": "Trung Ky (Keith) Moc",
-                    "designation": "Research Engineer",
-                    "images": [
-                        {
-                            "src": "../images/team/Keith.jpeg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://www.linkedin.com/in/trung-ky-keith-moc-48981164/?originalSubdomain=au",
-                            "title": "Linkedin"
-                        }
-                    ]
-                },
-                {
-                    "id": 3,
-                    "name": "Anjitha Sreekumar",
-                    "designation": "Research Engineer",
-                    "images": [
-                        {
-                            "src": "../images/team/Anjitha.png"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://twitter.com/skanjitha",
-                            "title": "Twitter"
-                        }
-                    ]
-                },
-                {
-                    "id": 4,
-                    "name": "Ashwinraj Giriraj",
-                    "designation": "Research Engineer",
-                    "images": [
-                        {
-                            "src": "../images/team/ashwinraj.jpg"
-                        }
-                    ],
-                    "socials": []
-                },
-                {
-                    "id": 5,
-                    "name": "Antony Nicholas Cameron",
-                    "designation": "Project Officer",
-                    "images": [
-                        {
-                            "src": "../images/team/Antony.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://www.linkedin.com/in/antony-cameron-45199b1a3/",
-                            "title": "Linkedin"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-github",
-                            "link": "https://github.com/anc29",
-                            "title": "GitHub"
-                        }
-                    ]
-                },
-                {
-                    "id": 6,
-                    "name": "Navaneeth Sivakumar",
-                    "designation": "Research Assistant",
-                    "images": [
-                        {
-                            "src": "../images/team/Navaneeth.jpg"
-                        }
-                    ],
-                    "socials": []
-                }
-            ]
-        },
-        {
-            "id": "projectstudents",
-            "section": "projectstudents",
-            "section_title": {
-                "title": "<span>Project Students</span>"
+            {
+              "id": 4,
+              "icon": "fab fa-linkedin",
+              "link": "https://uk.linkedin.com/in/mingyu-guo-97236b1b",
+              "title": "Linkedin"
             },
-            "items": [
-                {
-                    "id": 1,
-                    "name": "Shagun Dhingra",
-                    "designation": "Research Engineer",
-                    "images": [
-                        {
-                            "src": "../images/team/shagun.jpg"
-                        }
-                    ],
-                    "socials": [
-                    ]
-                },
-                {
-                    "id": 2,
-                    "name": "Trung Ky (Keith) Moc",
-                    "designation": "Research Engineer",
-                    "images": [
-                        {
-                            "src": "../images/team/Keith.jpeg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://www.linkedin.com/in/trung-ky-keith-moc-48981164/?originalSubdomain=au",
-                            "title": "Linkedin"
-                        }
-                    ]
-                },
-                {
-                    "id": 3,
-                    "name": "Anjitha Sreekumar",
-                    "designation": "Research Engineer",
-                    "images": [
-                        {
-                            "src": "../images/team/Anjitha.png"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://twitter.com/skanjitha",
-                            "title": "Twitter"
-                        }
-                    ]
-                }
-            ]
+            {
+              "id": 3,
+              "icon": "fab fa-dribbble",
+              "link": "https://cs.adelaide.edu.au/~mingyu/",
+              "title": "Personal Website"
+            }
+          ]
         },
         {
-            "id": "collaborators",
-            "section": "collaborators",
-            "section_title": {
-                "title": "<span>Collaborators and Associates</span>"
+          "id": 3,
+          "name": "Faheem Ullah",
+          "designation": "Lecturer",
+          "images": [
+            {
+              "src": "../images/team/Faheem.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 4,
+              "icon": "fab si-googlescholar",
+              "link": "https://scholar.google.com/citations?user=4dB2Py0AAAAJ&hl=en",
+              "title": "Google Scholar"
             },
-            "items": [
-                {
-                    "id": 1,
-                    "name": "Jamal EL HACHEM",
-                    "designation": "Assistant Professor",
-                    "images": [
-                        {
-                            "src": "../images/team/Jamal.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://twitter.com/jamalelhachem",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://fr.linkedin.com/in/jamal-el-hachem-a5a5386b",
-                            "title": "Linkedin"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.fr/citations?user=LscNzQwAAAAJ&hl=en",
-                            "title": "Google Scholar"
-                        }
-                    ]
-                },
-                {
-                    "id": 2,
-                    "name": "Chamila Wijayarathna",
-                    "designation": "Software Engineer",
-                    "images": [
-                        {
-                            "src": "../images/team/Chamila.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://www.linkedin.com/in/cdwijayarathna/?originalSubdomain=au",
-                            "title": "Linkedin"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com.au/citations?user=OI5GYRIAAAAJ&hl=en",
-                            "title": "Google Scholar"
-                        }
-                    ]
-                },
-                {
-                    "id": 3,
-                    "name": "Shanshan Li",
-                    "designation": "Lecture",
-                    "images": [
-                        {
-                            "src": "../images/team/shanshan.jpeg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://cn.linkedin.com/in/shanshan-li-586441143",
-                            "title": "Linkedin"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com/citations?user=E86VWYEAAAAJ&hl=en",
-                            "title": "Google Scholar"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "alumni",
-            "section": "alumni",
-            "section_title": {
-                "title": "<span>Alumni</span>"
+            {
+              "id": 4,
+              "icon": "fab fa-linkedin",
+              "link": "https://au.linkedin.com/in/faheem-ullah-75b56267",
+              "title": "Linkedin"
             },
-            "items": [
-                {
-                    "id": 12,
-                    "name": "Xiaoyu Xia",
-                    "designation": "Post Doc",
-                    "images": [
-                        {
-                            "src": "../images/team/xiaoyu.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com/citations?user=v-6hODoAAAAJ&hl=en",
-                            "title": "Google Scholar"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://www.linkedin.com/in/xiaoyuxia/",
-                            "title": "Linkedin"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-dribbble",
-                            "link": "https://sites.google.com/view/xiaoyuxia",
-                            "title": "Personal Website"
-                        },
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://twitter.com/xiaoyu_shaw_xia",
-                            "title": "Twitter"
-                        }
-                    ]
-                },
-                {
-                    "id": "leonardo-horn-lwaya",
-                    "name": "Leonardo Horn Iwaya",
-                    "designation": "Post Doc",
-                    "images": [
-                        {
-                            "src": "../images/team/leonardo.jpg"
-                        }
-                    ],
-                    "socials": []
-                },
-                {
-                    "id": "hao-chen",
-                    "name": "Hao Chen",
-                    "designation": "PhD",
-                    "position": "alumni",
-                    "images": [
-                        {
-                            "src": "../images/team/chenhao.jpeg"
-                        }
-                    ],
-                    "socials": []
-                    
-                },
-                {
-                    "id": "monica-bian",
-                    "name": "Monica Bian",
-                    "designation": "Post Doc",
-                    "position": "alumni",
-                    "images": [
-                        {
-                            "src": "../images/team/monica.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                        "id": 3,
-                        "icon": "fab fa-dribbble",
-                        "link": "https://researchers.adelaide.edu.au/profile/monica.bian#my-research",
-                        "title": "Personal Website"
-                    },
-                    {
-                        "id": 2,
-                        "icon": "fab fa-twitter",
-                        "link": "https://twitter.com/Monica_RR_Bian",
-                        "title": "Twitter"
-                       }
-                    ]
-                },
-                {
-                    "id": "guanhua-wang",
-                    "name": "Guanhua Wang",
-                    "designation": "PhD",
-                    "position": "alumni",
-                    "images": [
-                        {
-                            "src": "../images/team/guanhua.jpeg"
-                        }
-                    ],
-                    "socials": []
-                },
-                {
-                    "id": "bakheet-aljedaani",
-                    "name": "Bakheet Aljedaani",
-                    "designation": "PhD",
-                    "images": [
-                        {
-                            "src": "../images/team/Bakheet.jpg"
-                        }
-                    ],
-                    "socials": []
-                },  
-                {
-                    "id": "david-hin",
-                    "name": "David Hin",
-                    "designation": "Honour Student",
-                    "position": "alumni",
-                    "images": [
-                        {
-                            "src": "../images/team/david.jpg"
-                        }
-                    ],
-                    "socials": []
-                },
-                {
-                    "id": "xu-zhan",
-                    "name": "Xu Zhan",
-                    "designation": "Research Assistant",
-                    "images": [
-                        {
-                            "src": "../images/team/xuzhan.png"
-                        }
-                    ],
-                    "socials": []
-                },
-                {
-                    "id": "fengyi-yang",
-                    "name": "Fengyi Yang",
-                    "designation": "Research Assistant",
-                    "images": [
-                        {
-                            "src": "../images/team/Fengyi.jpg"
-                        }
-                    ],
-                    "socials": []
-                },
-                {
-                    "id": "khoa-nguyen",
-                    "name": "Mai Anh Khoa Nguyen",
-                    "designation": "Research Engineer",
-                    "position": "alumni",
-                    "images": [
-                        {
-                            "src": "../images/team/leo.jpg"
-                        }
-                    ],
-                    "socials": []
-                },
-                {
-                    "id": "anupam",
-                    "name": "Anupam",
-                    "designation": "Research Engineer",
-                    "position": "alumni",
-                    "images": [
-                        {
-                            "src": "../images/team/anupam.jpg"
-                        }
-                    ],
-                    "socials": []
-                },
-                {
-                    "id": "bo-li",
-                    "name": "Bo Li",
-                    "designation": "Master Student",
-                    "position": "alumni",
-                    "images": [
-                        {
-                            "src": "../images/team/boli.png"
-                        }
-                    ],
-                    "socials": []
-                },
-                
-                {
-                    "id": "anying-xiang",
-                    "name": "Anying Xiang",
-                    "designation": "Research Engineer",
-                    "position": "alumni",
-                    "images": [
-                        {
-                            "src": "../images/team/Anying.png"
-                        }
-                    ],
-                    "socials": []
-                },
-                {
-                    "id": "hien-le",
-                    "name": "Hien Le",
-                    "designation": "Master Student",
-                    "position": "alumni",
-                    "images": [
-                        {
-                            "src": "../images/team/hienle.jpg"
-                        }
-                    ],
-                    "socials": []
-                },
-                {
-                    "id": "minhaj-ahmed",
-                    "name": "Minhaj Ahmed",
-                    "designation": "Bachelor Student",
-                    "position": "alumni",
-                    "images": [
-                        {
-                            "src": "../images/team/minhaj.png"
-                        }
-                    ],
-                    "socials": []
-                },
-                {
-                    "id": "huaming-chen",
-                    "name": "Huaming Chen",
-                    "designation": "Post Doc",
-                    "position": "alumni",
-                    "images": [
-                        {
-                            "src": "../images/team/HuamingChen.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com/citations?user=3-qRVLUAAAAJ&hl=en",
-                            "title": "Google Scholar"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://www.linkedin.com/in/huaming-chen/",
-                            "title": "Linkedin"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-dribbble",
-                            "link": "https://researchers.adelaide.edu.au/profile/huaming.chen",
-                            "title": "Personal Website"
-                        }
-                    ]
-                },
-                {
-                    "id": "mojtaba-shahin",
-                    "name": "Mojtaba Shahin",
-                    "designation": "alumni",
-                    "images": [
-                        {
-                            "src": "../images/team/mojtaba.jpeg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com.au/citations?user=Aml0q7sAAAAJ&hl=en",
-                            "title": "Google Scholar"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-dribbble",
-                            "link": "http://mojtabashahin.wordpress.com/",
-                            "title": "Personal Website"
-                        }
-                    ]
-                },
-                {
-                    "id": 11,
-                    "name": "Sheik Mohammad Mostakim Fattah",
-                    "designation": "Post Doc",
-                    "images": [
-                        {
-                            "src": "../images/team/fattah.png"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com/citations?user=IOe5upYAAAAJ&hl=en",
-                            "title": "Google Scholar"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://linkedin.com/in/sheik-mohammad-mostakim-fattah-30814a7b",
-                            "title": "Linkedin"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-dribbble",
-                            "link": "https://www.researchgate.net/profile/Sheik-Fattah",
-                            "title": "Personal Website"
-                        },
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://twitter.com/smfattah",
-                            "title": "Twitter"
-                        }
-                    ]
-                },
-                {
-                    "id": 10,
-                    "name": "Chadni Islam",
-                    "designation": "Post Doc",
-                    "images": [
-                        {
-                            "src": "../images/team/chadni.png"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com.au/citations?user=JYcmT_IAAAAJ&hl=en",
-                            "title": "Google Scholar"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://www.linkedin.com/in/chadni-islam-7193b5174/",
-                            "title": "Linkedin"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-dribbble",
-                            "link": "https://chadniislam.com/",
-                            "title": "Personal Website"
-                        },
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://mobile.twitter.com/_chadni_",
-                            "title": "Twitter"
-                        }
-                    ]
-                },
-                {
-                    "id": 1,
-                    "name": "Mansooreh Zahedi",
-                    "designation": "Lecturer",
-                    "images": [
-                        {
-                            "src": "../images/team/Mansooreh.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://au.linkedin.com/in/mansooreh-zahedi",
-                            "title": "Linkedin"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.dk/citations?user=-mrcwTwAAAAJ&hl=en",
-                            "title": "Google Scholar"
-                        },
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://twitter.com/mansoorehz",
-                            "title": "Twitter"
-                        }
-                    ]
-                },
-                {
-                    "id": 2,
-                    "name": "Minhui (Jason) Xue",
-                    "designation": "Lecturer",
-                    "images": [
-                        {
-                            "src": "../images/team/Jason.jpeg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://au.linkedin.com/in/jasonnyuecnu",
-                            "title": "Linkedin"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com/citations?user=jdqkm1IAAAAJ&hl=en",
-                            "title": "Google Scholar"
-                        }
-                    ]
-                },
-                {
-                    "id": 3,
-                    "name": "Le Ba Dung",
-                    "designation": "Research Engineer",
-                    "images": [
-                        {
-                            "src": "../images/team/le.png"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://mobile.twitter.com/dungleba",
-                            "title": "Twitter"
-                        }
-                    ]
-                },
-                {
-                    "id": 4,
-                    "name": "Yaser Mansouri",
-                    "designation": "Post Doc",
-                    "images": [
-                        {
-                            "src": "../images/team/yaser.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com/citations?user=VPjDr3AAAAAJ&hl=en",
-                            "title": "Google Scholar"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-dribbble",
-                            "link": "https://ieeexplore.ieee.org/author/37086475255",
-                            "title": "Personal Website"
-                        }
-                    ]
-                },
-                {
-                    "id": 4,
-                    "name": "Amrit Swaroop Sinha",
-                    "designation": "Research Engineer",
-                    "images": [
-                        {
-                            "src": "../images/team/Amrit.jpeg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://au.linkedin.com/in/amrit-swaroop-sinha",
-                            "title": "Linkedin"
-                        }
-                    ]
-                },
-                {
-                    "id": 3,
-                    "name": "Fangchao Tian",
-                    "designation": "PhD",
-                    "images": [
-                        {
-                            "src": "../images/team/fangchao.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com/citations?user=10EKKn0AAAAJ&hl=en",
-                            "title": "Google Scholar"
-                        }
-                    ]
-                },
-                {
-                    "id": 6,
-                    "name": "Roshan Rajapakse",
-                    "designation": "PhD",
-                    "images": [
-                        {
-                            "src": "../images/team/roshan.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://twitter.com/rosh_nr",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com/citations?user=GVmzDu4AAAAJ&hl=en",
-                            "title": "Google Scholar"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://www.linkedin.com/in/roshanrajapakse/",
-                            "title": "Linkedin"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-github",
-                            "link": "https://github.com/RoshanRajapakse",
-                            "title": "GitHub"
-                        }
-                    ]
-                },
-                {
-                    "id": 8,
-                    "name": "Mubin Ul Haque",
-                    "designation": "PhD",
-                    "images": [
-                        {
-                            "src": "../images/team/mubin.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://twitter.com/mubin_swarup",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com/citations?user=zkXUCDUAAAAJ&hl=en",
-                            "title": "Google Scholar"
-                        }
-                    ]
-                },
-                {
-                    "id": 9,
-                    "name": "Zarrin Tasnim Sworna",
-                    "designation": "PhD",
-                    "images": [
-                        {
-                            "src": "../images/team/zarrin.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://mobile.twitter.com/swornolota",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab si-googlescholar",
-                            "link": "https://scholar.google.com/citations?user=7J612VQAAAAJ&hl=en",
-                            "title": "Google Scholar"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://bd.linkedin.com/in/zarrin-tasnim-sworna-764428a6",
-                            "title": "Linkedin"
-                        }
-                    ]
-                },
-                {
-                    "id": 13,
-                    "name": "Hussain Ahmad",
-                    "designation": "PhD",
-                    "images": [
-                        {
-                            "src": "../images/team/Hussain.png"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://twitter.com/HussainAhmad_5",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 4,
-                            "icon": "fab fa-linkedin",
-                            "link": "https://www.linkedin.com/in/hussainahmad5/",
-                            "title": "Linkedin"
-                        }
-                    ]
-                }
-            ]
+            {
+              "id": 3,
+              "icon": "fab fa-dribbble",
+              "link": "https://researchers.adelaide.edu.au/profile/faheem.ullah",
+              "title": "Personal Website"
+            }
+          ]
         },
         {
-            "id": "leadership-employee",
-            "section": "employee-section",
-            "items": [
-                {
-                    "id": 8,
-                    "name": "Gene Moreno",
-                    "designation": "developer",
-                    "images": [
-                        {
-                            "src": "../images/team/team-member-03-370x452.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 1,
-                            "icon": "fab fa-facebook",
-                            "link": "https://www.twitter.com",
-                            "title": "Facebook"
-                        },
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://www.twitter.com",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-instagram",
-                            "link": "https://www.instagram.com",
-                            "title": "Instagram"
-                        }
-                    ]
-                },
-                {
-                    "id": 9,
-                    "name": "Carrie Greer",
-                    "designation": "developer",
-                    "images": [
-                        {
-                            "src": "../images/team/team-member-05-370x452.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 1,
-                            "icon": "fab fa-facebook",
-                            "link": "https://www.twitter.com",
-                            "title": "Facebook"
-                        },
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://www.twitter.com",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-instagram",
-                            "link": "https://www.instagram.com",
-                            "title": "Instagram"
-                        }
-                    ]
-                },
-                {
-                    "id": 10,
-                    "name": "Brent Newman",
-                    "designation": "developer",
-                    "images": [
-                        {
-                            "src": "../images/team/team-member-02-370x452.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 1,
-                            "icon": "fab fa-facebook",
-                            "link": "https://www.twitter.com",
-                            "title": "Facebook"
-                        },
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://www.twitter.com",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-instagram",
-                            "link": "https://www.instagram.com",
-                            "title": "Instagram"
-                        }
-                    ]
-                },
-                {
-                    "id": 11,
-                    "name": "Craig Stevenson",
-                    "designation": "developer",
-                    "images": [
-                        {
-                            "src": "../images/team/team-member-04-370x452.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 1,
-                            "icon": "fab fa-facebook",
-                            "link": "https://www.twitter.com",
-                            "title": "Facebook"
-                        },
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://www.twitter.com",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-instagram",
-                            "link": "https://www.instagram.com",
-                            "title": "Instagram"
-                        }
-                    ]
-                },
-                {
-                    "id": 12,
-                    "name": "Albert Webster",
-                    "designation": "engineer",
-                    "images": [
-                        {
-                            "src": "../images/team/team-member-06-370x455.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 1,
-                            "icon": "fab fa-facebook",
-                            "link": "https://www.twitter.com",
-                            "title": "Facebook"
-                        },
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://www.twitter.com",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-instagram",
-                            "link": "https://www.instagram.com",
-                            "title": "Instagram"
-                        }
-                    ]
-                },
-                {
-                    "id": 13,
-                    "name": "Harry Castillo",
-                    "designation": "engineer",
-                    "images": [
-                        {
-                            "src": "../images/team/team-member-01-370x455.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 1,
-                            "icon": "fab fa-facebook",
-                            "link": "https://www.twitter.com",
-                            "title": "Facebook"
-                        },
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://www.twitter.com",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-instagram",
-                            "link": "https://www.instagram.com",
-                            "title": "Instagram"
-                        }
-                    ]
-                },
-                {
-                    "id": 14,
-                    "name": "Walter Reid",
-                    "designation": "engineer",
-                    "images": [
-                        {
-                            "src": "../images/team/team-member-07-370x455.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 1,
-                            "icon": "fab fa-facebook",
-                            "link": "https://www.twitter.com",
-                            "title": "Facebook"
-                        },
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://www.twitter.com",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-instagram",
-                            "link": "https://www.instagram.com",
-                            "title": "Instagram"
-                        }
-                    ]
-                },
-                {
-                    "id": 15,
-                    "name": "Gordon Baldwin",
-                    "designation": "engineer",
-                    "images": [
-                        {
-                            "src": "../images/team/team-member-05-370x452.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 1,
-                            "icon": "fab fa-facebook",
-                            "link": "https://www.twitter.com",
-                            "title": "Facebook"
-                        },
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://www.twitter.com",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-instagram",
-                            "link": "https://www.instagram.com",
-                            "title": "Instagram"
-                        }
-                    ]
-                },
-                {
-                    "id": 15,
-                    "name": "Gene Moreno",
-                    "designation": "staff",
-                    "images": [
-                        {
-                            "src": "../images/team/team-member-03-370x452.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 1,
-                            "icon": "fab fa-facebook",
-                            "link": "https://www.twitter.com",
-                            "title": "Facebook"
-                        },
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://www.twitter.com",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-instagram",
-                            "link": "https://www.instagram.com",
-                            "title": "Instagram"
-                        }
-                    ]
-                },
-                {
-                    "id": 16,
-                    "name": "Carrie Greer",
-                    "designation": "staff",
-                    "images": [
-                        {
-                            "src": "../images/team/team-member-03-370x452.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 1,
-                            "icon": "fab fa-facebook",
-                            "link": "https://www.twitter.com",
-                            "title": "Facebook"
-                        },
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://www.twitter.com",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-instagram",
-                            "link": "https://www.instagram.com",
-                            "title": "Instagram"
-                        }
-                    ]
-                },
-                {
-                    "id": 17,
-                    "name": "Brent Newman",
-                    "designation": "staff",
-                    "images": [
-                        {
-                            "src": "../images/team/team-member-05-370x452.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 1,
-                            "icon": "fab fa-facebook",
-                            "link": "https://www.twitter.com",
-                            "title": "Facebook"
-                        },
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://www.twitter.com",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-instagram",
-                            "link": "https://www.instagram.com",
-                            "title": "Instagram"
-                        }
-                    ]
-                },
-                {
-                    "id": 18,
-                    "name": "Craig Stevenson",
-                    "designation": "staff",
-                    "images": [
-                        {
-                            "src": "../images/team/team-member-02-370x452.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 1,
-                            "icon": "fab fa-facebook",
-                            "link": "https://www.twitter.com",
-                            "title": "Facebook"
-                        },
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://www.twitter.com",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-instagram",
-                            "link": "https://www.instagram.com",
-                            "title": "Instagram"
-                        }
-                    ]
-                },
-                {
-                    "id": 19,
-                    "name": "Charlotte Shaw",
-                    "designation": "designer",
-                    "images": [
-                        {
-                            "src": "../images/team/team-member-04-370x452.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 1,
-                            "icon": "fab fa-facebook",
-                            "link": "https://www.twitter.com",
-                            "title": "Facebook"
-                        },
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://www.twitter.com",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-instagram",
-                            "link": "https://www.instagram.com",
-                            "title": "Instagram"
-                        }
-                    ]
-                },
-                {
-                    "id": 20,
-                    "name": "Kate Wong",
-                    "designation": "designer",
-                    "images": [
-                        {
-                            "src": "../images/team/team-member-06-370x455.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 1,
-                            "icon": "fab fa-facebook",
-                            "link": "https://www.twitter.com",
-                            "title": "Facebook"
-                        },
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://www.twitter.com",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-instagram",
-                            "link": "https://www.instagram.com",
-                            "title": "Instagram"
-                        }
-                    ]
-                },
-                {
-                    "id": 21,
-                    "name": "Frederick Huff",
-                    "designation": "designer",
-                    "images": [
-                        {
-                            "src": "../images/team/team-member-01-370x455.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 1,
-                            "icon": "fab fa-facebook",
-                            "link": "https://www.twitter.com",
-                            "title": "Facebook"
-                        },
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://www.twitter.com",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-instagram",
-                            "link": "https://www.instagram.com",
-                            "title": "Instagram"
-                        }
-                    ]
-                },
-                {
-                    "id": 22,
-                    "name": "Ora Johnson",
-                    "designation": "designer",
-                    "images": [
-                        {
-                            "src": "../images/team/team-member-07-370x455.jpg"
-                        }
-                    ],
-                    "socials": [
-                        {
-                            "id": 1,
-                            "icon": "fab fa-facebook",
-                            "link": "https://www.twitter.com",
-                            "title": "Facebook"
-                        },
-                        {
-                            "id": 2,
-                            "icon": "fab fa-twitter",
-                            "link": "https://www.twitter.com",
-                            "title": "Twitter"
-                        },
-                        {
-                            "id": 3,
-                            "icon": "fab fa-instagram",
-                            "link": "https://www.instagram.com",
-                            "title": "Instagram"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "leadership-contact-content",
-            "section": "contact-section",
-            "headings": [
-                {
-                    "level": "h3",
-                    "content": "Obtaining further information by <span>make a contact</span> with our experienced IT staffs."
-                },
-                {
-                    "level": "h6",
-                    "content": "REACH OUT NOW!"
-                },
-                {
-                    "level": "h2",
-                    "content": "190068668"
-                }
-            ],
-            "texts": [
-                {
-                    "content": "We’re available for 8 hours a day! <br/> Contact to require a detailed analysis and assessment of your plan"
-                }
-            ],
-            "buttons": [
-                {
-                    "id": 1,
-                    "color": "secondary",
-                    "hoverStyle": "three",
-                    "path": "/contact-us",
-                    "content": "Contact Us"
-                }
-            ]
+          "id": 4,
+          "name": "Chelsea Liu",
+          "designation": "Associate Professor",
+          "images": [
+            {
+              "src": "../images/team/chelsea.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 4,
+              "icon": "fab si-googlescholar",
+              "link": "https://scholar.google.com.au/citations?user=JBrgSqgAAAAJ&hl=en&oi=sra",
+              "title": "Google Scholar"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-dribbble",
+              "link": "https://sites.google.com/view/chelsealiu",
+              "title": "Personal Website"
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "id": "posdocs",
+      "section": "posdocs-section",
+      "section_title": {
+        "title": "<span>Research Fellows</span>"
+      },
+      "items": [
+        {
+          "id": 5,
+          "name": "Aufeef Chauhan",
+          "designation": "Post Doc",
+          "images": [
+            {
+              "src": "../images/team/Aufeef.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 5,
+              "icon": "fab si-googlescholar",
+              "link": "https://scholar.google.dk/citations?user=7fy5Oa0AAAAJ&hl=en",
+              "title": "Google Scholar"
+            },
+            {
+              "id": 5,
+              "icon": "fab fa-linkedin",
+              "link": "https://au.linkedin.com/in/aufeefchauhan",
+              "title": "Linkedin"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Nguyen Khoi Tran",
+          "designation": "Post Doc",
+          "images": [
+            {
+              "src": "../images/team/nguyen.png"
+            }
+          ],
+          "socials": [
+            {
+              "id": 4,
+              "icon": "fab si-googlescholar",
+              "link": "https://scholar.google.com/citations?user=aX4UR10AAAAJ&hl=en",
+              "title": "Google Scholar"
+            },
+            {
+              "id": 4,
+              "icon": "fab fa-linkedin",
+              "link": "https://www.linkedin.com/in/nktrandlt/",
+              "title": "Linkedin"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-dribbble",
+              "link": "https://nk-tran.com/",
+              "title": "Personal Website"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-github",
+              "link": "https://github.com/nguyentran0212",
+              "title": "GitHub"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Victor Prokhorenko",
+          "designation": "Post Doc",
+          "images": [
+            {
+              "src": "../images/team/victor.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 3,
+              "icon": "fab fa-dribbble",
+              "link": "https://ieeexplore.ieee.org/author/37085816139",
+              "title": "Personal Website"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Asangi Jayatilaka",
+          "designation": "Post Doc",
+          "images": [
+            {
+              "src": "../images/team/asangi.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 4,
+              "icon": "fab si-googlescholar",
+              "link": "https://scholar.google.com.au/citations?user=shvEPagAAAAJ&hl=en",
+              "title": "Google Scholar"
+            },
+            {
+              "id": 4,
+              "icon": "fab fa-linkedin",
+              "link": "https://au.linkedin.com/in/asangi-jayatilaka",
+              "title": "Linkedin"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-dribbble",
+              "link": "https://researchers.adelaide.edu.au/profile/asangi.jayatilaka",
+              "title": "Personal Website"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Triet Huynh Minh Le",
+          "designation": "PhD",
+          "images": [
+            {
+              "src": "../images/team/triet.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 3,
+              "icon": "fab fa-dribbble",
+              "link": "https://www.trietle.net/",
+              "title": "Personal Website"
+            },
+            {
+              "id": 4,
+              "icon": "fab si-googlescholar",
+              "link": "https://scholar.google.com/citations?user=6nlR-XIAAAAJ",
+              "title": "Google Scholar"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Kun-Ting Chen",
+          "designation": "Post Doc",
+          "images": [
+            {
+              "src": "../images/team/kuntingchen.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://twitter.com/kuntingchen1",
+              "title": "Twitter"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-dribbble",
+              "link": "https://github.com/Kun-Ting",
+              "title": "Personal Website"
+            },
+            {
+              "id": 4,
+              "icon": "fab si-googlescholar",
+              "link": "https://scholar.google.com/citations?hl=en&user=8gpa65AAAAAJ",
+              "title": "Google Scholar"
+            },
+            {
+              "id": 4,
+              "icon": "fab fa-linkedin",
+              "link": "https://www.linkedin.com/in/kun-ting-chen-313a5116a",
+              "title": "Linkedin"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Limeng Zhang",
+          "designation": "Post Doc",
+          "images": [
+            {
+              "src": "../images/team/limeng.jpg"
+            }
+          ],
+          "socials": []
+        },
+        {
+          "id": 12,
+          "name": "Samodha Pallewatta",
+          "designation": "Post Doc",
+          "images": [
+            {
+              "src": "../images/team/samodha.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 3,
+              "icon": "fab fa-dribbble",
+              "link": "https://github.com/Samodhap",
+              "title": "Personal Website"
+            },
+            {
+              "id": 4,
+              "icon": "fab si-googlescholar",
+              "link": "https://scholar.google.com/citations?user=-18pEVkAAAAJ&hl=en",
+              "title": "Google Scholar"
+            },
+            {
+              "id": 4,
+              "icon": "fab fa-linkedin",
+              "link": "https://au.linkedin.com/in/samodha-pallewatta",
+              "title": "Linkedin"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Sangwon Hyun",
+          "designation": "Post Doc",
+          "images": [
+            {
+              "src": "../images/team/Sangwon.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 4,
+              "icon": "fab si-googlescholar",
+              "link": "https://scholar.google.com/citations?hl=en&user=p3VIlT0AAAAJ",
+              "title": "Google Scholar"
+            },
+            {
+              "id": 4,
+              "icon": "fab fa-linkedin",
+              "link": "https://www.linkedin.com/in/sangwon-hyun-022a32121/",
+              "title": "Linkedin"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-dribbble",
+              "link": "https://abalon1210.github.io/",
+              "title": "Personal Website"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-github",
+              "link": "https://github.com/abalon1210",
+              "title": "GitHub"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Boyu Zhang",
+          "designation": "Post Doc",
+          "images": [
+            {
+              "src": "../images/team/boyu.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 4,
+              "icon": "fab si-googlescholar",
+              "link": "https://scholar.google.com/citations?&user=bpdpe1cAAAAJ&view_op=list_works&sortby=pubdate",
+              "title": "Google Scholar"
+            },
+            {
+              "id": 4,
+              "icon": "fab fa-linkedin",
+              "link": "https://www.linkedin.com/in/boyu-zhang-75094a60/",
+              "title": "Linkedin"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-dribbble",
+              "link": "https://abalon1210.github.io/",
+              "title": "Personal Website"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-github",
+              "link": "https://github.com/boyuZh",
+              "title": "GitHub"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phdstudent",
+      "section": "phdstudent",
+      "section_title": {
+        "title": "<span>PhD Student</span>"
+      },
+      "items": [
+        {
+          "id": 1,
+          "name": "Bushra Sabir",
+          "designation": "PhD",
+          "images": [
+            {
+              "src": "../images/team/busra.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://twitter.com/bushra_sabir",
+              "title": "Twitter"
+            },
+            {
+              "id": 4,
+              "icon": "fab si-googlescholar",
+              "link": "https://scholar.google.com/citations?user=FeX-_H8AAAAJ&hl=en",
+              "title": "Google Scholar"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Yasir Abdullah J Althobaiti",
+          "designation": "PhD",
+          "images": [
+            {
+              "src": "../images/team/yasir.jpg"
+            }
+          ],
+          "socials": []
+        },
+        {
+          "id": 3,
+          "name": "Nesara Dissanayake",
+          "designation": "PhD",
+          "images": [
+            {
+              "src": "../images/team/nesara.png"
+            }
+          ],
+          "socials": [
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://twitter.com/nesara_d?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+              "title": "Twitter"
+            },
+            {
+              "id": 4,
+              "icon": "fab si-googlescholar",
+              "link": "https://scholar.google.com.au/citations?user=Vb1zvAQAAAAJ&hl=en",
+              "title": "Google Scholar"
+            },
+            {
+              "id": 4,
+              "icon": "fab fa-linkedin",
+              "link": "https://www.linkedin.com/in/nesaradissanayake",
+              "title": "Linkedin"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Orvila Sarker",
+          "designation": "PhD",
+          "images": [
+            {
+              "src": "../images/team/orvila.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://twitter.com/orvilasarker",
+              "title": "Twitter"
+            },
+            {
+              "id": 4,
+              "icon": "fab si-googlescholar",
+              "link": "https://scholar.google.com/citations?user=EDKApo0AAAAJ&hl=en",
+              "title": "Google Scholar"
+            },
+            {
+              "id": 4,
+              "icon": "fab fa-linkedin",
+              "link": "https://au.linkedin.com/in/orvila-sarker-03941814b",
+              "title": "Linkedin"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Roland Croft",
+          "designation": "PhD",
+          "images": [
+            {
+              "src": "../images/team/roland.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://twitter.com/CroftRoland",
+              "title": "Twitter"
+            },
+            {
+              "id": 4,
+              "icon": "fab si-googlescholar",
+              "link": "https://scholar.google.com/citations?user=R6gmQDcAAAAJ&hl=en",
+              "title": "Google Scholar"
+            },
+            {
+              "id": 4,
+              "icon": "fab fa-linkedin",
+              "link": "https://www.linkedin.com/in/rolandcroft/",
+              "title": "Linkedin"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-dribbble",
+              "link": "https://rolandcroft.github.io/",
+              "title": "Personal Website"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-github",
+              "link": "https://github.com/RolandCroft",
+              "title": "GitHub"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Yongzheng Xie",
+          "designation": "PhD",
+          "images": [
+            {
+              "src": "../images/team/carig.jpeg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 3,
+              "icon": "fab fa-dribbble",
+              "link": "https://www.adelaide.edu.au/directory/yongzheng.xie",
+              "title": "Personal Website"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Liuyue Jiang",
+          "designation": "PhD",
+          "images": [
+            {
+              "src": "../images/team/liuyue.png"
+            }
+          ],
+          "socials": [
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://twitter.com/williamjiangau?lang=en",
+              "title": "Twitter"
+            },
+            {
+              "id": 4,
+              "icon": "fab fa-linkedin",
+              "link": "https://www.linkedin.com/in/william-jiang-854710186/",
+              "title": "Linkedin"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-dribbble",
+              "link": "https://iwill.one",
+              "title": "Personal Website"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-github",
+              "link": "https://github.com/williamjiangsa",
+              "title": "GitHub"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Mehdi Kholoosi",
+          "designation": "PhD",
+          "images": [
+            {
+              "src": "../images/team/mehdi.png"
+            }
+          ],
+          "socials": [
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://twitter.com/MehdiKholoosi",
+              "title": "Twitter"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Zahra Mousavi",
+          "designation": "PhD",
+          "images": [
+            {
+              "src": "../images/team/Zahra.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://twitter.com/mousavi_sz",
+              "title": "Twitter"
+            },
+            {
+              "id": 4,
+              "icon": "fab fa-linkedin",
+              "link": "https://www.linkedin.com/sz-mousavi-09a388108",
+              "title": "Linkedin"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Ali Kazemi Arani",
+          "designation": "PhD",
+          "images": [
+            {
+              "src": "../images/team/ali.png"
+            }
+          ],
+          "socials": [
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://twitter.com/KazemiAli_",
+              "title": "Twitter"
+            },
+            {
+              "id": 4,
+              "icon": "fab fa-linkedin",
+              "link": "https://linkedin.com/in/ali-kazemi-arani-a8739552",
+              "title": "Linkedin"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Zihao Lin",
+          "designation": "PhD",
+          "images": [
+            {
+              "src": "../images/team/zihao.jpeg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "assistants",
+      "section": "assistants",
+      "section_title": {
+        "title": "<span>Research Assistants and Engineers</span>"
+      },
+      "items": [
+        {
+          "id": 1,
+          "name": "Shagun Dhingra",
+          "designation": "Research Engineer",
+          "images": [
+            {
+              "src": "../images/team/shagun.jpg"
+            }
+          ],
+          "socials": []
+        },
+        {
+          "id": 2,
+          "name": "Trung Ky (Keith) Moc",
+          "designation": "Research Engineer",
+          "images": [
+            {
+              "src": "../images/team/Keith.jpeg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 4,
+              "icon": "fab fa-linkedin",
+              "link": "https://www.linkedin.com/in/trung-ky-keith-moc-48981164/?originalSubdomain=au",
+              "title": "Linkedin"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Anjitha Sreekumar",
+          "designation": "Research Engineer",
+          "images": [
+            {
+              "src": "../images/team/Anjitha.png"
+            }
+          ],
+          "socials": [
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://twitter.com/skanjitha",
+              "title": "Twitter"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Ashwinraj Giriraj",
+          "designation": "Research Engineer",
+          "images": [
+            {
+              "src": "../images/team/ashwinraj.jpg"
+            }
+          ],
+          "socials": []
+        },
+        {
+          "id": 5,
+          "name": "Antony Nicholas Cameron",
+          "designation": "Project Officer",
+          "images": [
+            {
+              "src": "../images/team/Antony.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 4,
+              "icon": "fab fa-linkedin",
+              "link": "https://www.linkedin.com/in/antony-cameron-45199b1a3/",
+              "title": "Linkedin"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-github",
+              "link": "https://github.com/anc29",
+              "title": "GitHub"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Navaneeth Sivakumar",
+          "designation": "Research Assistant",
+          "images": [
+            {
+              "src": "../images/team/Navaneeth.jpg"
+            }
+          ],
+          "socials": []
+        }
+      ]
+    },
+    {
+      "id": "projectstudents",
+      "section": "projectstudents",
+      "section_title": {
+        "title": "<span>Project Students</span>"
+      },
+      "items": [
+        {
+          "id": 1,
+          "name": "Shagun Dhingra",
+          "designation": "Research Engineer",
+          "images": [
+            {
+              "src": "../images/team/shagun.jpg"
+            }
+          ],
+          "socials": []
+        },
+        {
+          "id": 2,
+          "name": "Trung Ky (Keith) Moc",
+          "designation": "Research Engineer",
+          "images": [
+            {
+              "src": "../images/team/Keith.jpeg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 4,
+              "icon": "fab fa-linkedin",
+              "link": "https://www.linkedin.com/in/trung-ky-keith-moc-48981164/?originalSubdomain=au",
+              "title": "Linkedin"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Anjitha Sreekumar",
+          "designation": "Research Engineer",
+          "images": [
+            {
+              "src": "../images/team/Anjitha.png"
+            }
+          ],
+          "socials": [
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://twitter.com/skanjitha",
+              "title": "Twitter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "collaborators",
+      "section": "collaborators",
+      "section_title": {
+        "title": "<span>Collaborators and Associates</span>"
+      },
+      "items": [
+        {
+          "id": 1,
+          "name": "Jamal EL HACHEM",
+          "designation": "Assistant Professor",
+          "images": [
+            {
+              "src": "../images/team/Jamal.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://twitter.com/jamalelhachem",
+              "title": "Twitter"
+            },
+            {
+              "id": 4,
+              "icon": "fab fa-linkedin",
+              "link": "https://fr.linkedin.com/in/jamal-el-hachem-a5a5386b",
+              "title": "Linkedin"
+            },
+            {
+              "id": 4,
+              "icon": "fab si-googlescholar",
+              "link": "https://scholar.google.fr/citations?user=LscNzQwAAAAJ&hl=en",
+              "title": "Google Scholar"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Chamila Wijayarathna",
+          "designation": "Software Engineer",
+          "images": [
+            {
+              "src": "../images/team/Chamila.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 4,
+              "icon": "fab fa-linkedin",
+              "link": "https://www.linkedin.com/in/cdwijayarathna/?originalSubdomain=au",
+              "title": "Linkedin"
+            },
+            {
+              "id": 4,
+              "icon": "fab si-googlescholar",
+              "link": "https://scholar.google.com.au/citations?user=OI5GYRIAAAAJ&hl=en",
+              "title": "Google Scholar"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Shanshan Li",
+          "designation": "Lecture",
+          "images": [
+            {
+              "src": "../images/team/shanshan.jpeg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 4,
+              "icon": "fab fa-linkedin",
+              "link": "https://cn.linkedin.com/in/shanshan-li-586441143",
+              "title": "Linkedin"
+            },
+            {
+              "id": 4,
+              "icon": "fab si-googlescholar",
+              "link": "https://scholar.google.com/citations?user=E86VWYEAAAAJ&hl=en",
+              "title": "Google Scholar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alumni",
+      "section": "alumni",
+      "section_title": {
+        "title": "<span>Alumni</span>"
+      },
+      "items": [
+        {
+          "id": 12,
+          "name": "Xiaoyu Xia",
+          "designation": "Post Doc",
+          "images": [
+            {
+              "src": "../images/team/xiaoyu.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 4,
+              "icon": "fab si-googlescholar",
+              "link": "https://scholar.google.com/citations?user=v-6hODoAAAAJ&hl=en",
+              "title": "Google Scholar"
+            },
+            {
+              "id": 4,
+              "icon": "fab fa-linkedin",
+              "link": "https://www.linkedin.com/in/xiaoyuxia/",
+              "title": "Linkedin"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-dribbble",
+              "link": "https://sites.google.com/view/xiaoyuxia",
+              "title": "Personal Website"
+            },
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://twitter.com/xiaoyu_shaw_xia",
+              "title": "Twitter"
+            }
+          ]
+        },
+        {
+          "id": "leonardo-horn-lwaya",
+          "name": "Leonardo Horn Iwaya",
+          "designation": "Post Doc",
+          "images": [
+            {
+              "src": "../images/team/leonardo.jpg"
+            }
+          ],
+          "socials": []
+        },
+        {
+          "id": "hao-chen",
+          "name": "Hao Chen",
+          "designation": "PhD",
+          "position": "alumni",
+          "images": [
+            {
+              "src": "../images/team/chenhao.jpeg"
+            }
+          ],
+          "socials": []
+        },
+        {
+          "id": "monica-bian",
+          "name": "Monica Bian",
+          "designation": "Post Doc",
+          "position": "alumni",
+          "images": [
+            {
+              "src": "../images/team/monica.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 3,
+              "icon": "fab fa-dribbble",
+              "link": "https://researchers.adelaide.edu.au/profile/monica.bian#my-research",
+              "title": "Personal Website"
+            },
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://twitter.com/Monica_RR_Bian",
+              "title": "Twitter"
+            }
+          ]
+        },
+        {
+          "id": "guanhua-wang",
+          "name": "Guanhua Wang",
+          "designation": "PhD",
+          "position": "alumni",
+          "images": [
+            {
+              "src": "../images/team/guanhua.jpeg"
+            }
+          ],
+          "socials": []
+        },
+        {
+          "id": "bakheet-aljedaani",
+          "name": "Bakheet Aljedaani",
+          "designation": "PhD",
+          "images": [
+            {
+              "src": "../images/team/Bakheet.jpg"
+            }
+          ],
+          "socials": []
+        },
+        {
+          "id": "david-hin",
+          "name": "David Hin",
+          "designation": "Honour Student",
+          "position": "alumni",
+          "images": [
+            {
+              "src": "../images/team/david.jpg"
+            }
+          ],
+          "socials": []
+        },
+        {
+          "id": "xu-zhan",
+          "name": "Xu Zhan",
+          "designation": "Research Assistant",
+          "images": [
+            {
+              "src": "../images/team/xuzhan.png"
+            }
+          ],
+          "socials": []
+        },
+        {
+          "id": "fengyi-yang",
+          "name": "Fengyi Yang",
+          "designation": "Research Assistant",
+          "images": [
+            {
+              "src": "../images/team/Fengyi.jpg"
+            }
+          ],
+          "socials": []
+        },
+        {
+          "id": "khoa-nguyen",
+          "name": "Mai Anh Khoa Nguyen",
+          "designation": "Research Engineer",
+          "position": "alumni",
+          "images": [
+            {
+              "src": "../images/team/leo.jpg"
+            }
+          ],
+          "socials": []
+        },
+        {
+          "id": "anupam",
+          "name": "Anupam",
+          "designation": "Research Engineer",
+          "position": "alumni",
+          "images": [
+            {
+              "src": "../images/team/anupam.jpg"
+            }
+          ],
+          "socials": []
+        },
+        {
+          "id": "bo-li",
+          "name": "Bo Li",
+          "designation": "Master Student",
+          "position": "alumni",
+          "images": [
+            {
+              "src": "../images/team/boli.png"
+            }
+          ],
+          "socials": []
+        },
+
+        {
+          "id": "anying-xiang",
+          "name": "Anying Xiang",
+          "designation": "Research Engineer",
+          "position": "alumni",
+          "images": [
+            {
+              "src": "../images/team/Anying.png"
+            }
+          ],
+          "socials": []
+        },
+        {
+          "id": "hien-le",
+          "name": "Hien Le",
+          "designation": "Master Student",
+          "position": "alumni",
+          "images": [
+            {
+              "src": "../images/team/hienle.jpg"
+            }
+          ],
+          "socials": []
+        },
+        {
+          "id": "minhaj-ahmed",
+          "name": "Minhaj Ahmed",
+          "designation": "Bachelor Student",
+          "position": "alumni",
+          "images": [
+            {
+              "src": "../images/team/minhaj.png"
+            }
+          ],
+          "socials": []
+        },
+        {
+          "id": "huaming-chen",
+          "name": "Huaming Chen",
+          "designation": "Post Doc",
+          "position": "alumni",
+          "images": [
+            {
+              "src": "../images/team/HuamingChen.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 4,
+              "icon": "fab si-googlescholar",
+              "link": "https://scholar.google.com/citations?user=3-qRVLUAAAAJ&hl=en",
+              "title": "Google Scholar"
+            },
+            {
+              "id": 4,
+              "icon": "fab fa-linkedin",
+              "link": "https://www.linkedin.com/in/huaming-chen/",
+              "title": "Linkedin"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-dribbble",
+              "link": "https://researchers.adelaide.edu.au/profile/huaming.chen",
+              "title": "Personal Website"
+            }
+          ]
+        },
+        {
+          "id": "mojtaba-shahin",
+          "name": "Mojtaba Shahin",
+          "designation": "alumni",
+          "images": [
+            {
+              "src": "../images/team/mojtaba.jpeg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 4,
+              "icon": "fab si-googlescholar",
+              "link": "https://scholar.google.com.au/citations?user=Aml0q7sAAAAJ&hl=en",
+              "title": "Google Scholar"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-dribbble",
+              "link": "http://mojtabashahin.wordpress.com/",
+              "title": "Personal Website"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Sheik Mohammad Mostakim Fattah",
+          "designation": "Post Doc",
+          "images": [
+            {
+              "src": "../images/team/fattah.png"
+            }
+          ],
+          "socials": [
+            {
+              "id": 4,
+              "icon": "fab si-googlescholar",
+              "link": "https://scholar.google.com/citations?user=IOe5upYAAAAJ&hl=en",
+              "title": "Google Scholar"
+            },
+            {
+              "id": 4,
+              "icon": "fab fa-linkedin",
+              "link": "https://linkedin.com/in/sheik-mohammad-mostakim-fattah-30814a7b",
+              "title": "Linkedin"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-dribbble",
+              "link": "https://www.researchgate.net/profile/Sheik-Fattah",
+              "title": "Personal Website"
+            },
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://twitter.com/smfattah",
+              "title": "Twitter"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Chadni Islam",
+          "designation": "Post Doc",
+          "images": [
+            {
+              "src": "../images/team/chadni.png"
+            }
+          ],
+          "socials": [
+            {
+              "id": 4,
+              "icon": "fab si-googlescholar",
+              "link": "https://scholar.google.com.au/citations?user=JYcmT_IAAAAJ&hl=en",
+              "title": "Google Scholar"
+            },
+            {
+              "id": 4,
+              "icon": "fab fa-linkedin",
+              "link": "https://www.linkedin.com/in/chadni-islam-7193b5174/",
+              "title": "Linkedin"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-dribbble",
+              "link": "https://chadniislam.com/",
+              "title": "Personal Website"
+            },
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://mobile.twitter.com/_chadni_",
+              "title": "Twitter"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Mansooreh Zahedi",
+          "designation": "Lecturer",
+          "images": [
+            {
+              "src": "../images/team/Mansooreh.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 4,
+              "icon": "fab fa-linkedin",
+              "link": "https://au.linkedin.com/in/mansooreh-zahedi",
+              "title": "Linkedin"
+            },
+            {
+              "id": 4,
+              "icon": "fab si-googlescholar",
+              "link": "https://scholar.google.dk/citations?user=-mrcwTwAAAAJ&hl=en",
+              "title": "Google Scholar"
+            },
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://twitter.com/mansoorehz",
+              "title": "Twitter"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Minhui (Jason) Xue",
+          "designation": "Lecturer",
+          "images": [
+            {
+              "src": "../images/team/Jason.jpeg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 4,
+              "icon": "fab fa-linkedin",
+              "link": "https://au.linkedin.com/in/jasonnyuecnu",
+              "title": "Linkedin"
+            },
+            {
+              "id": 4,
+              "icon": "fab si-googlescholar",
+              "link": "https://scholar.google.com/citations?user=jdqkm1IAAAAJ&hl=en",
+              "title": "Google Scholar"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Le Ba Dung",
+          "designation": "Research Engineer",
+          "images": [
+            {
+              "src": "../images/team/le.png"
+            }
+          ],
+          "socials": [
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://mobile.twitter.com/dungleba",
+              "title": "Twitter"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Yaser Mansouri",
+          "designation": "Post Doc",
+          "images": [
+            {
+              "src": "../images/team/yaser.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 4,
+              "icon": "fab si-googlescholar",
+              "link": "https://scholar.google.com/citations?user=VPjDr3AAAAAJ&hl=en",
+              "title": "Google Scholar"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-dribbble",
+              "link": "https://ieeexplore.ieee.org/author/37086475255",
+              "title": "Personal Website"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Amrit Swaroop Sinha",
+          "designation": "Research Engineer",
+          "images": [
+            {
+              "src": "../images/team/Amrit.jpeg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 4,
+              "icon": "fab fa-linkedin",
+              "link": "https://au.linkedin.com/in/amrit-swaroop-sinha",
+              "title": "Linkedin"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Fangchao Tian",
+          "designation": "PhD",
+          "images": [
+            {
+              "src": "../images/team/fangchao.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 4,
+              "icon": "fab si-googlescholar",
+              "link": "https://scholar.google.com/citations?user=10EKKn0AAAAJ&hl=en",
+              "title": "Google Scholar"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Roshan Rajapakse",
+          "designation": "PhD",
+          "images": [
+            {
+              "src": "../images/team/roshan.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://twitter.com/rosh_nr",
+              "title": "Twitter"
+            },
+            {
+              "id": 4,
+              "icon": "fab si-googlescholar",
+              "link": "https://scholar.google.com/citations?user=GVmzDu4AAAAJ&hl=en",
+              "title": "Google Scholar"
+            },
+            {
+              "id": 4,
+              "icon": "fab fa-linkedin",
+              "link": "https://www.linkedin.com/in/roshanrajapakse/",
+              "title": "Linkedin"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-github",
+              "link": "https://github.com/RoshanRajapakse",
+              "title": "GitHub"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Mubin Ul Haque",
+          "designation": "PhD",
+          "images": [
+            {
+              "src": "../images/team/mubin.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://twitter.com/mubin_swarup",
+              "title": "Twitter"
+            },
+            {
+              "id": 4,
+              "icon": "fab si-googlescholar",
+              "link": "https://scholar.google.com/citations?user=zkXUCDUAAAAJ&hl=en",
+              "title": "Google Scholar"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Zarrin Tasnim Sworna",
+          "designation": "PhD",
+          "images": [
+            {
+              "src": "../images/team/zarrin.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://mobile.twitter.com/swornolota",
+              "title": "Twitter"
+            },
+            {
+              "id": 4,
+              "icon": "fab si-googlescholar",
+              "link": "https://scholar.google.com/citations?user=7J612VQAAAAJ&hl=en",
+              "title": "Google Scholar"
+            },
+            {
+              "id": 4,
+              "icon": "fab fa-linkedin",
+              "link": "https://bd.linkedin.com/in/zarrin-tasnim-sworna-764428a6",
+              "title": "Linkedin"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Hussain Ahmad",
+          "designation": "PhD",
+          "images": [
+            {
+              "src": "../images/team/Hussain.png"
+            }
+          ],
+          "socials": [
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://twitter.com/HussainAhmad_5",
+              "title": "Twitter"
+            },
+            {
+              "id": 4,
+              "icon": "fab fa-linkedin",
+              "link": "https://www.linkedin.com/in/hussainahmad5/",
+              "title": "Linkedin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "leadership-employee",
+      "section": "employee-section",
+      "items": [
+        {
+          "id": 8,
+          "name": "Gene Moreno",
+          "designation": "developer",
+          "images": [
+            {
+              "src": "../images/team/team-member-03-370x452.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 1,
+              "icon": "fab fa-facebook",
+              "link": "https://www.twitter.com",
+              "title": "Facebook"
+            },
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://www.twitter.com",
+              "title": "Twitter"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-instagram",
+              "link": "https://www.instagram.com",
+              "title": "Instagram"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Carrie Greer",
+          "designation": "developer",
+          "images": [
+            {
+              "src": "../images/team/team-member-05-370x452.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 1,
+              "icon": "fab fa-facebook",
+              "link": "https://www.twitter.com",
+              "title": "Facebook"
+            },
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://www.twitter.com",
+              "title": "Twitter"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-instagram",
+              "link": "https://www.instagram.com",
+              "title": "Instagram"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Brent Newman",
+          "designation": "developer",
+          "images": [
+            {
+              "src": "../images/team/team-member-02-370x452.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 1,
+              "icon": "fab fa-facebook",
+              "link": "https://www.twitter.com",
+              "title": "Facebook"
+            },
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://www.twitter.com",
+              "title": "Twitter"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-instagram",
+              "link": "https://www.instagram.com",
+              "title": "Instagram"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Craig Stevenson",
+          "designation": "developer",
+          "images": [
+            {
+              "src": "../images/team/team-member-04-370x452.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 1,
+              "icon": "fab fa-facebook",
+              "link": "https://www.twitter.com",
+              "title": "Facebook"
+            },
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://www.twitter.com",
+              "title": "Twitter"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-instagram",
+              "link": "https://www.instagram.com",
+              "title": "Instagram"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Albert Webster",
+          "designation": "engineer",
+          "images": [
+            {
+              "src": "../images/team/team-member-06-370x455.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 1,
+              "icon": "fab fa-facebook",
+              "link": "https://www.twitter.com",
+              "title": "Facebook"
+            },
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://www.twitter.com",
+              "title": "Twitter"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-instagram",
+              "link": "https://www.instagram.com",
+              "title": "Instagram"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Harry Castillo",
+          "designation": "engineer",
+          "images": [
+            {
+              "src": "../images/team/team-member-01-370x455.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 1,
+              "icon": "fab fa-facebook",
+              "link": "https://www.twitter.com",
+              "title": "Facebook"
+            },
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://www.twitter.com",
+              "title": "Twitter"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-instagram",
+              "link": "https://www.instagram.com",
+              "title": "Instagram"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "Walter Reid",
+          "designation": "engineer",
+          "images": [
+            {
+              "src": "../images/team/team-member-07-370x455.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 1,
+              "icon": "fab fa-facebook",
+              "link": "https://www.twitter.com",
+              "title": "Facebook"
+            },
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://www.twitter.com",
+              "title": "Twitter"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-instagram",
+              "link": "https://www.instagram.com",
+              "title": "Instagram"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "Gordon Baldwin",
+          "designation": "engineer",
+          "images": [
+            {
+              "src": "../images/team/team-member-05-370x452.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 1,
+              "icon": "fab fa-facebook",
+              "link": "https://www.twitter.com",
+              "title": "Facebook"
+            },
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://www.twitter.com",
+              "title": "Twitter"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-instagram",
+              "link": "https://www.instagram.com",
+              "title": "Instagram"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "Gene Moreno",
+          "designation": "staff",
+          "images": [
+            {
+              "src": "../images/team/team-member-03-370x452.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 1,
+              "icon": "fab fa-facebook",
+              "link": "https://www.twitter.com",
+              "title": "Facebook"
+            },
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://www.twitter.com",
+              "title": "Twitter"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-instagram",
+              "link": "https://www.instagram.com",
+              "title": "Instagram"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "Carrie Greer",
+          "designation": "staff",
+          "images": [
+            {
+              "src": "../images/team/team-member-03-370x452.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 1,
+              "icon": "fab fa-facebook",
+              "link": "https://www.twitter.com",
+              "title": "Facebook"
+            },
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://www.twitter.com",
+              "title": "Twitter"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-instagram",
+              "link": "https://www.instagram.com",
+              "title": "Instagram"
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "Brent Newman",
+          "designation": "staff",
+          "images": [
+            {
+              "src": "../images/team/team-member-05-370x452.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 1,
+              "icon": "fab fa-facebook",
+              "link": "https://www.twitter.com",
+              "title": "Facebook"
+            },
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://www.twitter.com",
+              "title": "Twitter"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-instagram",
+              "link": "https://www.instagram.com",
+              "title": "Instagram"
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "Craig Stevenson",
+          "designation": "staff",
+          "images": [
+            {
+              "src": "../images/team/team-member-02-370x452.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 1,
+              "icon": "fab fa-facebook",
+              "link": "https://www.twitter.com",
+              "title": "Facebook"
+            },
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://www.twitter.com",
+              "title": "Twitter"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-instagram",
+              "link": "https://www.instagram.com",
+              "title": "Instagram"
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "Charlotte Shaw",
+          "designation": "designer",
+          "images": [
+            {
+              "src": "../images/team/team-member-04-370x452.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 1,
+              "icon": "fab fa-facebook",
+              "link": "https://www.twitter.com",
+              "title": "Facebook"
+            },
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://www.twitter.com",
+              "title": "Twitter"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-instagram",
+              "link": "https://www.instagram.com",
+              "title": "Instagram"
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "Kate Wong",
+          "designation": "designer",
+          "images": [
+            {
+              "src": "../images/team/team-member-06-370x455.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 1,
+              "icon": "fab fa-facebook",
+              "link": "https://www.twitter.com",
+              "title": "Facebook"
+            },
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://www.twitter.com",
+              "title": "Twitter"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-instagram",
+              "link": "https://www.instagram.com",
+              "title": "Instagram"
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "name": "Frederick Huff",
+          "designation": "designer",
+          "images": [
+            {
+              "src": "../images/team/team-member-01-370x455.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 1,
+              "icon": "fab fa-facebook",
+              "link": "https://www.twitter.com",
+              "title": "Facebook"
+            },
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://www.twitter.com",
+              "title": "Twitter"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-instagram",
+              "link": "https://www.instagram.com",
+              "title": "Instagram"
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "name": "Ora Johnson",
+          "designation": "designer",
+          "images": [
+            {
+              "src": "../images/team/team-member-07-370x455.jpg"
+            }
+          ],
+          "socials": [
+            {
+              "id": 1,
+              "icon": "fab fa-facebook",
+              "link": "https://www.twitter.com",
+              "title": "Facebook"
+            },
+            {
+              "id": 2,
+              "icon": "fab fa-twitter",
+              "link": "https://www.twitter.com",
+              "title": "Twitter"
+            },
+            {
+              "id": 3,
+              "icon": "fab fa-instagram",
+              "link": "https://www.instagram.com",
+              "title": "Instagram"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "leadership-contact-content",
+      "section": "contact-section",
+      "headings": [
+        {
+          "level": "h3",
+          "content": "Obtaining further information by <span>make a contact</span> with our experienced IT staffs."
+        },
+        {
+          "level": "h6",
+          "content": "REACH OUT NOW!"
+        },
+        {
+          "level": "h2",
+          "content": "190068668"
+        }
+      ],
+      "texts": [
+        {
+          "content": "We’re available for 8 hours a day! <br/> Contact to require a detailed analysis and assessment of your plan"
+        }
+      ],
+      "buttons": [
+        {
+          "id": 1,
+          "color": "secondary",
+          "hoverStyle": "three",
+          "path": "/contact-us",
+          "content": "Contact Us"
+        }
+      ]
+    }
+  ]
 }
