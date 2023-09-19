@@ -18,7 +18,7 @@
             {
               "id": "menu-411",
               "text": "Security Intelligence",
-              "link": "#security-intelligence"
+              "link": "https://ssi.crest-centre.net/"
             },
             {
               "id": "menu-412",
@@ -28,17 +28,17 @@
             {
               "id": "menu-413",
               "text": "Citizen Big Data Analytics",
-              "link": "https://ssi.crest-centre.net/"
+              "link": "https://crest-bigdata.github.io/"
             },
             {
               "id": "menu-414",
               "text": "TIPS",
-              "link": "#"
+              "link": "https://dlt.crest-centre.net/"
             },
             {
               "id": "menu-415",
               "text": "Human Centricity / Social Technical",
-              "link": "https://dlt.crest-centre.net/"
+              "link": "http://socio-technical.crest-centre.net/"
             }
           ]
         }
