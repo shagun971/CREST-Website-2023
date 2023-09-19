@@ -41,31 +41,6 @@
               "link": "https://dlt.crest-centre.net/"
             }
           ]
-        },
-        {
-          "title": "Projects",
-          "submenu": [
-            {
-              "id": "menu-421",
-              "text": "C3i",
-              "link": "/elements/counters"
-            },
-            {
-              "id": "menu-422",
-              "text": "POKAPS",
-              "link": "/elements/dividers"
-            },
-            {
-              "id": "menu-423",
-              "text": "CCOP",
-              "link": "/elements/flexible-image-slider"
-            },
-            {
-              "id": "menu-424",
-              "text": "project",
-              "link": "/elements/dividers"
-            }
-          ]
         }
       ]
     },
