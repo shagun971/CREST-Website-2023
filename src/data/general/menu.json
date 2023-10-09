@@ -79,39 +79,7 @@
     {
       "id": "menu-6",
       "text": "Team",
-      "link": "/team",
-      "submenu": [
-        {
-          "id": "menu-61",
-          "text": "Faculty Members",
-          "link": "/team#faculty-members"
-        },
-        {
-          "id": "menu-62",
-          "text": "Research Fellows",
-          "link": "/team#research-fellows"
-        },
-        {
-          "id": "menu-63",
-          "text": "PhD Students",
-          "link": "/team#phd"
-        },
-        {
-          "id": "menu-64",
-          "text": "Research Engineers",
-          "link": "/team#assistants"
-        },
-        {
-          "id": "menu-66",
-          "text": "Collaborators and Associates",
-          "link": "/team#collaborators"
-        },
-        {
-          "id": "menu-67",
-          "text": "Alumni",
-          "link": "/team#alumni"
-        }
-      ]
+      "link": "/team"
     },
     {
       "id": "menu-7",
