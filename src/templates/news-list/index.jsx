@@ -20,7 +20,6 @@ const NewsListTemplate = ({ pageContext, location, data }) => {
     const content = normalizedData(data?.page?.content || []);
     const globalContent = normalizedData(data?.allGeneral.nodes || []);
     const { currentPage, numberOfPages } = pageContext;
-    console.log(`${currentPage} vs ${numberOfPages} `);
     return (
         <Layout location={location}>
             <Seo

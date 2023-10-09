@@ -5,8 +5,6 @@ import { ImageType } from "@utils/types";
 import { Navigtion } from "./style";
 
 const NavigationArea = ({ data }) => {
-    console.log(data?.next);
-    console.log(data?.previous);
     return (
         <Navigtion>
             {data?.previous && (

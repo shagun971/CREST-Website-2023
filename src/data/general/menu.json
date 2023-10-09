@@ -16,27 +16,27 @@
           "title": "Clusters",
           "submenu": [
             {
-              "id": "menu-411",
+              "id": "menu-211",
               "text": "Security Intelligence",
               "link": "https://ssi.crest-centre.net/"
             },
             {
-              "id": "menu-412",
+              "id": "menu-212",
               "text": "Platform and Architecture",
               "link": "#"
             },
             {
-              "id": "menu-413",
+              "id": "menu-213",
               "text": "Citizen Big Data Analytics",
               "link": "https://crest-bigdata.github.io/"
             },
             {
-              "id": "menu-414",
+              "id": "menu-214",
               "text": "TIPS",
               "link": "https://dlt.crest-centre.net/"
             },
             {
-              "id": "menu-415",
+              "id": "menu-215",
               "text": "Human Centricity / Social Technical",
               "link": "http://socio-technical.crest-centre.net/"
             }
@@ -45,44 +45,29 @@
       ]
     },
     {
-      "id": "menu-4",
+      "id": "menu-3",
       "text": "Resources",
-      "link": "/",
-      "megamenu": [
+      "link": "#",
+      "submenu": [
         {
-          "title": "Publications",
-          "submenu": [
-            {
-              "id": "menu-411",
-              "text": "Journal Papers",
-              "link": "/resources/publications/papers"
-            },
-            {
-              "id": "menu-412",
-              "text": "Conference Presentations",
-              "link": "/resources/publications/conference-presentations"
-            }
-          ]
+          "id": "menu-312",
+          "text": "Publications",
+          "link": "/resources/publications"
         },
         {
-          "title": "Talks",
-          "submenu": [
-            {
-              "id": "menu-422",
-              "text": "Our Talks",
-              "link": "/ourtalk"
-            }
-          ]
+          "id": "menu-312",
+          "text": "Our Talks",
+          "link": "/resources/our-talks"
         }
       ]
     },
     {
-      "id": "menu-6",
+      "id": "menu-4",
       "text": "Team",
       "link": "/team"
     },
     {
-      "id": "menu-7",
+      "id": "menu-5",
       "text": "Join us",
       "link": "/positions"
     }
