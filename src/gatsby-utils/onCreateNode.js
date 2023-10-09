@@ -2,9 +2,11 @@ const { slugify } = require("../utils");
 
 module.exports = ({ node, actions, createNodeId }) => {
     const { createNode } = actions;
+    
     if (
         node.internal.type === "HomepagesJson" ||
-        node.internal.type === "InnerpagesJson"
+        node.internal.type === "InnerpagesJson" ||
+        node.internal.type === "ResourcesJson"
     ) {
         createNode({
             id: createNodeId(`Page-${node.id}`),
@@ -183,6 +185,24 @@ module.exports = ({ node, actions, createNodeId }) => {
             internal: {
                 type: "Author",
                 contentDigest: node.internal.contentDigest,
+            },
+        });
+    }
+
+    // Node for Activities Resources
+    if (
+        node.internal.type === "ResourcesJson"
+    ) {
+        createNode({
+            id: createNodeId(`Activity-${node.id}`),
+            parent: node.id,
+            title: node.title,
+            pageType: node.pageType,
+            content: node.content,
+            internal: {
+                type: "Activity",
+                contentDigest: node.internal.contentDigest,
+                contentFilePath: node.internal.contentFilePath
             },
         });
     }

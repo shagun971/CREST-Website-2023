@@ -50,14 +50,14 @@
       "link": "#",
       "submenu": [
         {
-          "id": "menu-312",
+          "id": "menu-311",
           "text": "Publications",
           "link": "/resources/publications"
         },
         {
           "id": "menu-312",
-          "text": "Our Talks",
-          "link": "/resources/our-talks"
+          "text": "Our Activities",
+          "link": "/resources/activities"
         }
       ]
     },
