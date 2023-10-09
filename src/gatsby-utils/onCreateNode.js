@@ -102,9 +102,7 @@ module.exports = ({ node, actions, createNodeId }) => {
     }
 
     if (node.internal.type === "Mdx") {
-        console.log(JSON.stringify(node));
         if (node.frontmatter.type === "resources") {
-            console.log(node);
             createNode({
                 id: node.frontmatter.id,
                 title: node.frontmatter.title,
