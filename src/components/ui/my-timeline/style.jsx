@@ -147,9 +147,17 @@ export const Description = styled.p`
   text-align: justify;
 `;
 
+export const Location = styled.span`
+  margin-block-start: 8px;
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: justify;
+  font-style: italic;
+`;
+
 export const HostName = styled.span`
-  color: #10101E;
-`
+  color: #10101e;
+`;
 
 export const Item = styled.div`
   position: relative;

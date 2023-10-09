@@ -19,7 +19,7 @@ const TimelineArea = ({ content}) => {
 };
 
 TimelineArea.propTypes = {
-  content: PropTypes.array,
+    content: PropTypes.array,
 };
 
 export default TimelineArea;
