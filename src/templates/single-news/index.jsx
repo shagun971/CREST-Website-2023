@@ -34,7 +34,6 @@ import {
 const SingleNewsTemplate = ({ pageContext, location, data, children }) => {
   const globalContent = normalizedData(data?.allGeneral?.nodes || []);
   const newsData = data.news;
-  console.log(newsData);
   return (
     <Layout location={location}>
       <Seo title={newsData.title} />

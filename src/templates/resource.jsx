@@ -51,7 +51,7 @@ const PapersPage = ({ pageContext, location, data, children }) => {
 };
 
 export const query = graphql`
-  query PapersPageQuery {
+  query PapersPageQuery($id: String) {
     allGeneral {
       nodes {
         section
@@ -61,7 +61,7 @@ export const query = graphql`
     site {
       ...Site
     }
-    resources(id: { eq: "papers" }) {
+    resources(id: { eq: $id }) {
       ...AllResources
     }
   }

@@ -429,7 +429,7 @@ module.exports = async ({ graphql, actions }) => {
   const resourceTemplate = path.resolve("./src/templates/resource.jsx");
   resources.map((resource) => {
     createPage({
-      path: `/resources/publications/${resource.id}`,
+      path: `/resources/${resource.id}`,
       component: `${resourceTemplate}?__contentFilePath=${resource.internal.contentFilePath}`,
       context: {
         id: resource.id,

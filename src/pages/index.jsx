@@ -27,8 +27,6 @@ import NewsArea from "../containers/news-area/layout-01";
 const InfotechnoPage = ({ location, data }) => {
   const content = normalizedData(data?.page.content || []);
   const globalContent = normalizedData(data?.allGeneral.nodes || []);
-  console.log(globalContent);
-  console.log(content["slider-section"]);
   return (
     <Layout location={location}>
       <Seo title="Centre for Research on Engineering Software Technologies" />
