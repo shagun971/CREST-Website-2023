@@ -96,6 +96,24 @@ module.exports = ({ createResolvers }) => {
         },
       },
     },
+    Project: {
+      postedAt: {
+        resolve: (source) => {
+          return {
+            date: source.postedAt,
+            slug: slugify(source.postedAt),
+          };
+        },
+      },
+      tags: {
+        resolve: (source) => {
+          return source.tags.map((tag) => ({
+            title: tag,
+            slug: slugify(tag),
+          }));
+        },
+      },
+    },
   };
   createResolvers(resolvers);
 };

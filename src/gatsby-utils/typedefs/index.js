@@ -10,6 +10,7 @@ const authorDefs = require("./author");
 const newsDefs = require("./news");
 const resourcesDefs = require("./resources");
 const activityDefs = require("./activities");
+const projectDefs = require('./project');
 
 module.exports = {
     pageDefs,
@@ -24,4 +25,5 @@ module.exports = {
     newsDefs,
     resourcesDefs,
     activityDefs,
+    projectDefs
 };
