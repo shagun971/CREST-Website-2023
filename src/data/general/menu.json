@@ -46,28 +46,38 @@
     },
     {
       "id": "menu-3",
+      "text": "News",
+      "link": "/latest-news"
+    },
+    {
+      "id": "menu-4",
       "text": "Resources",
       "link": "#",
       "submenu": [
         {
-          "id": "menu-311",
+          "id": "menu-411",
           "text": "Publications",
           "link": "/resources/publications"
         },
         {
-          "id": "menu-312",
+          "id": "menu-412",
           "text": "Our Activities",
           "link": "/resources/activities"
         }
       ]
     },
     {
-      "id": "menu-4",
+      "id": "menu-5",
+      "text": "Blogs",
+      "link": "/blogs"
+    },
+    {
+      "id": "menu-6",
       "text": "Team",
       "link": "/team"
     },
     {
-      "id": "menu-5",
+      "id": "menu-7",
       "text": "Join us",
       "link": "/positions"
     }

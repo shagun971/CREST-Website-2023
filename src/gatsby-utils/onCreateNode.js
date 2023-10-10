@@ -5,8 +5,7 @@ module.exports = ({ node, actions, createNodeId }) => {
     
     if (
         node.internal.type === "HomepagesJson" ||
-        node.internal.type === "InnerpagesJson" ||
-        node.internal.type === "ResourcesJson"
+        node.internal.type === "InnerpagesJson"
     ) {
         createNode({
             id: createNodeId(`Page-${node.id}`),
@@ -168,6 +167,26 @@ module.exports = ({ node, actions, createNodeId }) => {
                     type: "News",
                     contentDigest: node.internal.contentDigest,
                     contentFilePath: node.internal.contentFilePath
+                },
+            });
+        } else if (node.frontmatter.type === "project") {
+            createNode({
+                id: createNodeId(`Project-${node.id}`),
+                title: node.frontmatter.title,
+                parent: node.id,
+                type: node.frontmatter.type,
+                body: node.body,
+                cluster: node.frontmatter.cluster,
+                slug: `projects/${slugify(node.frontmatter.title)}`,
+                image: node.frontmatter.image,
+                postedAt: node.frontmatter.date,
+                description: node.frontmatter.description,
+                tags: node.frontmatter.tags,
+                is_featured: node.frontmatter.is_featured,
+                internal: {
+                type: "Project",
+                contentDigest: node.internal.contentDigest,
+                contentFilePath: node.internal.contentFilePath,
                 },
             });
         }

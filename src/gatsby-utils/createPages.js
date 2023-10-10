@@ -212,6 +212,71 @@ module.exports = async ({ graphql, actions }) => {
           }
         }
       }
+      allProject(sort: { postedAt: { date: DESC } }) {
+        edges {
+          node {
+            slug
+            tags {
+              slug
+            }
+            author {
+              slug
+            }
+            postedAt {
+              date(formatString: "LL")
+              slug
+            }
+            type
+            internal {
+              contentFilePath
+            }
+          }
+          next {
+            title
+            slug
+            image {
+              alt
+              src {
+                childImageSharp {
+                  gatsbyImageData(
+                    quality: 100
+                    formats: WEBP
+                    placeholder: TRACED_SVG
+                    width: 650
+                    height: 120
+                  )
+                }
+              }
+            }
+            type
+            internal {
+              contentFilePath
+            }
+          }
+          previous {
+            title
+            slug
+            image {
+              alt
+              src {
+                childImageSharp {
+                  gatsbyImageData(
+                    quality: 100
+                    formats: WEBP
+                    placeholder: TRACED_SVG
+                    width: 650
+                    height: 120
+                  )
+                }
+              }
+            }
+            type
+            internal {
+              contentFilePath
+            }
+          }
+        }
+      }
     }
   `);
 
@@ -322,6 +387,31 @@ module.exports = async ({ graphql, actions }) => {
         skip: index * newsPerPage,
         currentPage: currentPage,
         numberOfPages: numberOfNewsPage,
+      },
+    });
+  });
+
+  // Create Project Page
+  const projects = result.data.allProject.edges;
+  const oneProjectTemplate = path.resolve("./src/templates/project.jsx");
+
+  projects.forEach(({ node, next, previous }) => {
+    console.log(
+      "🚀 ~ file: createPages.js:399 ~ projects.forEach ~ node:",
+      node
+    );
+    createPage({
+      path: node.slug,
+      component: `${oneProjectTemplate}?__contentFilePath=${node.internal.contentFilePath}`,
+      context: {
+        title: node.title,
+        tags: node.tags,
+        author: node.author,
+        postedAt: node.postedAt,
+        type: node.type,
+        slug: node.slug,
+        next,
+        previous,
       },
     });
   });

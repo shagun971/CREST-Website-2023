@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Container, Row, Col } from "@ui/wrapper";
-import SectionTitle from "@ui/section-title";
+import CustomSectionTitle from "@ui/custom-section-title";
 import RecentNews from "@components/news/recent-one-news";
 import { SectionTitleType, BlogType } from "@utils/types";
 import { BlogWrap, BlogList, BlogListItem } from "./style";
@@ -11,16 +11,16 @@ const NewsArea = ({ data }) => {
     <BlogWrap>
       <Container>
         {data?.section_title && (
-          <SectionTitle
+          <CustomSectionTitle
             mb={["47px", null, "60px"]}
             title={data.section_title?.title}
             subtitle={data.section_title?.subtitle}
           />
         )}
 
-          {data?.recentNews && (
-            <BlogList>
-                <Row>
+        {data?.recentNews && (
+          <BlogList>
+            <Row>
               {data.recentNews.map((news) => (
                 <Col lg={6}>
                   <BlogListItem key={news.slug}>
@@ -37,9 +37,9 @@ const NewsArea = ({ data }) => {
                   </BlogListItem>
                 </Col>
               ))}
-              </Row>
-            </BlogList>
-          )}
+            </Row>
+          </BlogList>
+        )}
       </Container>
     </BlogWrap>
   );
