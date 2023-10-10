@@ -24,6 +24,7 @@ const PageHeader = ({ pageContext, location, title }) => {
     "/resources",
     "/resources/events",
     "/resources/publications",
+    "/projects",
   ];
   const customCrumbLabel = location.pathname.toLowerCase();
   const crumbLabelArr = customCrumbLabel.split("/");
